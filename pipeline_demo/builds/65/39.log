@@ -1,0 +1,2 @@
+[pipeline_demo] Running shell script
++ cp -R /var/lib/jenkins/workspace/pipeline_demo/target /var/lib/jenkins/workspace/Deploy_Jar

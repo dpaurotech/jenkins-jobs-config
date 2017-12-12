@@ -1,0 +1,5 @@
+[pipeline_demo] Running shell script
+++ BUILD_NUMBER
+/var/lib/jenkins/workspace/pipeline_demo@tmp/durable-4c5a05ad/script.sh: line 2: BUILD_NUMBER: command not found
++ cd /cucumber-java-skeleton
+/var/lib/jenkins/workspace/pipeline_demo@tmp/durable-4c5a05ad/script.sh: line 2: cd: /cucumber-java-skeleton: No such file or directory

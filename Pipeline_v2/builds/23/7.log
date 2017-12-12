@@ -1,0 +1,16 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Devops-anudeep/demoApp_ang_mvn.git # timeout=10
+Fetching upstream changes from https://github.com/Devops-anudeep/demoApp_ang_mvn.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Devops-anudeep/demoApp_ang_mvn.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision eeca7312036fa1a2adbee800328bd52b20a89023 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f eeca7312036fa1a2adbee800328bd52b20a89023
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master eeca7312036fa1a2adbee800328bd52b20a89023
+Commit message: "front-end plugin version updated to 1.6"
+ > git rev-list eeca7312036fa1a2adbee800328bd52b20a89023 # timeout=10

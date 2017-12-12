@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.21">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/SimpleWebAppTest/target/surefire-reports/TEST-TestSuite.xml</file>
+      <name>TestSuite</name>
+      <duration>7.529</duration>
+      <time>7.529</time>
+      <cases>
+        <case>
+          <duration>1.491</duration>
+          <className>WebAppTest.HeadlessBrowserTest</className>
+          <testName>verifySimplWebAppTitle</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.105</duration>
+          <className>WebAppTest.HeadlessBrowserTest</className>
+          <testName>verifySimplWebAppTitleFail</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected [true] but found [false]
+	at WebAppTest.HeadlessBrowserTest.verifySimplWebAppTitleFail(HeadlessBrowserTest.java:36)
+</errorStackTrace>
+          <errorDetails>expected [true] but found [false]</errorDetails>
+          <stdout>Opened Page: Product List
+</stdout>
+          <failedSince>4</failedSince>
+        </case>
+        <case>
+          <duration>0.549</duration>
+          <className>WebAppTest.TestFFonGrid</className>
+          <testName>test1</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;EC2AMAZ-R0U1GTD&apos;, ip: &apos;172.31.36.61&apos;, os.name: &apos;Windows Server 2016&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: FirefoxDriver
+Command duration or timeout: 312 milliseconds
+	at WebAppTest.TestFFonGrid.test1(TestFFonGrid.java:18)
+Caused by: org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;EC2AMAZ-R0U1GTD&apos;, ip: &apos;172.31.36.61&apos;, os.name: &apos;Windows Server 2016&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: FirefoxDriver
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ip-172-31-30-145.ec2.internal&apos;, ip: &apos;172.31.30.145&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.10.0-693.el7.x86_64&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: FirefoxDriver
+</errorStackTrace>
+          <errorDetails>Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;
+System info: host: &apos;EC2AMAZ-R0U1GTD&apos;, ip: &apos;172.31.36.61&apos;, os.name: &apos;Windows Server 2016&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: FirefoxDriver
+Command duration or timeout: 312 milliseconds</errorDetails>
+          <failedSince>35</failedSince>
+        </case>
+        <case>
+          <duration>5.051</duration>
+          <className>WebAppTest.TestChromeOnGrid</className>
+          <testName>test1</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>7.529</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

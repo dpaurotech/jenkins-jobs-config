@@ -1,0 +1,2092 @@
+Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4KZuoVIjAOoAV+izJvLZgAo0tLvHqmqVxceh/i8KDoU2AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6jumpeSXxhvoA6BuKqMcAAAA=[0mAgent_1 in /var/lib/jenkins/workspace/Pipeline_v2
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Pull code from repository)
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Devops-anudeep/demoApp_ang_mvn.git # timeout=10
+Fetching upstream changes from https://github.com/Devops-anudeep/demoApp_ang_mvn.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Devops-anudeep/demoApp_ang_mvn.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision eeca7312036fa1a2adbee800328bd52b20a89023 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f eeca7312036fa1a2adbee800328bd52b20a89023
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master eeca7312036fa1a2adbee800328bd52b20a89023
+Commit message: "front-end plugin version updated to 1.6"
+ > git rev-list eeca7312036fa1a2adbee800328bd52b20a89023 # timeout=10
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (JIRA)
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] jiraGetFields
+JIRA: Site - LOCAL - Querying All Fields including Custom fields.
+Successful. Code: 200
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+ResponseData(successful=true, code=200, message=, error=null, data=[{id=issuetype, name=Issue Type, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[issuetype, type], schema={type=issuetype, system=issuetype}}, {id=components, name=Component/s, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[component], schema={type=array, items=component, system=components}}, {id=issuekey, name=Key, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[id, issue, issuekey, key]}, {id=timespent, name=Time Spent, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[timespent], schema={type=number, system=timespent}}, {id=timeoriginalestimate, name=Original Estimate, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[originalEstimate, timeoriginalestimate], schema={type=number, system=timeoriginalestimate}}, {id=project, name=Project, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[project], schema={type=project, system=project}}, {id=description, name=Description, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[description], schema={type=string, system=description}}, {id=fixVersions, name=Fix Version/s, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[fixVersion], schema={type=array, items=version, system=fixVersions}}, {id=aggregatetimespent, name=Σ Time Spent, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[], schema={type=number, system=aggregatetimespent}}, {id=resolution, name=Resolution, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[resolution], schema={type=resolution, system=resolution}}, {id=timetracking, name=Time Tracking, custom=false, orderable=true, navigable=false, searchable=true, clauseNames=[], schema={type=timetracking, system=timetracking}}, {id=customfield_10005, name=Rank, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10005], Rank], schema={type=any, custom=com.pyxis.greenhopper.jira:gh-lexo-rank, customId=10005}}, {id=customfield_10006, name=Story Points, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10006], Story Points], schema={type=number, custom=com.atlassian.jira.plugin.system.customfieldtypes:float, customId=10006}}, {id=security, name=Security Level, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[level], schema={type=securitylevel, system=security}}, {id=attachment, name=Attachment, custom=false, orderable=true, navigable=false, searchable=true, clauseNames=[attachments], schema={type=array, items=attachment, system=attachment}}, {id=aggregatetimeestimate, name=Σ Remaining Estimate, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[], schema={type=number, system=aggregatetimeestimate}}, {id=resolutiondate, name=Resolved, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[resolutiondate, resolved], schema={type=datetime, system=resolutiondate}}, {id=workratio, name=Work Ratio, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[workratio], schema={type=number, system=workratio}}, {id=summary, name=Summary, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[summary], schema={type=string, system=summary}}, {id=lastViewed, name=Last Viewed, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[lastViewed], schema={type=datetime, system=lastViewed}}, {id=watches, name=Watchers, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[watchers], schema={type=watches, system=watches}}, {id=creator, name=Creator, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[creator], schema={type=user, system=creator}}, {id=thumbnail, name=Images, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[]}, {id=subtasks, name=Sub-Tasks, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[subtasks], schema={type=array, items=issuelinks, system=subtasks}}, {id=created, name=Created, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[created, createdDate], schema={type=datetime, system=created}}, {id=reporter, name=Reporter, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[reporter], schema={type=user, system=reporter}}, {id=aggregateprogress, name=Σ Progress, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[], schema={type=progress, system=aggregateprogress}}, {id=customfield_10000, name=Epic Link, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10000], Epic Link], schema={type=any, custom=com.pyxis.greenhopper.jira:gh-epic-link, customId=10000}}, {id=priority, name=Priority, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[priority], schema={type=priority, system=priority}}, {id=customfield_10001, name=Epic Status, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10001], Epic Status], schema={type=option, custom=com.pyxis.greenhopper.jira:gh-epic-status, customId=10001}}, {id=customfield_10002, name=Epic Name, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10002], Epic Name], schema={type=string, custom=com.pyxis.greenhopper.jira:gh-epic-label, customId=10002}}, {id=customfield_10003, name=Epic Colour, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10003], Epic Colour], schema={type=string, custom=com.pyxis.greenhopper.jira:gh-epic-color, customId=10003}}, {id=labels, name=Labels, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[labels], schema={type=array, items=string, system=labels}}, {id=customfield_10004, name=Sprint, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10004], Sprint], schema={type=array, items=string, custom=com.pyxis.greenhopper.jira:gh-sprint, customId=10004}}, {id=environment, name=Environment, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[environment], schema={type=string, system=environment}}, {id=timeestimate, name=Remaining Estimate, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[remainingEstimate, timeestimate], schema={type=number, system=timeestimate}}, {id=aggregatetimeoriginalestimate, name=Σ Original Estimate, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[], schema={type=number, system=aggregatetimeoriginalestimate}}, {id=versions, name=Affects Version/s, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[affectedVersion], schema={type=array, items=version, system=versions}}, {id=duedate, name=Due Date, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[due, duedate], schema={type=date, system=duedate}}, {id=progress, name=Progress, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[progress], schema={type=progress, system=progress}}, {id=comment, name=Comment, custom=false, orderable=true, navigable=false, searchable=true, clauseNames=[comment], schema={type=comments-page, system=comment}}, {id=votes, name=Votes, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[votes], schema={type=votes, system=votes}}, {id=issuelinks, name=Linked Issues, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[], schema={type=array, items=issuelinks, system=issuelinks}}, {id=worklog, name=Log Work, custom=false, orderable=true, navigable=false, searchable=true, clauseNames=[], schema={type=array, items=worklog, system=worklog}}, {id=assignee, name=Assignee, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[assignee], schema={type=user, system=assignee}}, {id=updated, name=Updated, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[updated, updatedDate], schema={type=datetime, system=updated}}, {id=status, name=Status, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[status], schema={type=status, system=status}}])
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build code)
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[Pipeline_v2] Running shell script
++ cd /var/lib/jenkins/workspace/Pipeline_v2/
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withMaven
+[withMaven] Options: []
+[withMaven] Available options: 
+[withMaven] use JDK installation provided by the build agent
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.5.0/apache-maven-3.5.0-bin.zip to /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven305 on Agent_1
+[withMaven] use Maven installation 'Maven305'
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[Pipeline_v2] Running shell script
++ mvn package
+----- withMaven Wrapper script -----
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/Pipeline_v2@tmp/withMavenac45df46/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/Pipeline_v2@tmp/withMavenac45df46" 
+Apache Maven 3.5.0 (ff8f5e7444045639af65f6095c62210b5713f426; 2017-04-03T19:39:06Z)
+Maven home: /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven305
+Java version: 1.8.0_151, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.8.0_151/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.10.0-693.el7.x86_64", arch: "amd64", family: "unix"
+[jenkins-maven-event-spy] INFO generate /var/lib/jenkins/workspace/Pipeline_v2@tmp/withMavenac45df46/maven-spy-20171120-162818-1525512660245691129791.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demoApp 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8.1 kB at 23 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 657 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (30 kB at 1.6 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom (10 kB at 785 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom (11 kB at 982 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar (43 kB at 2.7 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (10 kB at 952 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (14 kB at 1.3 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 kB at 2.2 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (5.8 kB at 648 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 1.3 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 2.4 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom (15 kB at 1.6 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar (34 kB at 1.9 MB/s)
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- frontend-maven-plugin:1.6:install-node-and-npm (install node and npm) @ demoApp ---
+[INFO] Downloading: https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugin-core/1.6/frontend-plugin-core-1.6.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugin-core/1.6/frontend-plugin-core-1.6.pom (2.0 kB at 224 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom (1.5 kB at 188 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom (1.3 kB at 160 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.pom (11 kB at 1.2 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom (50 kB at 4.2 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.2/xz-1.2.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.2/xz-1.2.pom (1.9 kB at 272 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom (9.7 kB at 884 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/3/commons-parent-3.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/3/commons-parent-3.pom (12 kB at 1.7 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.pom (6.4 kB at 913 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.1/httpcomponents-client-4.5.1.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.1/httpcomponents-client-4.5.1.pom (16 kB at 1.7 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.pom (5.5 kB at 789 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.3/httpcomponents-core-4.4.3.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.3/httpcomponents-core-4.4.3.pom (13 kB at 1.6 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom (2.7 kB at 384 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom (12 kB at 1.5 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.pom (3.0 kB at 507 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.1.0/maven-3.1.0.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.1.0/maven-3.1.0.pom (22 kB at 2.7 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.pom (3.8 kB at 543 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom (1.6 kB at 163 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.pom (5.9 kB at 655 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/sisu-plexus-0.0.0.M2a.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/sisu-plexus-0.0.0.M2a.pom (7.9 kB at 1.1 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom (1.4 kB at 205 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom (2.4 kB at 336 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom (7.9 kB at 1.1 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.pom (21 kB at 2.3 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom (1.0 kB at 170 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom (612 B at 87 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.pom (5.4 kB at 898 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom (2.0 kB at 280 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.pom (10 kB at 1.4 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.1.0/guice-parent-3.1.0.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-parent/3.1.0/guice-parent-3.1.0.pom (11 kB at 1.8 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom (363 B at 73 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.pom (5.0 kB at 828 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.0.0.M2a/sisu-inject-0.0.0.M2a.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.0.0.M2a/sisu-inject-0.0.0.M2a.pom (7.8 kB at 1.3 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom (266 B at 44 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom (4.3 kB at 722 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.pom (3.9 kB at 555 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.pom (1.6 kB at 162 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.2/maven-plugin-tools-3.2.pom
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.2/maven-plugin-tools-3.2.pom (17 kB at 1.8 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugin-core/1.6/frontend-plugin-core-1.6.jar
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.jar
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.2/xz-1.2.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/com/github/eirslett/frontend-plugin-core/1.6/frontend-plugin-core-1.6.jar (69 kB at 3.0 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar (88 kB at 4.2 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.2/xz-1.2.jar (95 kB at 1.5 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar (232 kB at 2.7 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.jar (256 kB at 2.5 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.jar (264 kB at 2.3 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar (26 kB at 207 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar (245 kB at 1.9 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar (781 kB at 5.3 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar (327 kB at 2.4 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar (50 kB at 364 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar (733 kB at 5.0 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar (45 kB at 295 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar (52 kB at 343 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar (2.5 kB at 16 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar (5.8 kB at 35 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar (164 kB at 946 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar (4.5 kB at 25 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar (44 kB at 233 kB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar (202 kB at 1.0 MB/s)
+[INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar (357 kB at 1.8 MB/s)
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.jar (47 kB at 236 kB/s)
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar (202 kB at 1.0 MB/s)
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar (15 kB at 74 kB/s)
+[INFO] Downloaded: https://repo.maven.apache.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.jar (1.5 MB at 6.4 MB/s)
+[INFO] Installing node version v6.10.3
+[INFO] Downloading https://nodejs.org/dist/v6.10.3/node-v6.10.3-linux-x64.tar.gz to /var/lib/jenkins/.m2/repository/com/github/eirslett/node/6.10.3/node-6.10.3-linux-x64.tar.gz
+[INFO] No proxies configured
+[INFO] No proxy was configured, downloading directly
+[INFO] Unpacking /var/lib/jenkins/.m2/repository/com/github/eirslett/node/6.10.3/node-6.10.3-linux-x64.tar.gz into /var/lib/jenkins/workspace/Pipeline_v2/node/tmp
+[INFO] Copying node binary from /var/lib/jenkins/workspace/Pipeline_v2/node/tmp/node-v6.10.3-linux-x64/bin/node to /var/lib/jenkins/workspace/Pipeline_v2/node/node
+[INFO] Installed node locally.
+[INFO] Installing npm version 4.5.0
+[INFO] Downloading https://registry.npmjs.org/npm/-/npm-4.5.0.tgz to /var/lib/jenkins/.m2/repository/com/github/eirslett/npm/4.5.0/npm-4.5.0.tar.gz
+[INFO] No proxies configured
+[INFO] No proxy was configured, downloading directly
+[INFO] Unpacking /var/lib/jenkins/.m2/repository/com/github/eirslett/npm/4.5.0/npm-4.5.0.tar.gz into /var/lib/jenkins/workspace/Pipeline_v2/node/node_modules
+[INFO] Installed npm locally.
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- frontend-maven-plugin:1.6:npm (npm install) @ demoApp ---
+[INFO] Running 'npm install' in /var/lib/jenkins/workspace/Pipeline_v2
+[8mha:////4EbiXRBdvr0u4F5OPyROGuRR34qoicpZL1ysKTwLsM/GAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] npm WARN prefer global node-gyp@3.6.2 should be installed with -g
+[INFO] 
+[INFO] > node-sass@4.7.1 install /var/lib/jenkins/workspace/Pipeline_v2/node_modules/node-sass
+[INFO] > node scripts/install.js
+[INFO] 
+[INFO] Downloading binary from https://github.com/sass/node-sass/releases/download/v4.7.1/linux-x64-48_binding.node
+[INFO] Download complete
+[INFO] Binary saved to /var/lib/jenkins/workspace/Pipeline_v2/node_modules/node-sass/vendor/linux-x64-48/binding.node
+[INFO] Caching binary to /var/lib/jenkins/.npm/node-sass/4.7.1/linux-x64-48_binding.node
+[INFO] 
+[INFO] > uglifyjs-webpack-plugin@0.4.6 postinstall /var/lib/jenkins/workspace/Pipeline_v2/node_modules/uglifyjs-webpack-plugin
+[INFO] > node lib/post_install.js
+[INFO] 
+[INFO] 
+[INFO] > node-sass@4.7.1 postinstall /var/lib/jenkins/workspace/Pipeline_v2/node_modules/node-sass
+[INFO] > node scripts/build.js
+[INFO] 
+[INFO] Binary found at /var/lib/jenkins/workspace/Pipeline_v2/node_modules/node-sass/vendor/linux-x64-48/binding.node
+[INFO] Testing binary
+[INFO] Binary is fine
+[INFO] demo-app@0.0.0 /var/lib/jenkins/workspace/Pipeline_v2
+[INFO] ├─┬ @angular/animations@4.4.6 
+[INFO] │ └── tslib@1.8.0 
+[INFO] ├─┬ @angular/cli@1.3.2 
+[INFO] │ ├─┬ @angular-devkit/build-optimizer@0.0.13 
+[INFO] │ │ ├─┬ loader-utils@1.1.0 
+[INFO] │ │ │ ├── big.js@3.2.0 
+[INFO] │ │ │ ├── emojis-list@2.1.0 
+[INFO] │ │ │ └── json5@0.5.1  deduped
+[INFO] │ │ ├── source-map@0.5.7  deduped
+[INFO] │ │ └── typescript@2.3.4  deduped
+[INFO] │ ├── @ngtools/json-schema@1.1.0 
+[INFO] │ ├─┬ @ngtools/webpack@1.6.2 
+[INFO] │ │ ├── loader-utils@1.1.0  deduped
+[INFO] │ │ ├─┬ magic-string@0.22.4 
+[INFO] │ │ │ └── vlq@0.2.3 
+[INFO] │ │ └── source-map@0.5.7  deduped
+[INFO] │ ├─┬ autoprefixer@6.7.7 
+[INFO] │ │ ├─┬ browserslist@1.7.7 
+[INFO] │ │ │ ├── caniuse-db@1.0.30000766  deduped
+[INFO] │ │ │ └── electron-to-chromium@1.3.27 
+[INFO] │ │ ├── caniuse-db@1.0.30000766 
+[INFO] │ │ ├── normalize-range@0.1.2 
+[INFO] │ │ ├── num2fraction@1.2.2 
+[INFO] │ │ ├─┬ postcss@5.2.18 
+[INFO] │ │ │ ├─┬ chalk@1.1.3 
+[INFO] │ │ │ │ ├── ansi-styles@2.2.1  deduped
+[INFO] │ │ │ │ ├── escape-string-regexp@1.0.5  deduped
+[INFO] │ │ │ │ ├── has-ansi@2.0.0  deduped
+[INFO] │ │ │ │ ├── strip-ansi@3.0.1  deduped
+[INFO] │ │ │ │ └── supports-color@2.0.0 
+[INFO] │ │ │ ├── js-base64@2.3.2  deduped
+[INFO] │ │ │ ├── source-map@0.5.7  deduped
+[INFO] │ │ │ └── supports-color@3.2.3  deduped
+[INFO] │ │ └── postcss-value-parser@3.3.0 
+[INFO] │ ├─┬ chalk@2.3.0 
+[INFO] │ │ ├─┬ ansi-styles@3.2.0 
+[INFO] │ │ │ └─┬ color-convert@1.9.1 
+[INFO] │ │ │   └── color-name@1.1.3 
+[INFO] │ │ ├── escape-string-regexp@1.0.5 
+[INFO] │ │ └─┬ supports-color@4.5.0 
+[INFO] │ │   └── has-flag@2.0.0 
+[INFO] │ ├── circular-dependency-plugin@3.0.0 
+[INFO] │ ├─┬ common-tags@1.4.0 
+[INFO] │ │ └─┬ babel-runtime@6.26.0 
+[INFO] │ │   ├── core-js@2.5.1  deduped
+[INFO] │ │   └── regenerator-runtime@0.11.0 
+[INFO] │ ├─┬ core-object@3.1.5 
+[INFO] │ │ └── chalk@2.3.0  deduped
+[INFO] │ ├─┬ css-loader@0.28.7 
+[INFO] │ │ ├── babel-code-frame@6.26.0  deduped
+[INFO] │ │ ├── css-selector-tokenizer@0.7.0  deduped
+[INFO] │ │ ├── cssnano@3.10.0  deduped
+[INFO] │ │ ├─┬ icss-utils@2.1.0 
+[INFO] │ │ │ └─┬ postcss@6.0.14 
+[INFO] │ │ │   ├── chalk@2.3.0  deduped
+[INFO] │ │ │   ├── source-map@0.6.1 
+[INFO] │ │ │   └─┬ supports-color@4.5.0 
+[INFO] │ │ │     └── has-flag@2.0.0 
+[INFO] │ │ ├── loader-utils@1.1.0  deduped
+[INFO] │ │ ├── lodash.camelcase@4.3.0 
+[INFO] │ │ ├── object-assign@4.1.1 
+[INFO] │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ ├─┬ postcss-modules-extract-imports@1.1.0 
+[INFO] │ │ │ └─┬ postcss@6.0.14 
+[INFO] │ │ │   ├── chalk@2.3.0  deduped
+[INFO] │ │ │   ├── source-map@0.6.1 
+[INFO] │ │ │   └─┬ supports-color@4.5.0 
+[INFO] │ │ │     └── has-flag@2.0.0 
+[INFO] │ │ ├─┬ postcss-modules-local-by-default@1.2.0 
+[INFO] │ │ │ ├── css-selector-tokenizer@0.7.0  deduped
+[INFO] │ │ │ └─┬ postcss@6.0.14 
+[INFO] │ │ │   ├── chalk@2.3.0  deduped
+[INFO] │ │ │   ├── source-map@0.6.1 
+[INFO] │ │ │   └─┬ supports-color@4.5.0 
+[INFO] │ │ │     └── has-flag@2.0.0 
+[INFO] │ │ ├─┬ postcss-modules-scope@1.1.0 
+[INFO] │ │ │ ├── css-selector-tokenizer@0.7.0  deduped
+[INFO] │ │ │ └─┬ postcss@6.0.14 
+[INFO] │ │ │   ├── chalk@2.3.0  deduped
+[INFO] │ │ │   ├── source-map@0.6.1 
+[INFO] │ │ │   └─┬ supports-color@4.5.0 
+[INFO] │ │ │     └── has-flag@2.0.0 
+[INFO] │ │ ├─┬ postcss-modules-values@1.3.0 
+[INFO] │ │ │ ├── icss-replace-symbols@1.1.0 
+[INFO] │ │ │ └─┬ postcss@6.0.14 
+[INFO] │ │ │   ├── chalk@2.3.0  deduped
+[INFO] │ │ │   ├── source-map@0.6.1 
+[INFO] │ │ │   └─┬ supports-color@4.5.0 
+[INFO] │ │ │     └── has-flag@2.0.0 
+[INFO] │ │ ├── postcss-value-parser@3.3.0  deduped
+[INFO] │ │ └── source-list-map@2.0.0 
+[INFO] │ ├─┬ cssnano@3.10.0 
+[INFO] │ │ ├── autoprefixer@6.7.7  deduped
+[INFO] │ │ ├── decamelize@1.2.0 
+[INFO] │ │ ├── defined@1.0.0 
+[INFO] │ │ ├─┬ has@1.0.1 
+[INFO] │ │ │ └── function-bind@1.1.1 
+[INFO] │ │ ├── object-assign@4.1.1  deduped
+[INFO] │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ ├─┬ postcss-calc@5.3.1 
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ ├── postcss-message-helpers@2.0.0 
+[INFO] │ │ │ └─┬ reduce-css-calc@1.3.0 
+[INFO] │ │ │   ├── balanced-match@0.4.2 
+[INFO] │ │ │   ├── math-expression-evaluator@1.2.17 
+[INFO] │ │ │   └─┬ reduce-function-call@1.0.2 
+[INFO] │ │ │     └── balanced-match@0.4.2  deduped
+[INFO] │ │ ├─┬ postcss-colormin@2.2.2 
+[INFO] │ │ │ ├─┬ colormin@1.1.2 
+[INFO] │ │ │ │ ├─┬ color@0.11.4 
+[INFO] │ │ │ │ │ ├── clone@1.0.3 
+[INFO] │ │ │ │ │ ├── color-convert@1.9.1  deduped
+[INFO] │ │ │ │ │ └─┬ color-string@0.3.0 
+[INFO] │ │ │ │ │   └── color-name@1.1.3  deduped
+[INFO] │ │ │ │ ├── css-color-names@0.0.4 
+[INFO] │ │ │ │ └── has@1.0.1  deduped
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ └── postcss-value-parser@3.3.0  deduped
+[INFO] │ │ ├─┬ postcss-convert-values@2.6.1 
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ └── postcss-value-parser@3.3.0  deduped
+[INFO] │ │ ├─┬ postcss-discard-comments@2.0.4 
+[INFO] │ │ │ └── postcss@5.2.18  deduped
+[INFO] │ │ ├─┬ postcss-discard-duplicates@2.1.0 
+[INFO] │ │ │ └── postcss@5.2.18  deduped
+[INFO] │ │ ├─┬ postcss-discard-empty@2.1.0 
+[INFO] │ │ │ └── postcss@5.2.18  deduped
+[INFO] │ │ ├─┬ postcss-discard-overridden@0.1.1 
+[INFO] │ │ │ └── postcss@5.2.18  deduped
+[INFO] │ │ ├─┬ postcss-discard-unused@2.2.3 
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ └── uniqs@2.0.0 
+[INFO] │ │ ├─┬ postcss-filter-plugins@2.0.2 
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ └─┬ uniqid@4.1.1 
+[INFO] │ │ │   └── macaddress@0.2.8 
+[INFO] │ │ ├─┬ postcss-merge-idents@2.1.7 
+[INFO] │ │ │ ├── has@1.0.1  deduped
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ └── postcss-value-parser@3.3.0  deduped
+[INFO] │ │ ├─┬ postcss-merge-longhand@2.0.2 
+[INFO] │ │ │ └── postcss@5.2.18  deduped
+[INFO] │ │ ├─┬ postcss-merge-rules@2.1.2 
+[INFO] │ │ │ ├── browserslist@1.7.7  deduped
+[INFO] │ │ │ ├─┬ caniuse-api@1.6.1 
+[INFO] │ │ │ │ ├── browserslist@1.7.7  deduped
+[INFO] │ │ │ │ ├── caniuse-db@1.0.30000766  deduped
+[INFO] │ │ │ │ ├── lodash.memoize@4.1.2 
+[INFO] │ │ │ │ └── lodash.uniq@4.5.0 
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[8mha:////4EbiXRBdvr0u4F5OPyROGuRR34qoicpZL1ysKTwLsM/GAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.0.0 (node_modules/chokidar/node_modules/fsevents):
+[INFO] │ │ │ ├─┬ postcss-selector-parser@2.2.3 
+[8mha:////4EbiXRBdvr0u4F5OPyROGuRR34qoicpZL1ysKTwLsM/GAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[INFO] │ │ │ │ ├── flatten@1.0.2 
+[INFO] │ │ │ │ ├── indexes-of@1.0.1 
+[INFO] │ │ │ │ └── uniq@1.0.1 
+[INFO] │ │ │ └── vendors@1.0.1 
+[INFO] │ │ ├─┬ postcss-minify-font-values@1.0.5 
+[INFO] │ │ │ ├── object-assign@4.1.1  deduped
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ └── postcss-value-parser@3.3.0  deduped
+[INFO] │ │ ├─┬ postcss-minify-gradients@1.0.5 
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ └── postcss-value-parser@3.3.0  deduped
+[INFO] │ │ ├─┬ postcss-minify-params@1.2.2 
+[INFO] │ │ │ ├── alphanum-sort@1.0.2 
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ ├── postcss-value-parser@3.3.0  deduped
+[INFO] │ │ │ └── uniqs@2.0.0  deduped
+[INFO] │ │ ├─┬ postcss-minify-selectors@2.1.1 
+[INFO] │ │ │ ├── alphanum-sort@1.0.2  deduped
+[INFO] │ │ │ ├── has@1.0.1  deduped
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ └── postcss-selector-parser@2.2.3  deduped
+[INFO] │ │ ├─┬ postcss-normalize-charset@1.1.1 
+[INFO] │ │ │ └── postcss@5.2.18  deduped
+[INFO] │ │ ├─┬ postcss-normalize-url@3.0.8 
+[INFO] │ │ │ ├── is-absolute-url@2.1.0 
+[INFO] │ │ │ ├─┬ normalize-url@1.9.1 
+[INFO] │ │ │ │ ├── object-assign@4.1.1  deduped
+[INFO] │ │ │ │ ├── prepend-http@1.0.4 
+[INFO] │ │ │ │ ├─┬ query-string@4.3.4 
+[INFO] │ │ │ │ │ ├── object-assign@4.1.1  deduped
+[INFO] │ │ │ │ │ └── strict-uri-encode@1.1.0 
+[INFO] │ │ │ │ └─┬ sort-keys@1.1.2 
+[INFO] │ │ │ │   └── is-plain-obj@1.1.0 
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ └── postcss-value-parser@3.3.0  deduped
+[INFO] │ │ ├─┬ postcss-ordered-values@2.2.3 
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ └── postcss-value-parser@3.3.0  deduped
+[INFO] │ │ ├─┬ postcss-reduce-idents@2.4.0 
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ └── postcss-value-parser@3.3.0  deduped
+[INFO] │ │ ├─┬ postcss-reduce-initial@1.0.1 
+[INFO] │ │ │ └── postcss@5.2.18  deduped
+[INFO] │ │ ├─┬ postcss-reduce-transforms@1.0.4 
+[INFO] │ │ │ ├── has@1.0.1  deduped
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ └── postcss-value-parser@3.3.0  deduped
+[INFO] │ │ ├─┬ postcss-svgo@2.1.6 
+[INFO] │ │ │ ├─┬ is-svg@2.1.0 
+[INFO] │ │ │ │ └── html-comment-regex@1.1.1 
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ ├── postcss-value-parser@3.3.0  deduped
+[INFO] │ │ │ └─┬ svgo@0.7.2 
+[INFO] │ │ │   ├─┬ coa@1.0.4 
+[INFO] │ │ │   │ └── q@1.5.1 
+[INFO] │ │ │   ├── colors@1.1.2  deduped
+[INFO] │ │ │   ├─┬ csso@2.3.2 
+[INFO] │ │ │   │ ├─┬ clap@1.2.3 
+[INFO] │ │ │   │ │ └─┬ chalk@1.1.3 
+[INFO] │ │ │   │ │   ├── ansi-styles@2.2.1  deduped
+[INFO] │ │ │   │ │   ├── escape-string-regexp@1.0.5  deduped
+[INFO] │ │ │   │ │   ├── has-ansi@2.0.0  deduped
+[INFO] │ │ │   │ │   ├── strip-ansi@3.0.1  deduped
+[INFO] │ │ │   │ │   └── supports-color@2.0.0 
+[INFO] │ │ │   │ └── source-map@0.5.7  deduped
+[INFO] │ │ │   ├── js-yaml@3.7.0  deduped
+[INFO] │ │ │   ├── mkdirp@0.5.1  deduped
+[INFO] │ │ │   ├── sax@1.2.4  deduped
+[INFO] │ │ │   └── whet.extend@0.9.9 
+[INFO] │ │ ├─┬ postcss-unique-selectors@2.0.2 
+[INFO] │ │ │ ├── alphanum-sort@1.0.2  deduped
+[INFO] │ │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ │ └── uniqs@2.0.0  deduped
+[INFO] │ │ ├── postcss-value-parser@3.3.0  deduped
+[INFO] │ │ └─┬ postcss-zindex@2.2.0 
+[INFO] │ │   ├── has@1.0.1  deduped
+[INFO] │ │   ├── postcss@5.2.18  deduped
+[INFO] │ │   └── uniqs@2.0.0  deduped
+[INFO] │ ├── denodeify@1.2.1 
+[INFO] │ ├── diff@3.4.0 
+[INFO] │ ├─┬ ember-cli-normalize-entity-name@1.0.0 
+[INFO] │ │ └── silent-error@1.1.0  deduped
+[INFO] │ ├── ember-cli-string-utils@1.1.0 
+[INFO] │ ├─┬ exports-loader@0.6.4 
+[INFO] │ │ ├── loader-utils@1.1.0  deduped
+[INFO] │ │ └── source-map@0.5.7  deduped
+[INFO] │ ├─┬ extract-text-webpack-plugin@3.0.0 
+[INFO] │ │ ├─┬ async@2.6.0 
+[INFO] │ │ │ └── lodash@4.17.4  deduped
+[INFO] │ │ ├── loader-utils@1.1.0  deduped
+[INFO] │ │ ├─┬ schema-utils@0.3.0 
+[INFO] │ │ │ └── ajv@5.3.0  deduped
+[INFO] │ │ └─┬ webpack-sources@1.0.2 
+[INFO] │ │   ├── source-list-map@2.0.0  deduped
+[INFO] │ │   └── source-map@0.6.1 
+[INFO] │ ├─┬ file-loader@0.10.1 
+[INFO] │ │ └── loader-utils@1.1.0  deduped
+[INFO] │ ├─┬ fs-extra@4.0.2 
+[INFO] │ │ ├── graceful-fs@4.1.11  deduped
+[INFO] │ │ ├─┬ jsonfile@4.0.0 
+[INFO] │ │ │ └── graceful-fs@4.1.11  deduped
+[INFO] │ │ └── universalify@0.1.1 
+[INFO] │ ├── get-caller-file@1.0.2 
+[INFO] │ ├─┬ glob@7.1.2 
+[INFO] │ │ ├── fs.realpath@1.0.0 
+[INFO] │ │ ├─┬ inflight@1.0.6 
+[INFO] │ │ │ ├── once@1.4.0  deduped
+[INFO] │ │ │ └── wrappy@1.0.2 
+[INFO] │ │ ├── inherits@2.0.3 
+[INFO] │ │ ├── minimatch@3.0.4  deduped
+[INFO] │ │ ├─┬ once@1.4.0 
+[INFO] │ │ │ └── wrappy@1.0.2  deduped
+[INFO] │ │ └── path-is-absolute@1.0.1 
+[INFO] │ ├─┬ heimdalljs@0.2.5 
+[INFO] │ │ └── rsvp@3.2.1 
+[INFO] │ ├─┬ heimdalljs-logger@0.1.9 
+[INFO] │ │ ├─┬ debug@2.6.9 
+[INFO] │ │ │ └── ms@2.0.0 
+[INFO] │ │ └── heimdalljs@0.2.5  deduped
+[INFO] │ ├─┬ html-webpack-plugin@2.30.1 
+[INFO] │ │ ├── bluebird@3.5.1  deduped
+[INFO] │ │ ├─┬ html-minifier@3.5.6 
+[INFO] │ │ │ ├─┬ camel-case@3.0.0 
+[INFO] │ │ │ │ ├─┬ no-case@2.3.2 
+[INFO] │ │ │ │ │ └── lower-case@1.1.4 
+[INFO] │ │ │ │ └── upper-case@1.1.3 
+[INFO] │ │ │ ├─┬ clean-css@4.1.9 
+[INFO] │ │ │ │ └── source-map@0.5.7  deduped
+[INFO] │ │ │ ├── commander@2.11.0 
+[INFO] │ │ │ ├── he@1.1.1 
+[INFO] │ │ │ ├─┬ ncname@1.0.0 
+[INFO] │ │ │ │ └── xml-char-classes@1.0.0 
+[INFO] │ │ │ ├─┬ param-case@2.1.1 
+[INFO] │ │ │ │ └── no-case@2.3.2  deduped
+[INFO] │ │ │ ├── relateurl@0.2.7 
+[INFO] │ │ │ └─┬ uglify-js@3.1.10 
+[INFO] │ │ │   ├── commander@2.11.0  deduped
+[INFO] │ │ │   └── source-map@0.6.1 
+[INFO] │ │ ├─┬ loader-utils@0.2.17 
+[INFO] │ │ │ ├── big.js@3.2.0  deduped
+[INFO] │ │ │ ├── emojis-list@2.1.0  deduped
+[INFO] │ │ │ ├── json5@0.5.1  deduped
+[INFO] │ │ │ └── object-assign@4.1.1  deduped
+[INFO] │ │ ├── lodash@4.17.4  deduped
+[INFO] │ │ ├─┬ pretty-error@2.1.1 
+[INFO] │ │ │ ├─┬ renderkid@2.0.1 
+[INFO] │ │ │ │ ├─┬ css-select@1.2.0 
+[INFO] │ │ │ │ │ ├── boolbase@1.0.0 
+[INFO] │ │ │ │ │ ├── css-what@2.1.0 
+[INFO] │ │ │ │ │ ├─┬ domutils@1.5.1 
+[INFO] │ │ │ │ │ │ ├─┬ dom-serializer@0.1.0 
+[INFO] │ │ │ │ │ │ │ ├── domelementtype@1.1.3 
+[INFO] │ │ │ │ │ │ │ └── entities@1.1.1 
+[INFO] │ │ │ │ │ │ └── domelementtype@1.3.0  deduped
+[INFO] │ │ │ │ │ └─┬ nth-check@1.0.1 
+[INFO] │ │ │ │ │   └── boolbase@1.0.0  deduped
+[INFO] │ │ │ │ ├─┬ dom-converter@0.1.4 
+[INFO] │ │ │ │ │ └── utila@0.3.3 
+[INFO] │ │ │ │ ├─┬ htmlparser2@3.3.0 
+[INFO] │ │ │ │ │ ├── domelementtype@1.3.0 
+[INFO] │ │ │ │ │ ├─┬ domhandler@2.1.0 
+[INFO] │ │ │ │ │ │ └── domelementtype@1.3.0  deduped
+[INFO] │ │ │ │ │ ├─┬ domutils@1.1.6 
+[INFO] │ │ │ │ │ │ └── domelementtype@1.3.0  deduped
+[INFO] │ │ │ │ │ └── readable-stream@1.0.34  deduped
+[INFO] │ │ │ │ ├── strip-ansi@3.0.1  deduped
+[INFO] │ │ │ │ └── utila@0.3.3 
+[INFO] │ │ │ └── utila@0.4.0 
+[INFO] │ │ └── toposort@1.0.6 
+[INFO] │ ├── inflection@1.12.0 
+[INFO] │ ├─┬ inquirer@3.3.0 
+[INFO] │ │ ├── ansi-escapes@3.0.0 
+[INFO] │ │ ├── chalk@2.3.0  deduped
+[INFO] │ │ ├─┬ cli-cursor@2.1.0 
+[INFO] │ │ │ └─┬ restore-cursor@2.0.0 
+[INFO] │ │ │   ├─┬ onetime@2.0.1 
+[INFO] │ │ │   │ └── mimic-fn@1.1.0 
+[INFO] │ │ │   └── signal-exit@3.0.2 
+[INFO] │ │ ├── cli-width@2.2.0 
+[INFO] │ │ ├─┬ external-editor@2.1.0 
+[INFO] │ │ │ ├── chardet@0.4.0 
+[INFO] │ │ │ ├── iconv-lite@0.4.19  deduped
+[INFO] │ │ │ └── tmp@0.0.33  deduped
+[INFO] │ │ ├─┬ figures@2.0.0 
+[INFO] │ │ │ └── escape-string-regexp@1.0.5  deduped
+[INFO] │ │ ├── lodash@4.17.4  deduped
+[INFO] │ │ ├── mute-stream@0.0.7 
+[INFO] │ │ ├─┬ run-async@2.3.0 
+[INFO] │ │ │ └── is-promise@2.1.0 
+[INFO] │ │ ├── rx-lite@4.0.8 
+[INFO] │ │ ├─┬ rx-lite-aggregates@4.0.8 
+[INFO] │ │ │ └── rx-lite@4.0.8  deduped
+[INFO] │ │ ├─┬ string-width@2.1.1 
+[INFO] │ │ │ ├── is-fullwidth-code-point@2.0.0 
+[INFO] │ │ │ └─┬ strip-ansi@4.0.0 
+[INFO] │ │ │   └── ansi-regex@3.0.0 
+[INFO] │ │ ├─┬ strip-ansi@4.0.0 
+[INFO] │ │ │ └── ansi-regex@3.0.0 
+[INFO] │ │ └── through@2.3.8 
+[INFO] │ ├── isbinaryfile@3.0.2 
+[INFO] │ ├─┬ istanbul-instrumenter-loader@2.0.0 
+[INFO] │ │ ├── convert-source-map@1.5.0 
+[INFO] │ │ ├─┬ istanbul-lib-instrument@1.9.1 
+[INFO] │ │ │ ├─┬ babel-generator@6.26.0 
+[INFO] │ │ │ │ ├─┬ babel-messages@6.23.0 
+[INFO] │ │ │ │ │ └── babel-runtime@6.26.0  deduped
+[INFO] │ │ │ │ ├── babel-runtime@6.26.0  deduped
+[INFO] │ │ │ │ ├── babel-types@6.26.0  deduped
+[INFO] │ │ │ │ ├─┬ detect-indent@4.0.0 
+[INFO] │ │ │ │ │ └─┬ repeating@2.0.1 
+[INFO] │ │ │ │ │   └─┬ is-finite@1.0.2 
+[INFO] │ │ │ │ │     └── number-is-nan@1.0.1  deduped
+[INFO] │ │ │ │ ├── jsesc@1.3.0 
+[INFO] │ │ │ │ ├── lodash@4.17.4  deduped
+[INFO] │ │ │ │ ├── source-map@0.5.7  deduped
+[INFO] │ │ │ │ └── trim-right@1.0.1 
+[INFO] │ │ │ ├─┬ babel-template@6.26.0 
+[INFO] │ │ │ │ ├── babel-runtime@6.26.0  deduped
+[INFO] │ │ │ │ ├── babel-traverse@6.26.0  deduped
+[INFO] │ │ │ │ ├── babel-types@6.26.0  deduped
+[INFO] │ │ │ │ ├── babylon@6.18.0  deduped
+[INFO] │ │ │ │ └── lodash@4.17.4  deduped
+[INFO] │ │ │ ├─┬ babel-traverse@6.26.0 
+[INFO] │ │ │ │ ├── babel-code-frame@6.26.0  deduped
+[INFO] │ │ │ │ ├── babel-messages@6.23.0  deduped
+[INFO] │ │ │ │ ├── babel-runtime@6.26.0  deduped
+[INFO] │ │ │ │ ├── babel-types@6.26.0  deduped
+[INFO] │ │ │ │ ├── babylon@6.18.0  deduped
+[INFO] │ │ │ │ ├── debug@2.6.9  deduped
+[INFO] │ │ │ │ ├── globals@9.18.0 
+[INFO] │ │ │ │ ├─┬ invariant@2.2.2 
+[INFO] │ │ │ │ │ └─┬ loose-envify@1.3.1 
+[INFO] │ │ │ │ │   └── js-tokens@3.0.2  deduped
+[INFO] │ │ │ │ └── lodash@4.17.4  deduped
+[INFO] │ │ │ ├─┬ babel-types@6.26.0 
+[INFO] │ │ │ │ ├── babel-runtime@6.26.0  deduped
+[INFO] │ │ │ │ ├── esutils@2.0.2  deduped
+[INFO] │ │ │ │ ├── lodash@4.17.4  deduped
+[INFO] │ │ │ │ └── to-fast-properties@1.0.3 
+[INFO] │ │ │ ├── babylon@6.18.0 
+[INFO] │ │ │ ├── istanbul-lib-coverage@1.1.1  deduped
+[INFO] │ │ │ └── semver@5.4.1  deduped
+[INFO] │ │ ├─┬ loader-utils@0.2.17 
+[INFO] │ │ │ ├── big.js@3.2.0  deduped
+[INFO] │ │ │ ├── emojis-list@2.1.0  deduped
+[INFO] │ │ │ ├── json5@0.5.1  deduped
+[INFO] │ │ │ └── object-assign@4.1.1  deduped
+[INFO] │ │ └── object-assign@4.1.1  deduped
+[INFO] │ ├─┬ karma-source-map-support@1.2.0 
+[INFO] │ │ └── source-map-support@0.4.18  deduped
+[INFO] │ ├─┬ less@2.7.3 
+[INFO] │ │ ├─┬ errno@0.1.4 
+[INFO] │ │ │ └── prr@0.0.0 
+[INFO] │ │ ├── graceful-fs@4.1.11  deduped
+[INFO] │ │ ├── image-size@0.5.5 
+[INFO] │ │ ├── mime@1.4.1  deduped
+[INFO] │ │ ├── mkdirp@0.5.1  deduped
+[INFO] │ │ ├─┬ promise@7.3.1 
+[INFO] │ │ │ └── asap@2.0.6 
+[INFO] │ │ ├─┬ request@2.81.0 
+[INFO] │ │ │ ├── aws-sign2@0.6.0 
+[INFO] │ │ │ ├── aws4@1.6.0 
+[INFO] │ │ │ ├── caseless@0.12.0 
+[INFO] │ │ │ ├─┬ combined-stream@1.0.5 
+[INFO] │ │ │ │ └── delayed-stream@1.0.0 
+[INFO] │ │ │ ├── extend@3.0.1  deduped
+[INFO] │ │ │ ├── forever-agent@0.6.1 
+[INFO] │ │ │ ├─┬ form-data@2.1.4 
+[INFO] │ │ │ │ ├── asynckit@0.4.0 
+[INFO] │ │ │ │ ├── combined-stream@1.0.5  deduped
+[INFO] │ │ │ │ └── mime-types@2.1.17  deduped
+[INFO] │ │ │ ├─┬ har-validator@4.2.1 
+[INFO] │ │ │ │ ├─┬ ajv@4.11.8 
+[INFO] │ │ │ │ │ ├── co@4.6.0  deduped
+[INFO] │ │ │ │ │ └─┬ json-stable-stringify@1.0.1 
+[INFO] │ │ │ │ │   └── jsonify@0.0.0 
+[INFO] │ │ │ │ └── har-schema@1.0.5 
+[INFO] │ │ │ ├─┬ hawk@3.1.3 
+[INFO] │ │ │ │ ├─┬ boom@2.10.1 
+[INFO] │ │ │ │ │ └── hoek@2.16.3  deduped
+[INFO] │ │ │ │ ├─┬ cryptiles@2.0.5 
+[INFO] │ │ │ │ │ └── boom@2.10.1  deduped
+[INFO] │ │ │ │ ├── hoek@2.16.3 
+[INFO] │ │ │ │ └─┬ sntp@1.0.9 
+[INFO] │ │ │ │   └── hoek@2.16.3  deduped
+[INFO] │ │ │ ├─┬ http-signature@1.1.1 
+[INFO] │ │ │ │ ├── assert-plus@0.2.0 
+[INFO] │ │ │ │ ├─┬ jsprim@1.4.1 
+[INFO] │ │ │ │ │ ├── assert-plus@1.0.0 
+[INFO] │ │ │ │ │ ├── extsprintf@1.3.0 
+[INFO] │ │ │ │ │ ├── json-schema@0.2.3 
+[INFO] │ │ │ │ │ └─┬ verror@1.10.0 
+[INFO] │ │ │ │ │   ├── assert-plus@1.0.0 
+[INFO] │ │ │ │ │   ├── core-util-is@1.0.2  deduped
+[INFO] │ │ │ │ │   └── extsprintf@1.3.0  deduped
+[INFO] │ │ │ │ └─┬ sshpk@1.13.1 
+[INFO] │ │ │ │   ├── asn1@0.2.3 
+[INFO] │ │ │ │   ├── assert-plus@1.0.0 
+[INFO] │ │ │ │   ├─┬ bcrypt-pbkdf@1.0.1 
+[INFO] │ │ │ │   │ └── tweetnacl@0.14.5  deduped
+[INFO] │ │ │ │   ├─┬ dashdash@1.14.1 
+[INFO] │ │ │ │   │ └── assert-plus@1.0.0 
+[INFO] │ │ │ │   ├─┬ ecc-jsbn@0.1.1 
+[INFO] │ │ │ │   │ └── jsbn@0.1.1  deduped
+[INFO] │ │ │ │   ├─┬ getpass@0.1.7 
+[INFO] │ │ │ │   │ └── assert-plus@1.0.0 
+[INFO] │ │ │ │   ├── jsbn@0.1.1 
+[INFO] │ │ │ │   └── tweetnacl@0.14.5 
+[INFO] │ │ │ ├── is-typedarray@1.0.0 
+[INFO] │ │ │ ├── isstream@0.1.2 
+[INFO] │ │ │ ├── json-stringify-safe@5.0.1 
+[INFO] │ │ │ ├─┬ mime-types@2.1.17 
+[INFO] │ │ │ │ └── mime-db@1.30.0 
+[INFO] │ │ │ ├── oauth-sign@0.8.2 
+[INFO] │ │ │ ├── performance-now@0.2.0 
+[INFO] │ │ │ ├── qs@6.4.0 
+[INFO] │ │ │ ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ ├── stringstream@0.0.5 
+[INFO] │ │ │ ├─┬ tough-cookie@2.3.3 
+[INFO] │ │ │ │ └── punycode@1.4.1  deduped
+[INFO] │ │ │ ├─┬ tunnel-agent@0.6.0 
+[INFO] │ │ │ │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ └── uuid@3.1.0 
+[INFO] │ │ └── source-map@0.5.7  deduped
+[INFO] │ ├─┬ less-loader@4.0.5 
+[INFO] │ │ ├── clone@2.1.1 
+[INFO] │ │ ├── loader-utils@1.1.0  deduped
+[INFO] │ │ └── pify@2.3.0 
+[INFO] │ ├─┬ license-webpack-plugin@0.5.1 
+[INFO] │ │ └── object-assign@4.1.1  deduped
+[INFO] │ ├── lodash@4.17.4 
+[INFO] │ ├─┬ memory-fs@0.4.1 
+[INFO] │ │ ├── errno@0.1.4  deduped
+[INFO] │ │ └─┬ readable-stream@2.3.3 
+[INFO] │ │   ├── core-util-is@1.0.2 
+[INFO] │ │   ├── inherits@2.0.3  deduped
+[INFO] │ │   ├── isarray@1.0.0 
+[INFO] │ │   ├── process-nextick-args@1.0.7 
+[INFO] │ │   ├── safe-buffer@5.1.1  deduped
+[INFO] │ │   ├─┬ string_decoder@1.0.3 
+[INFO] │ │   │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │   └── util-deprecate@1.0.2 
+[INFO] │ ├─┬ minimatch@3.0.4 
+[INFO] │ │ └─┬ brace-expansion@1.1.8 
+[INFO] │ │   ├── balanced-match@1.0.0 
+[INFO] │ │   └── concat-map@0.0.1 
+[INFO] │ ├── node-modules-path@1.0.1 
+[INFO] │ ├─┬ node-sass@4.7.1 
+[INFO] │ │ ├── async-foreach@0.1.3 
+[INFO] │ │ ├─┬ chalk@1.1.3 
+[INFO] │ │ │ ├── ansi-styles@2.2.1  deduped
+[INFO] │ │ │ ├── escape-string-regexp@1.0.5  deduped
+[INFO] │ │ │ ├── has-ansi@2.0.0  deduped
+[INFO] │ │ │ ├── strip-ansi@3.0.1  deduped
+[INFO] │ │ │ └── supports-color@2.0.0 
+[INFO] │ │ ├─┬ cross-spawn@3.0.1 
+[INFO] │ │ │ ├─┬ lru-cache@4.1.1 
+[INFO] │ │ │ │ ├── pseudomap@1.0.2 
+[INFO] │ │ │ │ └── yallist@2.1.2 
+[INFO] │ │ │ └── which@1.3.0  deduped
+[INFO] │ │ ├─┬ gaze@1.1.2 
+[INFO] │ │ │ └─┬ globule@1.2.0 
+[INFO] │ │ │   ├── glob@7.1.2  deduped
+[INFO] │ │ │   ├── lodash@4.17.4  deduped
+[INFO] │ │ │   └── minimatch@3.0.4  deduped
+[INFO] │ │ ├── get-stdin@4.0.1 
+[INFO] │ │ ├── glob@7.1.2  deduped
+[INFO] │ │ ├── in-publish@2.0.0 
+[INFO] │ │ ├── lodash.assign@4.2.0 
+[INFO] │ │ ├── lodash.clonedeep@4.5.0 
+[INFO] │ │ ├── lodash.mergewith@4.6.0 
+[INFO] │ │ ├─┬ meow@3.7.0 
+[INFO] │ │ │ ├─┬ camelcase-keys@2.1.0 
+[INFO] │ │ │ │ ├── camelcase@2.1.1 
+[INFO] │ │ │ │ └── map-obj@1.0.1  deduped
+[INFO] │ │ │ ├── decamelize@1.2.0  deduped
+[INFO] │ │ │ ├─┬ loud-rejection@1.6.0 
+[INFO] │ │ │ │ ├─┬ currently-unhandled@0.4.1 
+[INFO] │ │ │ │ │ └── array-find-index@1.0.2 
+[INFO] │ │ │ │ └── signal-exit@3.0.2  deduped
+[INFO] │ │ │ ├── map-obj@1.0.1 
+[INFO] │ │ │ ├── minimist@1.2.0 
+[INFO] │ │ │ ├─┬ normalize-package-data@2.4.0 
+[INFO] │ │ │ │ ├── hosted-git-info@2.5.0 
+[INFO] │ │ │ │ ├─┬ is-builtin-module@1.0.0 
+[INFO] │ │ │ │ │ └── builtin-modules@1.1.1 
+[INFO] │ │ │ │ ├── semver@5.4.1  deduped
+[INFO] │ │ │ │ └─┬ validate-npm-package-license@3.0.1 
+[INFO] │ │ │ │   ├─┬ spdx-correct@1.0.2 
+[INFO] │ │ │ │   │ └── spdx-license-ids@1.2.2 
+[INFO] │ │ │ │   └── spdx-expression-parse@1.0.4 
+[INFO] │ │ │ ├── object-assign@4.1.1  deduped
+[INFO] │ │ │ ├─┬ read-pkg-up@1.0.1 
+[INFO] │ │ │ │ ├─┬ find-up@1.1.2 
+[INFO] │ │ │ │ │ ├─┬ path-exists@2.1.0 
+[INFO] │ │ │ │ │ │ └── pinkie-promise@2.0.1  deduped
+[INFO] │ │ │ │ │ └── pinkie-promise@2.0.1  deduped
+[INFO] │ │ │ │ └─┬ read-pkg@1.1.0 
+[INFO] │ │ │ │   ├─┬ load-json-file@1.1.0 
+[INFO] │ │ │ │   │ ├── graceful-fs@4.1.11  deduped
+[INFO] │ │ │ │   │ ├── parse-json@2.2.0  deduped
+[INFO] │ │ │ │   │ ├── pify@2.3.0  deduped
+[INFO] │ │ │ │   │ ├── pinkie-promise@2.0.1  deduped
+[INFO] │ │ │ │   │ └── strip-bom@2.0.0  deduped
+[INFO] │ │ │ │   ├── normalize-package-data@2.4.0  deduped
+[INFO] │ │ │ │   └─┬ path-type@1.1.0 
+[INFO] │ │ │ │     ├── graceful-fs@4.1.11  deduped
+[INFO] │ │ │ │     ├── pify@2.3.0  deduped
+[INFO] │ │ │ │     └── pinkie-promise@2.0.1  deduped
+[INFO] │ │ │ ├─┬ redent@1.0.0 
+[INFO] │ │ │ │ ├─┬ indent-string@2.1.0 
+[INFO] │ │ │ │ │ └── repeating@2.0.1  deduped
+[INFO] │ │ │ │ └─┬ strip-indent@1.0.1 
+[INFO] │ │ │ │   └── get-stdin@4.0.1  deduped
+[INFO] │ │ │ └── trim-newlines@1.0.0 
+[INFO] │ │ ├── mkdirp@0.5.1  deduped
+[INFO] │ │ ├── nan@2.8.0 
+[INFO] │ │ ├─┬ node-gyp@3.6.2 
+[INFO] │ │ │ ├─┬ fstream@1.0.11 
+[INFO] │ │ │ │ ├── graceful-fs@4.1.11  deduped
+[INFO] │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ ├── mkdirp@0.5.1  deduped
+[INFO] │ │ │ │ └── rimraf@2.6.2  deduped
+[INFO] │ │ │ ├── glob@7.1.2  deduped
+[INFO] │ │ │ ├── graceful-fs@4.1.11  deduped
+[INFO] │ │ │ ├── minimatch@3.0.4  deduped
+[INFO] │ │ │ ├── mkdirp@0.5.1  deduped
+[INFO] │ │ │ ├─┬ nopt@3.0.6 
+[INFO] │ │ │ │ └── abbrev@1.1.1  deduped
+[INFO] │ │ │ ├── npmlog@4.1.2  deduped
+[INFO] │ │ │ ├── osenv@0.1.4  deduped
+[INFO] │ │ │ ├── request@2.81.0  deduped
+[INFO] │ │ │ ├── rimraf@2.6.2  deduped
+[INFO] │ │ │ ├── semver@5.3.0 
+[INFO] │ │ │ ├─┬ tar@2.2.1 
+[INFO] │ │ │ │ ├─┬ block-stream@0.0.9 
+[INFO] │ │ │ │ │ └── inherits@2.0.3  deduped
+[INFO] │ │ │ │ ├── fstream@1.0.11  deduped
+[INFO] │ │ │ │ └── inherits@2.0.3  deduped
+[INFO] │ │ │ └── which@1.3.0  deduped
+[INFO] │ │ ├─┬ npmlog@4.1.2 
+[INFO] │ │ │ ├─┬ are-we-there-yet@1.1.4 
+[INFO] │ │ │ │ ├── delegates@1.0.0 
+[INFO] │ │ │ │ └─┬ readable-stream@2.3.3 
+[INFO] │ │ │ │   ├── core-util-is@1.0.2  deduped
+[INFO] │ │ │ │   ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │   ├── isarray@1.0.0 
+[INFO] │ │ │ │   ├── process-nextick-args@1.0.7  deduped
+[INFO] │ │ │ │   ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │   ├─┬ string_decoder@1.0.3 
+[INFO] │ │ │ │   │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │   └── util-deprecate@1.0.2  deduped
+[INFO] │ │ │ ├── console-control-strings@1.1.0 
+[INFO] │ │ │ ├─┬ gauge@2.7.4 
+[INFO] │ │ │ │ ├── aproba@1.2.0 
+[INFO] │ │ │ │ ├── console-control-strings@1.1.0  deduped
+[INFO] │ │ │ │ ├── has-unicode@2.0.1 
+[INFO] │ │ │ │ ├── object-assign@4.1.1  deduped
+[INFO] │ │ │ │ ├── signal-exit@3.0.2  deduped
+[INFO] │ │ │ │ ├─┬ string-width@1.0.2 
+[INFO] │ │ │ │ │ ├── code-point-at@1.1.0  deduped
+[INFO] │ │ │ │ │ ├─┬ is-fullwidth-code-point@1.0.0 
+[INFO] │ │ │ │ │ │ └── number-is-nan@1.0.1  deduped
+[INFO] │ │ │ │ │ └── strip-ansi@3.0.1  deduped
+[INFO] │ │ │ │ ├── strip-ansi@3.0.1  deduped
+[INFO] │ │ │ │ └─┬ wide-align@1.1.2 
+[INFO] │ │ │ │   └─┬ string-width@1.0.2 
+[INFO] │ │ │ │     ├── code-point-at@1.1.0  deduped
+[INFO] │ │ │ │     ├─┬ is-fullwidth-code-point@1.0.0 
+[INFO] │ │ │ │     │ └── number-is-nan@1.0.1  deduped
+[INFO] │ │ │ │     └── strip-ansi@3.0.1  deduped
+[INFO] │ │ │ └── set-blocking@2.0.0 
+[INFO] │ │ ├─┬ request@2.79.0 
+[INFO] │ │ │ ├── aws-sign2@0.6.0  deduped
+[INFO] │ │ │ ├── aws4@1.6.0  deduped
+[INFO] │ │ │ ├── caseless@0.11.0 
+[INFO] │ │ │ ├── combined-stream@1.0.5  deduped
+[INFO] │ │ │ ├── extend@3.0.1  deduped
+[INFO] │ │ │ ├── forever-agent@0.6.1  deduped
+[INFO] │ │ │ ├── form-data@2.1.4  deduped
+[INFO] │ │ │ ├─┬ har-validator@2.0.6 
+[INFO] │ │ │ │ ├── chalk@1.1.3  deduped
+[INFO] │ │ │ │ ├── commander@2.11.0  deduped
+[INFO] │ │ │ │ ├─┬ is-my-json-valid@2.16.1 
+[INFO] │ │ │ │ │ ├── generate-function@2.0.0 
+[INFO] │ │ │ │ │ ├─┬ generate-object-property@1.2.0 
+[INFO] │ │ │ │ │ │ └── is-property@1.0.2 
+[INFO] │ │ │ │ │ ├── jsonpointer@4.0.1 
+[INFO] │ │ │ │ │ └── xtend@4.0.1  deduped
+[INFO] │ │ │ │ └── pinkie-promise@2.0.1  deduped
+[INFO] │ │ │ ├── hawk@3.1.3  deduped
+[INFO] │ │ │ ├── http-signature@1.1.1  deduped
+[INFO] │ │ │ ├── is-typedarray@1.0.0  deduped
+[INFO] │ │ │ ├── isstream@0.1.2  deduped
+[INFO] │ │ │ ├── json-stringify-safe@5.0.1  deduped
+[INFO] │ │ │ ├── mime-types@2.1.17  deduped
+[INFO] │ │ │ ├── oauth-sign@0.8.2  deduped
+[INFO] │ │ │ ├── qs@6.3.2 
+[INFO] │ │ │ ├── stringstream@0.0.5  deduped
+[INFO] │ │ │ ├── tough-cookie@2.3.3  deduped
+[INFO] │ │ │ ├── tunnel-agent@0.4.3 
+[INFO] │ │ │ └── uuid@3.1.0  deduped
+[INFO] │ │ ├─┬ sass-graph@2.2.4 
+[INFO] │ │ │ ├── glob@7.1.2  deduped
+[INFO] │ │ │ ├── lodash@4.17.4  deduped
+[INFO] │ │ │ ├─┬ scss-tokenizer@0.2.3 
+[INFO] │ │ │ │ ├── js-base64@2.3.2  deduped
+[INFO] │ │ │ │ └─┬ source-map@0.4.4 
+[INFO] │ │ │ │   └── amdefine@1.0.1  deduped
+[INFO] │ │ │ └─┬ yargs@7.1.0 
+[INFO] │ │ │   ├── camelcase@3.0.0 
+[INFO] │ │ │   ├── cliui@3.2.0  deduped
+[INFO] │ │ │   ├── decamelize@1.2.0  deduped
+[INFO] │ │ │   ├── get-caller-file@1.0.2  deduped
+[INFO] │ │ │   ├── os-locale@1.4.0  deduped
+[INFO] │ │ │   ├── read-pkg-up@1.0.1  deduped
+[INFO] │ │ │   ├── require-directory@2.1.1  deduped
+[INFO] │ │ │   ├── require-main-filename@1.0.1  deduped
+[INFO] │ │ │   ├── set-blocking@2.0.0  deduped
+[INFO] │ │ │   ├─┬ string-width@1.0.2 
+[INFO] │ │ │   │ ├── code-point-at@1.1.0  deduped
+[INFO] │ │ │   │ ├─┬ is-fullwidth-code-point@1.0.0 
+[INFO] │ │ │   │ │ └── number-is-nan@1.0.1  deduped
+[INFO] │ │ │   │ └── strip-ansi@3.0.1  deduped
+[INFO] │ │ │   ├── which-module@1.0.0  deduped
+[INFO] │ │ │   ├── y18n@3.2.1  deduped
+[INFO] │ │ │   └─┬ yargs-parser@5.0.0 
+[INFO] │ │ │     └── camelcase@3.0.0 
+[INFO] │ │ ├─┬ stdout-stream@1.4.0 
+[INFO] │ │ │ └─┬ readable-stream@2.3.3 
+[INFO] │ │ │   ├── core-util-is@1.0.2  deduped
+[INFO] │ │ │   ├── inherits@2.0.3  deduped
+[INFO] │ │ │   ├── isarray@1.0.0 
+[INFO] │ │ │   ├── process-nextick-args@1.0.7  deduped
+[INFO] │ │ │   ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │   ├─┬ string_decoder@1.0.3 
+[INFO] │ │ │   │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │   └── util-deprecate@1.0.2  deduped
+[INFO] │ │ └─┬ true-case-path@1.0.2 
+[INFO] │ │   └─┬ glob@6.0.4 
+[INFO] │ │     ├── inflight@1.0.6  deduped
+[INFO] │ │     ├── inherits@2.0.3  deduped
+[INFO] │ │     ├── minimatch@3.0.4  deduped
+[INFO] │ │     ├── once@1.4.0  deduped
+[INFO] │ │     └── path-is-absolute@1.0.1  deduped
+[INFO] │ ├─┬ nopt@4.0.1 
+[INFO] │ │ ├── abbrev@1.1.1 
+[INFO] │ │ └─┬ osenv@0.1.4 
+[INFO] │ │   ├── os-homedir@1.0.2 
+[INFO] │ │   └── os-tmpdir@1.0.2  deduped
+[INFO] │ ├─┬ opn@5.1.0 
+[INFO] │ │ └── is-wsl@1.1.0 
+[INFO] │ ├─┬ portfinder@1.0.13 
+[INFO] │ │ ├── async@1.5.2 
+[INFO] │ │ ├── debug@2.6.9  deduped
+[INFO] │ │ └── mkdirp@0.5.1  deduped
+[INFO] │ ├─┬ postcss-loader@1.3.3 
+[INFO] │ │ ├── loader-utils@1.1.0  deduped
+[INFO] │ │ ├── object-assign@4.1.1  deduped
+[INFO] │ │ ├── postcss@5.2.18  deduped
+[INFO] │ │ └─┬ postcss-load-config@1.2.0 
+[INFO] │ │   ├─┬ cosmiconfig@2.2.2 
+[INFO] │ │   │ ├── is-directory@0.3.1 
+[INFO] │ │   │ ├── js-yaml@3.7.0  deduped
+[INFO] │ │   │ ├── minimist@1.2.0 
+[INFO] │ │   │ ├── object-assign@4.1.1  deduped
+[INFO] │ │   │ ├── os-homedir@1.0.2  deduped
+[INFO] │ │   │ ├─┬ parse-json@2.2.0 
+[INFO] │ │   │ │ └─┬ error-ex@1.3.1 
+[INFO] │ │   │ │   └── is-arrayish@0.2.1 
+[INFO] │ │   │ └── require-from-string@1.2.1 
+[INFO] │ │   ├── object-assign@4.1.1  deduped
+[INFO] │ │   ├─┬ postcss-load-options@1.2.0 
+[INFO] │ │   │ ├── cosmiconfig@2.2.2  deduped
+[INFO] │ │   │ └── object-assign@4.1.1  deduped
+[INFO] │ │   └─┬ postcss-load-plugins@2.3.0 
+[INFO] │ │     ├── cosmiconfig@2.2.2  deduped
+[INFO] │ │     └── object-assign@4.1.1  deduped
+[INFO] │ ├─┬ postcss-url@5.1.2 
+[INFO] │ │ ├─┬ directory-encoder@0.7.2 
+[INFO] │ │ │ ├─┬ fs-extra@0.23.1 
+[INFO] │ │ │ │ ├── graceful-fs@4.1.11  deduped
+[INFO] │ │ │ │ ├─┬ jsonfile@2.4.0 
+[INFO] │ │ │ │ │ └── graceful-fs@4.1.11  deduped
+[INFO] │ │ │ │ ├── path-is-absolute@1.0.1  deduped
+[INFO] │ │ │ │ └── rimraf@2.6.2  deduped
+[INFO] │ │ │ ├─┬ handlebars@1.3.0 
+[INFO] │ │ │ │ ├─┬ optimist@0.3.7 
+[INFO] │ │ │ │ │ └── wordwrap@0.0.3  deduped
+[INFO] │ │ │ │ └─┬ uglify-js@2.3.6 
+[INFO] │ │ │ │   ├── async@0.2.10 
+[INFO] │ │ │ │   ├── optimist@0.3.7  deduped
+[INFO] │ │ │ │   └─┬ source-map@0.1.43 
+[INFO] │ │ │ │     └── amdefine@1.0.1  deduped
+[INFO] │ │ │ └─┬ img-stats@0.5.2 
+[INFO] │ │ │   └── xmldom@0.1.27 
+[INFO] │ │ ├── js-base64@2.3.2 
+[INFO] │ │ ├── mime@1.4.1  deduped
+[INFO] │ │ ├── minimatch@3.0.4  deduped
+[INFO] │ │ ├── mkdirp@0.5.1  deduped
+[INFO] │ │ ├── path-is-absolute@1.0.1  deduped
+[INFO] │ │ └── postcss@5.2.18  deduped
+[INFO] │ ├── raw-loader@0.5.1 
+[INFO] │ ├─┬ resolve@1.5.0 
+[INFO] │ │ └── path-parse@1.0.5 
+[INFO] │ ├── rsvp@3.6.2 
+[INFO] │ ├── rxjs@5.5.2  deduped
+[INFO] │ ├─┬ sass-loader@6.0.6 
+[INFO] │ │ ├── async@2.6.0  deduped
+[INFO] │ │ ├─┬ clone-deep@0.3.0 
+[INFO] │ │ │ ├─┬ for-own@1.0.0 
+[INFO] │ │ │ │ └── for-in@1.0.2 
+[INFO] │ │ │ ├─┬ is-plain-object@2.0.4 
+[INFO] │ │ │ │ └── isobject@3.0.1 
+[INFO] │ │ │ ├─┬ kind-of@3.2.2 
+[INFO] │ │ │ │ └── is-buffer@1.1.6 
+[INFO] │ │ │ └─┬ shallow-clone@0.1.2 
+[INFO] │ │ │   ├── is-extendable@0.1.1 
+[INFO] │ │ │   ├─┬ kind-of@2.0.1 
+[INFO] │ │ │   │ └── is-buffer@1.1.6  deduped
+[INFO] │ │ │   ├── lazy-cache@0.2.7 
+[INFO] │ │ │   └─┬ mixin-object@2.0.1 
+[INFO] │ │ │     ├── for-in@0.1.8 
+[INFO] │ │ │     └── is-extendable@0.1.1  deduped
+[INFO] │ │ ├── loader-utils@1.1.0  deduped
+[INFO] │ │ ├── lodash.tail@4.1.1 
+[INFO] │ │ └── pify@3.0.0 
+[INFO] │ ├─┬ script-loader@0.7.2 
+[INFO] │ │ └── raw-loader@0.5.1  deduped
+[INFO] │ ├── semver@5.4.1 
+[INFO] │ ├─┬ silent-error@1.1.0 
+[INFO] │ │ └── debug@2.6.9  deduped
+[INFO] │ ├─┬ source-map-loader@0.2.3 
+[INFO] │ │ ├── async@2.6.0  deduped
+[INFO] │ │ ├─┬ loader-utils@0.2.17 
+[INFO] │ │ │ ├── big.js@3.2.0  deduped
+[INFO] │ │ │ ├── emojis-list@2.1.0  deduped
+[INFO] │ │ │ ├── json5@0.5.1  deduped
+[INFO] │ │ │ └── object-assign@4.1.1  deduped
+[INFO] │ │ └── source-map@0.6.1 
+[INFO] │ ├─┬ source-map-support@0.4.18 
+[INFO] │ │ └── source-map@0.5.7  deduped
+[INFO] │ ├─┬ style-loader@0.13.2 
+[INFO] │ │ └── loader-utils@1.1.0  deduped
+[INFO] │ ├─┬ stylus@0.54.5 
+[INFO] │ │ ├── css-parse@1.7.0 
+[INFO] │ │ ├── debug@2.6.9  deduped
+[INFO] │ │ ├─┬ glob@7.0.6 
+[INFO] │ │ │ ├── fs.realpath@1.0.0  deduped
+[INFO] │ │ │ ├── inflight@1.0.6  deduped
+[INFO] │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ ├── minimatch@3.0.4  deduped
+[INFO] │ │ │ ├── once@1.4.0  deduped
+[INFO] │ │ │ └── path-is-absolute@1.0.1  deduped
+[INFO] │ │ ├── mkdirp@0.5.1  deduped
+[INFO] │ │ ├── sax@0.5.8 
+[INFO] │ │ └─┬ source-map@0.1.43 
+[INFO] │ │   └── amdefine@1.0.1 
+[INFO] │ ├─┬ stylus-loader@3.0.1 
+[INFO] │ │ ├── loader-utils@1.1.0  deduped
+[INFO] │ │ ├── lodash.clonedeep@4.5.0  deduped
+[INFO] │ │ └── when@3.6.4 
+[INFO] │ ├─┬ temp@0.8.3 
+[INFO] │ │ ├── os-tmpdir@1.0.2 
+[INFO] │ │ └── rimraf@2.2.8 
+[INFO] │ ├── typescript@2.3.4  deduped
+[INFO] │ ├─┬ url-loader@0.5.9 
+[INFO] │ │ ├── loader-utils@1.1.0  deduped
+[INFO] │ │ └── mime@1.3.6 
+[INFO] │ ├─┬ walk-sync@0.3.2 
+[INFO] │ │ ├── ensure-posix-path@1.0.2 
+[INFO] │ │ └─┬ matcher-collection@1.0.5 
+[INFO] │ │   └── minimatch@3.0.4  deduped
+[INFO] │ ├─┬ webpack@3.4.1 
+[INFO] │ │ ├── acorn@5.2.1 
+[INFO] │ │ ├─┬ acorn-dynamic-import@2.0.2 
+[INFO] │ │ │ └── acorn@4.0.13 
+[INFO] │ │ ├─┬ ajv@5.3.0 
+[INFO] │ │ │ ├── co@4.6.0 
+[INFO] │ │ │ ├── fast-deep-equal@1.0.0 
+[INFO] │ │ │ ├── fast-json-stable-stringify@2.0.0 
+[INFO] │ │ │ └── json-schema-traverse@0.3.1 
+[INFO] │ │ ├── ajv-keywords@2.1.1 
+[INFO] │ │ ├── async@2.6.0  deduped
+[INFO] │ │ ├─┬ enhanced-resolve@3.4.1 
+[INFO] │ │ │ ├── graceful-fs@4.1.11  deduped
+[INFO] │ │ │ ├── memory-fs@0.4.1  deduped
+[INFO] │ │ │ ├── object-assign@4.1.1  deduped
+[INFO] │ │ │ └── tapable@0.2.8  deduped
+[INFO] │ │ ├─┬ escope@3.6.0 
+[INFO] │ │ │ ├─┬ es6-map@0.1.5 
+[INFO] │ │ │ │ ├─┬ d@1.0.0 
+[INFO] │ │ │ │ │ └── es5-ext@0.10.35  deduped
+[INFO] │ │ │ │ ├─┬ es5-ext@0.10.35 
+[INFO] │ │ │ │ │ ├── es6-iterator@2.0.3  deduped
+[INFO] │ │ │ │ │ └── es6-symbol@3.1.1  deduped
+[INFO] │ │ │ │ ├─┬ es6-iterator@2.0.3 
+[INFO] │ │ │ │ │ ├── d@1.0.0  deduped
+[INFO] │ │ │ │ │ ├── es5-ext@0.10.35  deduped
+[INFO] │ │ │ │ │ └── es6-symbol@3.1.1  deduped
+[INFO] │ │ │ │ ├─┬ es6-set@0.1.5 
+[INFO] │ │ │ │ │ ├── d@1.0.0  deduped
+[INFO] │ │ │ │ │ ├── es5-ext@0.10.35  deduped
+[INFO] │ │ │ │ │ ├── es6-iterator@2.0.3  deduped
+[INFO] │ │ │ │ │ ├── es6-symbol@3.1.1  deduped
+[INFO] │ │ │ │ │ └── event-emitter@0.3.5  deduped
+[INFO] │ │ │ │ ├─┬ es6-symbol@3.1.1 
+[INFO] │ │ │ │ │ ├── d@1.0.0  deduped
+[INFO] │ │ │ │ │ └── es5-ext@0.10.35  deduped
+[INFO] │ │ │ │ └─┬ event-emitter@0.3.5 
+[INFO] │ │ │ │   ├── d@1.0.0  deduped
+[INFO] │ │ │ │   └── es5-ext@0.10.35  deduped
+[INFO] │ │ │ ├─┬ es6-weak-map@2.0.2 
+[INFO] │ │ │ │ ├── d@1.0.0  deduped
+[INFO] │ │ │ │ ├── es5-ext@0.10.35  deduped
+[INFO] │ │ │ │ ├── es6-iterator@2.0.3  deduped
+[INFO] │ │ │ │ └── es6-symbol@3.1.1  deduped
+[INFO] │ │ │ ├─┬ esrecurse@4.2.0 
+[INFO] │ │ │ │ ├── estraverse@4.2.0  deduped
+[INFO] │ │ │ │ └── object-assign@4.1.1  deduped
+[INFO] │ │ │ └── estraverse@4.2.0 
+[INFO] │ │ ├── interpret@1.0.4 
+[INFO] │ │ ├── json-loader@0.5.7 
+[INFO] │ │ ├── json5@0.5.1 
+[INFO] │ │ ├── loader-runner@2.3.0 
+[INFO] │ │ ├── loader-utils@1.1.0  deduped
+[INFO] │ │ ├── memory-fs@0.4.1  deduped
+[INFO] │ │ ├── mkdirp@0.5.1  deduped
+[INFO] │ │ ├─┬ node-libs-browser@2.1.0 
+[INFO] │ │ │ ├─┬ assert@1.4.1 
+[INFO] │ │ │ │ └── util@0.10.3  deduped
+[INFO] │ │ │ ├─┬ browserify-zlib@0.2.0 
+[INFO] │ │ │ │ └── pako@1.0.6 
+[INFO] │ │ │ ├─┬ buffer@4.9.1 
+[INFO] │ │ │ │ ├── base64-js@1.2.1 
+[INFO] │ │ │ │ ├── ieee754@1.1.8 
+[INFO] │ │ │ │ └── isarray@1.0.0 
+[INFO] │ │ │ ├─┬ console-browserify@1.1.0 
+[INFO] │ │ │ │ └── date-now@0.1.4 
+[INFO] │ │ │ ├── constants-browserify@1.0.0 
+[INFO] │ │ │ ├─┬ crypto-browserify@3.12.0 
+[INFO] │ │ │ │ ├─┬ browserify-cipher@1.0.0 
+[INFO] │ │ │ │ │ ├─┬ browserify-aes@1.1.1 
+[INFO] │ │ │ │ │ │ ├── buffer-xor@1.0.3 
+[INFO] │ │ │ │ │ │ ├── cipher-base@1.0.4  deduped
+[INFO] │ │ │ │ │ │ ├── create-hash@1.1.3  deduped
+[INFO] │ │ │ │ │ │ ├── evp_bytestokey@1.0.3  deduped
+[INFO] │ │ │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │ │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │ │ ├─┬ browserify-des@1.0.0 
+[INFO] │ │ │ │ │ │ ├── cipher-base@1.0.4  deduped
+[INFO] │ │ │ │ │ │ ├─┬ des.js@1.0.0 
+[INFO] │ │ │ │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │ │ │ └── minimalistic-assert@1.0.0  deduped
+[INFO] │ │ │ │ │ │ └── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │ └─┬ evp_bytestokey@1.0.3 
+[INFO] │ │ │ │ │   ├─┬ md5.js@1.3.4 
+[INFO] │ │ │ │ │   │ ├─┬ hash-base@3.0.4 
+[INFO] │ │ │ │ │   │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │   │ │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │ │   │ └── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │   └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │ ├─┬ browserify-sign@4.0.4 
+[INFO] │ │ │ │ │ ├── bn.js@4.11.8 
+[INFO] │ │ │ │ │ ├─┬ browserify-rsa@4.0.1 
+[INFO] │ │ │ │ │ │ ├── bn.js@4.11.8  deduped
+[INFO] │ │ │ │ │ │ └── randombytes@2.0.5  deduped
+[INFO] │ │ │ │ │ ├── create-hash@1.1.3  deduped
+[INFO] │ │ │ │ │ ├── create-hmac@1.1.6  deduped
+[INFO] │ │ │ │ │ ├─┬ elliptic@6.4.0 
+[INFO] │ │ │ │ │ │ ├── bn.js@4.11.8  deduped
+[INFO] │ │ │ │ │ │ ├── brorand@1.1.0 
+[INFO] │ │ │ │ │ │ ├─┬ hash.js@1.1.3 
+[INFO] │ │ │ │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │ │ │ └── minimalistic-assert@1.0.0  deduped
+[INFO] │ │ │ │ │ │ ├─┬ hmac-drbg@1.0.1 
+[INFO] │ │ │ │ │ │ │ ├── hash.js@1.1.3  deduped
+[INFO] │ │ │ │ │ │ │ ├── minimalistic-assert@1.0.0  deduped
+[INFO] │ │ │ │ │ │ │ └── minimalistic-crypto-utils@1.0.1  deduped
+[INFO] │ │ │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │ │ ├── minimalistic-assert@1.0.0  deduped
+[INFO] │ │ │ │ │ │ └── minimalistic-crypto-utils@1.0.1 
+[INFO] │ │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │ └─┬ parse-asn1@5.1.0 
+[INFO] │ │ │ │ │   ├─┬ asn1.js@4.9.2 
+[INFO] │ │ │ │ │   │ ├── bn.js@4.11.8  deduped
+[INFO] │ │ │ │ │   │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │   │ └── minimalistic-assert@1.0.0  deduped
+[INFO] │ │ │ │ │   ├── browserify-aes@1.1.1  deduped
+[INFO] │ │ │ │ │   ├── create-hash@1.1.3  deduped
+[INFO] │ │ │ │ │   ├── evp_bytestokey@1.0.3  deduped
+[INFO] │ │ │ │ │   └── pbkdf2@3.0.14  deduped
+[INFO] │ │ │ │ ├─┬ create-ecdh@4.0.0 
+[INFO] │ │ │ │ │ ├── bn.js@4.11.8  deduped
+[INFO] │ │ │ │ │ └── elliptic@6.4.0  deduped
+[INFO] │ │ │ │ ├─┬ create-hash@1.1.3 
+[INFO] │ │ │ │ │ ├─┬ cipher-base@1.0.4 
+[INFO] │ │ │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │ │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │ ├─┬ ripemd160@2.0.1 
+[INFO] │ │ │ │ │ │ ├─┬ hash-base@2.0.2 
+[INFO] │ │ │ │ │ │ │ └── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │ │ └── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │ └─┬ sha.js@2.4.9 
+[INFO] │ │ │ │ │   ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │   └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │ ├─┬ create-hmac@1.1.6 
+[INFO] │ │ │ │ │ ├── cipher-base@1.0.4  deduped
+[INFO] │ │ │ │ │ ├── create-hash@1.1.3  deduped
+[INFO] │ │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │ ├── ripemd160@2.0.1  deduped
+[INFO] │ │ │ │ │ ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │ │ └── sha.js@2.4.9  deduped
+[INFO] │ │ │ │ ├─┬ diffie-hellman@5.0.2 
+[INFO] │ │ │ │ │ ├── bn.js@4.11.8  deduped
+[INFO] │ │ │ │ │ ├─┬ miller-rabin@4.0.1 
+[INFO] │ │ │ │ │ │ ├── bn.js@4.11.8  deduped
+[INFO] │ │ │ │ │ │ └── brorand@1.1.0  deduped
+[INFO] │ │ │ │ │ └── randombytes@2.0.5  deduped
+[INFO] │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ ├─┬ pbkdf2@3.0.14 
+[INFO] │ │ │ │ │ ├── create-hash@1.1.3  deduped
+[INFO] │ │ │ │ │ ├── create-hmac@1.1.6  deduped
+[INFO] │ │ │ │ │ ├── ripemd160@2.0.1  deduped
+[INFO] │ │ │ │ │ ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │ │ └── sha.js@2.4.9  deduped
+[INFO] │ │ │ │ ├─┬ public-encrypt@4.0.0 
+[INFO] │ │ │ │ │ ├── bn.js@4.11.8  deduped
+[INFO] │ │ │ │ │ ├── browserify-rsa@4.0.1  deduped
+[INFO] │ │ │ │ │ ├── create-hash@1.1.3  deduped
+[INFO] │ │ │ │ │ ├── parse-asn1@5.1.0  deduped
+[INFO] │ │ │ │ │ └── randombytes@2.0.5  deduped
+[INFO] │ │ │ │ ├─┬ randombytes@2.0.5 
+[INFO] │ │ │ │ │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │ └─┬ randomfill@1.0.3 
+[INFO] │ │ │ │   ├── randombytes@2.0.5  deduped
+[INFO] │ │ │ │   └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ ├── domain-browser@1.1.7 
+[INFO] │ │ │ ├── events@1.1.1 
+[INFO] │ │ │ ├── https-browserify@1.0.0 
+[INFO] │ │ │ ├── os-browserify@0.3.0 
+[INFO] │ │ │ ├── path-browserify@0.0.0 
+[INFO] │ │ │ ├── process@0.11.10 
+[INFO] │ │ │ ├── punycode@1.4.1 
+[INFO] │ │ │ ├── querystring-es3@0.2.1 
+[INFO] │ │ │ ├─┬ readable-stream@2.3.3 
+[INFO] │ │ │ │ ├── core-util-is@1.0.2  deduped
+[INFO] │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ ├── isarray@1.0.0 
+[INFO] │ │ │ │ ├── process-nextick-args@1.0.7  deduped
+[INFO] │ │ │ │ ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │ ├── string_decoder@1.0.3  deduped
+[INFO] │ │ │ │ └── util-deprecate@1.0.2  deduped
+[INFO] │ │ │ ├─┬ stream-browserify@2.0.1 
+[INFO] │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ └─┬ readable-stream@2.3.3 
+[INFO] │ │ │ │   ├── core-util-is@1.0.2  deduped
+[INFO] │ │ │ │   ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │   ├── isarray@1.0.0 
+[INFO] │ │ │ │   ├── process-nextick-args@1.0.7  deduped
+[INFO] │ │ │ │   ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │   ├─┬ string_decoder@1.0.3 
+[INFO] │ │ │ │   │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │   └── util-deprecate@1.0.2  deduped
+[INFO] │ │ │ ├─┬ stream-http@2.7.2 
+[INFO] │ │ │ │ ├── builtin-status-codes@3.0.0 
+[INFO] │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ ├─┬ readable-stream@2.3.3 
+[INFO] │ │ │ │ │ ├── core-util-is@1.0.2  deduped
+[INFO] │ │ │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ │ │ ├── isarray@1.0.0 
+[INFO] │ │ │ │ │ ├── process-nextick-args@1.0.7  deduped
+[INFO] │ │ │ │ │ ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │ │ ├─┬ string_decoder@1.0.3 
+[INFO] │ │ │ │ │ │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │ │ └── util-deprecate@1.0.2  deduped
+[INFO] │ │ │ │ ├── to-arraybuffer@1.0.1 
+[INFO] │ │ │ │ └── xtend@4.0.1 
+[INFO] │ │ │ ├─┬ string_decoder@1.0.3 
+[INFO] │ │ │ │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ ├─┬ timers-browserify@2.0.4 
+[INFO] │ │ │ │ └── setimmediate@1.0.5 
+[INFO] │ │ │ ├── tty-browserify@0.0.0 
+[INFO] │ │ │ ├─┬ url@0.11.0 
+[INFO] │ │ │ │ ├── punycode@1.3.2 
+[INFO] │ │ │ │ └── querystring@0.2.0 
+[INFO] │ │ │ ├─┬ util@0.10.3 
+[INFO] │ │ │ │ └── inherits@2.0.1 
+[INFO] │ │ │ └─┬ vm-browserify@0.0.4 
+[INFO] │ │ │   └── indexof@0.0.1  deduped
+[INFO] │ │ ├── source-map@0.5.7  deduped
+[INFO] │ │ ├─┬ supports-color@4.5.0 
+[INFO] │ │ │ └── has-flag@2.0.0 
+[INFO] │ │ ├── tapable@0.2.8 
+[INFO] │ │ ├─┬ uglifyjs-webpack-plugin@0.4.6 
+[INFO] │ │ │ ├── source-map@0.5.7  deduped
+[INFO] │ │ │ ├─┬ uglify-js@2.8.29 
+[INFO] │ │ │ │ ├── source-map@0.5.7  deduped
+[INFO] │ │ │ │ ├── uglify-to-browserify@1.0.2 
+[INFO] │ │ │ │ └─┬ yargs@3.10.0 
+[INFO] │ │ │ │   ├── camelcase@1.2.1 
+[INFO] │ │ │ │   ├─┬ cliui@2.1.0 
+[INFO] │ │ │ │   │ ├─┬ center-align@0.1.3 
+[INFO] │ │ │ │   │ │ ├─┬ align-text@0.1.4 
+[INFO] │ │ │ │   │ │ │ ├── kind-of@3.2.2  deduped
+[INFO] │ │ │ │   │ │ │ ├── longest@1.0.1 
+[INFO] │ │ │ │   │ │ │ └── repeat-string@1.6.1  deduped
+[INFO] │ │ │ │   │ │ └── lazy-cache@1.0.4 
+[INFO] │ │ │ │   │ ├─┬ right-align@0.1.3 
+[INFO] │ │ │ │   │ │ └── align-text@0.1.4  deduped
+[INFO] │ │ │ │   │ └── wordwrap@0.0.2 
+[INFO] │ │ │ │   ├── decamelize@1.2.0  deduped
+[INFO] │ │ │ │   └── window-size@0.1.0 
+[INFO] │ │ │ └── webpack-sources@1.0.2  deduped
+[INFO] │ │ ├─┬ watchpack@1.4.0 
+[INFO] │ │ │ ├── async@2.6.0  deduped
+[INFO] │ │ │ ├── chokidar@1.7.0  deduped
+[INFO] │ │ │ └── graceful-fs@4.1.11  deduped
+[INFO] │ │ ├── webpack-sources@1.0.2  deduped
+[INFO] │ │ └─┬ yargs@8.0.2 
+[INFO] │ │   ├── camelcase@4.1.0 
+[INFO] │ │   ├─┬ cliui@3.2.0 
+[INFO] │ │   │ ├─┬ string-width@1.0.2 
+[INFO] │ │   │ │ ├── code-point-at@1.1.0  deduped
+[INFO] │ │   │ │ ├─┬ is-fullwidth-code-point@1.0.0 
+[INFO] │ │   │ │ │ └── number-is-nan@1.0.1  deduped
+[INFO] │ │   │ │ └── strip-ansi@3.0.1  deduped
+[INFO] │ │   │ ├── strip-ansi@3.0.1  deduped
+[INFO] │ │   │ └─┬ wrap-ansi@2.1.0 
+[INFO] │ │   │   ├─┬ string-width@1.0.2 
+[INFO] │ │   │   │ ├── code-point-at@1.1.0  deduped
+[INFO] │ │   │   │ ├─┬ is-fullwidth-code-point@1.0.0 
+[INFO] │ │   │   │ │ └── number-is-nan@1.0.1  deduped
+[INFO] │ │   │   │ └── strip-ansi@3.0.1  deduped
+[INFO] │ │   │   └── strip-ansi@3.0.1  deduped
+[INFO] │ │   ├── decamelize@1.2.0  deduped
+[INFO] │ │   ├── get-caller-file@1.0.2  deduped
+[INFO] │ │   ├─┬ os-locale@2.1.0 
+[INFO] │ │   │ ├─┬ execa@0.7.0 
+[INFO] │ │   │ │ ├─┬ cross-spawn@5.1.0 
+[INFO] │ │   │ │ │ ├── lru-cache@4.1.1  deduped
+[INFO] │ │   │ │ │ ├─┬ shebang-command@1.2.0 
+[INFO] │ │   │ │ │ │ └── shebang-regex@1.0.0 
+[INFO] │ │   │ │ │ └── which@1.3.0  deduped
+[INFO] │ │   │ │ ├── get-stream@3.0.0 
+[INFO] │ │   │ │ ├── is-stream@1.1.0 
+[INFO] │ │   │ │ ├─┬ npm-run-path@2.0.2 
+[INFO] │ │   │ │ │ └── path-key@2.0.1 
+[INFO] │ │   │ │ ├── p-finally@1.0.0 
+[INFO] │ │   │ │ ├── signal-exit@3.0.2  deduped
+[INFO] │ │   │ │ └── strip-eof@1.0.0 
+[INFO] │ │   │ ├─┬ lcid@1.0.0 
+[INFO] │ │   │ │ └── invert-kv@1.0.0 
+[INFO] │ │   │ └─┬ mem@1.1.0 
+[INFO] │ │   │   └── mimic-fn@1.1.0  deduped
+[INFO] │ │   ├─┬ read-pkg-up@2.0.0 
+[INFO] │ │   │ ├─┬ find-up@2.1.0 
+[INFO] │ │   │ │ └─┬ locate-path@2.0.0 
+[INFO] │ │   │ │   ├─┬ p-locate@2.0.0 
+[INFO] │ │   │ │   │ └── p-limit@1.1.0 
+[INFO] │ │   │ │   └── path-exists@3.0.0 
+[INFO] │ │   │ └─┬ read-pkg@2.0.0 
+[INFO] │ │   │   ├─┬ load-json-file@2.0.0 
+[INFO] │ │   │   │ ├── graceful-fs@4.1.11  deduped
+[INFO] │ │   │   │ ├── parse-json@2.2.0  deduped
+[INFO] │ │   │   │ ├── pify@2.3.0  deduped
+[INFO] │ │   │   │ └── strip-bom@3.0.0 
+[INFO] │ │   │   ├── normalize-package-data@2.4.0  deduped
+[INFO] │ │   │   └─┬ path-type@2.0.0 
+[INFO] │ │   │     └── pify@2.3.0  deduped
+[INFO] │ │   ├── require-directory@2.1.1 
+[INFO] │ │   ├── require-main-filename@1.0.1 
+[INFO] │ │   ├── set-blocking@2.0.0  deduped
+[INFO] │ │   ├── string-width@2.1.1  deduped
+[INFO] │ │   ├── which-module@2.0.0 
+[INFO] │ │   ├── y18n@3.2.1 
+[INFO] │ │   └─┬ yargs-parser@7.0.0 
+[INFO] │ │     └── camelcase@4.1.0  deduped
+[INFO] │ ├─┬ webpack-dev-middleware@1.12.0 
+[INFO] │ │ ├── memory-fs@0.4.1  deduped
+[INFO] │ │ ├── mime@1.4.1  deduped
+[INFO] │ │ ├── path-is-absolute@1.0.1  deduped
+[INFO] │ │ ├── range-parser@1.2.0  deduped
+[INFO] │ │ └── time-stamp@2.0.0 
+[INFO] │ ├─┬ webpack-dev-server@2.5.1 
+[INFO] │ │ ├── ansi-html@0.0.7 
+[INFO] │ │ ├─┬ bonjour@3.5.0 
+[INFO] │ │ │ ├── array-flatten@2.1.1 
+[INFO] │ │ │ ├── deep-equal@1.0.1 
+[INFO] │ │ │ ├── dns-equal@1.0.0 
+[INFO] │ │ │ ├─┬ dns-txt@2.0.2 
+[INFO] │ │ │ │ └── buffer-indexof@1.1.1 
+[INFO] │ │ │ ├─┬ multicast-dns@6.2.0 
+[INFO] │ │ │ │ ├─┬ dns-packet@1.2.2 
+[INFO] │ │ │ │ │ ├── ip@1.1.5 
+[INFO] │ │ │ │ │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ │ └── thunky@0.1.0 
+[INFO] │ │ │ └── multicast-dns-service-types@1.1.0 
+[INFO] │ │ ├── chokidar@1.7.0  deduped
+[INFO] │ │ ├─┬ compression@1.7.1 
+[INFO] │ │ │ ├─┬ accepts@1.3.4 
+[INFO] │ │ │ │ ├── mime-types@2.1.17  deduped
+[INFO] │ │ │ │ └── negotiator@0.6.1 
+[INFO] │ │ │ ├── bytes@3.0.0  deduped
+[INFO] │ │ │ ├─┬ compressible@2.0.12 
+[INFO] │ │ │ │ └── mime-db@1.30.0  deduped
+[INFO] │ │ │ ├── debug@2.6.9  deduped
+[INFO] │ │ │ ├── on-headers@1.0.1 
+[INFO] │ │ │ ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ └── vary@1.1.2 
+[INFO] │ │ ├── connect-history-api-fallback@1.5.0 
+[INFO] │ │ ├─┬ del@3.0.0 
+[INFO] │ │ │ ├─┬ globby@6.1.0 
+[INFO] │ │ │ │ ├─┬ array-union@1.0.2 
+[INFO] │ │ │ │ │ └── array-uniq@1.0.3 
+[INFO] │ │ │ │ ├── glob@7.1.2  deduped
+[INFO] │ │ │ │ ├── object-assign@4.1.1  deduped
+[INFO] │ │ │ │ ├── pify@2.3.0  deduped
+[INFO] │ │ │ │ └── pinkie-promise@2.0.1  deduped
+[INFO] │ │ │ ├── is-path-cwd@1.0.0 
+[INFO] │ │ │ ├─┬ is-path-in-cwd@1.0.0 
+[INFO] │ │ │ │ └─┬ is-path-inside@1.0.0 
+[INFO] │ │ │ │   └── path-is-inside@1.0.2 
+[INFO] │ │ │ ├── p-map@1.2.0 
+[INFO] │ │ │ ├── pify@3.0.0 
+[INFO] │ │ │ └── rimraf@2.6.2  deduped
+[INFO] │ │ ├─┬ express@4.16.2 
+[INFO] │ │ │ ├── accepts@1.3.4  deduped
+[INFO] │ │ │ ├── array-flatten@1.1.1 
+[INFO] │ │ │ ├── body-parser@1.18.2  deduped
+[INFO] │ │ │ ├── content-disposition@0.5.2 
+[INFO] │ │ │ ├── content-type@1.0.4  deduped
+[INFO] │ │ │ ├── cookie@0.3.1 
+[INFO] │ │ │ ├── cookie-signature@1.0.6 
+[INFO] │ │ │ ├── debug@2.6.9  deduped
+[INFO] │ │ │ ├── depd@1.1.1  deduped
+[INFO] │ │ │ ├── encodeurl@1.0.1 
+[INFO] │ │ │ ├── escape-html@1.0.3 
+[INFO] │ │ │ ├── etag@1.8.1 
+[INFO] │ │ │ ├─┬ finalhandler@1.1.0 
+[INFO] │ │ │ │ ├── debug@2.6.9  deduped
+[INFO] │ │ │ │ ├── encodeurl@1.0.1  deduped
+[INFO] │ │ │ │ ├── escape-html@1.0.3  deduped
+[INFO] │ │ │ │ ├── on-finished@2.3.0  deduped
+[INFO] │ │ │ │ ├── parseurl@1.3.2  deduped
+[INFO] │ │ │ │ ├── statuses@1.3.1  deduped
+[INFO] │ │ │ │ └── unpipe@1.0.0  deduped
+[INFO] │ │ │ ├── fresh@0.5.2 
+[INFO] │ │ │ ├── merge-descriptors@1.0.1 
+[INFO] │ │ │ ├── methods@1.1.2 
+[INFO] │ │ │ ├── on-finished@2.3.0  deduped
+[INFO] │ │ │ ├── parseurl@1.3.2  deduped
+[INFO] │ │ │ ├── path-to-regexp@0.1.7 
+[INFO] │ │ │ ├─┬ proxy-addr@2.0.2 
+[INFO] │ │ │ │ ├── forwarded@0.1.2 
+[INFO] │ │ │ │ └── ipaddr.js@1.5.2 
+[INFO] │ │ │ ├── qs@6.5.1 
+[INFO] │ │ │ ├── range-parser@1.2.0  deduped
+[INFO] │ │ │ ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ ├─┬ send@0.16.1 
+[INFO] │ │ │ │ ├── debug@2.6.9  deduped
+[INFO] │ │ │ │ ├── depd@1.1.1  deduped
+[INFO] │ │ │ │ ├── destroy@1.0.4 
+[INFO] │ │ │ │ ├── encodeurl@1.0.1  deduped
+[INFO] │ │ │ │ ├── escape-html@1.0.3  deduped
+[INFO] │ │ │ │ ├── etag@1.8.1  deduped
+[INFO] │ │ │ │ ├── fresh@0.5.2  deduped
+[INFO] │ │ │ │ ├── http-errors@1.6.2  deduped
+[INFO] │ │ │ │ ├── mime@1.4.1  deduped
+[INFO] │ │ │ │ ├── ms@2.0.0  deduped
+[INFO] │ │ │ │ ├── on-finished@2.3.0  deduped
+[INFO] │ │ │ │ ├── range-parser@1.2.0  deduped
+[INFO] │ │ │ │ └── statuses@1.3.1  deduped
+[INFO] │ │ │ ├─┬ serve-static@1.13.1 
+[INFO] │ │ │ │ ├── encodeurl@1.0.1  deduped
+[INFO] │ │ │ │ ├── escape-html@1.0.3  deduped
+[INFO] │ │ │ │ ├── parseurl@1.3.2  deduped
+[INFO] │ │ │ │ └── send@0.16.1  deduped
+[INFO] │ │ │ ├── setprototypeof@1.1.0 
+[INFO] │ │ │ ├── statuses@1.3.1 
+[INFO] │ │ │ ├── type-is@1.6.15  deduped
+[INFO] │ │ │ ├── utils-merge@1.0.1  deduped
+[INFO] │ │ │ └── vary@1.1.2  deduped
+[INFO] │ │ ├── html-entities@1.2.1 
+[INFO] │ │ ├─┬ http-proxy-middleware@0.17.4 
+[INFO] │ │ │ ├── http-proxy@1.16.2  deduped
+[INFO] │ │ │ ├─┬ is-glob@3.1.0 
+[INFO] │ │ │ │ └── is-extglob@2.1.1 
+[INFO] │ │ │ ├── lodash@4.17.4  deduped
+[INFO] │ │ │ └─┬ micromatch@2.3.11 
+[INFO] │ │ │   ├─┬ arr-diff@2.0.0 
+[INFO] │ │ │   │ └── arr-flatten@1.1.0 
+[INFO] │ │ │   ├── array-unique@0.2.1  deduped
+[INFO] │ │ │   ├─┬ braces@1.8.5 
+[INFO] │ │ │   │ ├─┬ expand-range@1.8.2 
+[INFO] │ │ │   │ │ └─┬ fill-range@2.2.3 
+[INFO] │ │ │   │ │   ├─┬ is-number@2.1.0 
+[INFO] │ │ │   │ │   │ └── kind-of@3.2.2  deduped
+[INFO] │ │ │   │ │   ├─┬ isobject@2.1.0 
+[INFO] │ │ │   │ │   │ └── isarray@1.0.0 
+[INFO] │ │ │   │ │   ├─┬ randomatic@1.1.7 
+[INFO] │ │ │   │ │   │ ├─┬ is-number@3.0.0 
+[INFO] │ │ │   │ │   │ │ └─┬ kind-of@3.2.2 
+[INFO] │ │ │   │ │   │ │   └── is-buffer@1.1.6  deduped
+[INFO] │ │ │   │ │   │ └─┬ kind-of@4.0.0 
+[INFO] │ │ │   │ │   │   └── is-buffer@1.1.6  deduped
+[INFO] │ │ │   │ │   ├── repeat-element@1.1.2  deduped
+[INFO] │ │ │   │ │   └── repeat-string@1.6.1 
+[INFO] │ │ │   │ ├── preserve@0.2.0 
+[INFO] │ │ │   │ └── repeat-element@1.1.2 
+[INFO] │ │ │   ├─┬ expand-brackets@0.1.5 
+[INFO] │ │ │   │ └── is-posix-bracket@0.1.1 
+[INFO] │ │ │   ├─┬ extglob@0.3.2 
+[INFO] │ │ │   │ └── is-extglob@1.0.0  deduped
+[INFO] │ │ │   ├── filename-regex@2.0.1 
+[INFO] │ │ │   ├── is-extglob@1.0.0  deduped
+[INFO] │ │ │   ├── is-glob@2.0.1  deduped
+[INFO] │ │ │   ├── kind-of@3.2.2  deduped
+[INFO] │ │ │   ├── normalize-path@2.1.1  deduped
+[INFO] │ │ │   ├─┬ object.omit@2.0.1 
+[INFO] │ │ │   │ ├─┬ for-own@0.1.5 
+[INFO] │ │ │   │ │ └── for-in@1.0.2  deduped
+[INFO] │ │ │   │ └── is-extendable@0.1.1  deduped
+[INFO] │ │ │   ├─┬ parse-glob@3.0.4 
+[INFO] │ │ │   │ ├─┬ glob-base@0.3.0 
+[INFO] │ │ │   │ │ ├── glob-parent@2.0.0  deduped
+[INFO] │ │ │   │ │ └── is-glob@2.0.1  deduped
+[INFO] │ │ │   │ ├── is-dotfile@1.0.3 
+[INFO] │ │ │   │ ├── is-extglob@1.0.0  deduped
+[INFO] │ │ │   │ └── is-glob@2.0.1  deduped
+[INFO] │ │ │   └─┬ regex-cache@0.4.4 
+[INFO] │ │ │     └─┬ is-equal-shallow@0.1.3 
+[INFO] │ │ │       └── is-primitive@2.0.0 
+[INFO] │ │ ├─┬ internal-ip@1.2.0 
+[INFO] │ │ │ └── meow@3.7.0  deduped
+[INFO] │ │ ├─┬ opn@4.0.2 
+[INFO] │ │ │ ├── object-assign@4.1.1  deduped
+[INFO] │ │ │ └─┬ pinkie-promise@2.0.1 
+[INFO] │ │ │   └── pinkie@2.0.4 
+[INFO] │ │ ├── portfinder@1.0.13  deduped
+[INFO] │ │ ├─┬ selfsigned@1.10.1 
+[INFO] │ │ │ └── node-forge@0.6.33 
+[INFO] │ │ ├─┬ serve-index@1.9.1 
+[INFO] │ │ │ ├── accepts@1.3.4  deduped
+[INFO] │ │ │ ├── batch@0.6.1 
+[INFO] │ │ │ ├── debug@2.6.9  deduped
+[INFO] │ │ │ ├── escape-html@1.0.3  deduped
+[INFO] │ │ │ ├── http-errors@1.6.2  deduped
+[INFO] │ │ │ ├── mime-types@2.1.17  deduped
+[INFO] │ │ │ └── parseurl@1.3.2  deduped
+[INFO] │ │ ├─┬ sockjs@0.3.18 
+[INFO] │ │ │ ├─┬ faye-websocket@0.10.0 
+[INFO] │ │ │ │ └─┬ websocket-driver@0.7.0 
+[INFO] │ │ │ │   ├── http-parser-js@0.4.9 
+[INFO] │ │ │ │   └── websocket-extensions@0.1.3 
+[INFO] │ │ │ └── uuid@2.0.3 
+[INFO] │ │ ├─┬ sockjs-client@1.1.2 
+[INFO] │ │ │ ├── debug@2.6.9  deduped
+[INFO] │ │ │ ├─┬ eventsource@0.1.6 
+[INFO] │ │ │ │ └─┬ original@1.0.0 
+[INFO] │ │ │ │   └─┬ url-parse@1.0.5 
+[INFO] │ │ │ │     ├── querystringify@0.0.4 
+[INFO] │ │ │ │     └── requires-port@1.0.0  deduped
+[INFO] │ │ │ ├─┬ faye-websocket@0.11.1 
+[INFO] │ │ │ │ └── websocket-driver@0.7.0  deduped
+[INFO] │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ ├── json3@3.3.2 
+[INFO] │ │ │ └─┬ url-parse@1.2.0 
+[INFO] │ │ │   ├── querystringify@1.0.0 
+[INFO] │ │ │   └── requires-port@1.0.0  deduped
+[INFO] │ │ ├─┬ spdy@3.4.7 
+[INFO] │ │ │ ├── debug@2.6.9  deduped
+[INFO] │ │ │ ├── handle-thing@1.2.5 
+[INFO] │ │ │ ├── http-deceiver@1.2.7 
+[INFO] │ │ │ ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │ ├── select-hose@2.0.0 
+[INFO] │ │ │ └─┬ spdy-transport@2.0.20 
+[INFO] │ │ │   ├── debug@2.6.9  deduped
+[INFO] │ │ │   ├── detect-node@2.0.3 
+[INFO] │ │ │   ├─┬ hpack.js@2.1.6 
+[INFO] │ │ │   │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │   │ ├── obuf@1.1.1  deduped
+[INFO] │ │ │   │ ├─┬ readable-stream@2.3.3 
+[INFO] │ │ │   │ │ ├── core-util-is@1.0.2  deduped
+[INFO] │ │ │   │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │   │ │ ├── isarray@1.0.0 
+[INFO] │ │ │   │ │ ├── process-nextick-args@1.0.7  deduped
+[INFO] │ │ │   │ │ ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │   │ │ ├─┬ string_decoder@1.0.3 
+[INFO] │ │ │   │ │ │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │   │ │ └── util-deprecate@1.0.2  deduped
+[INFO] │ │ │   │ └── wbuf@1.7.2  deduped
+[INFO] │ │ │   ├── obuf@1.1.1 
+[INFO] │ │ │   ├─┬ readable-stream@2.3.3 
+[INFO] │ │ │   │ ├── core-util-is@1.0.2  deduped
+[INFO] │ │ │   │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │   │ ├── isarray@1.0.0 
+[INFO] │ │ │   │ ├── process-nextick-args@1.0.7  deduped
+[INFO] │ │ │   │ ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │   │ ├─┬ string_decoder@1.0.3 
+[INFO] │ │ │   │ │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │ │   │ └── util-deprecate@1.0.2  deduped
+[INFO] │ │ │   ├── safe-buffer@5.1.1  deduped
+[INFO] │ │ │   └─┬ wbuf@1.7.2 
+[INFO] │ │ │     └── minimalistic-assert@1.0.0 
+[INFO] │ │ ├─┬ strip-ansi@3.0.1 
+[INFO] │ │ │ └── ansi-regex@2.1.1 
+[INFO] │ │ ├─┬ supports-color@3.2.3 
+[INFO] │ │ │ └── has-flag@1.0.0 
+[INFO] │ │ ├── webpack-dev-middleware@1.12.0  deduped
+[INFO] │ │ └─┬ yargs@6.6.0 
+[INFO] │ │   ├── camelcase@3.0.0 
+[INFO] │ │   ├── cliui@3.2.0  deduped
+[INFO] │ │   ├── decamelize@1.2.0  deduped
+[INFO] │ │   ├── get-caller-file@1.0.2  deduped
+[INFO] │ │   ├─┬ os-locale@1.4.0 
+[INFO] │ │   │ └── lcid@1.0.0  deduped
+[INFO] │ │   ├── read-pkg-up@1.0.1  deduped
+[INFO] │ │   ├── require-directory@2.1.1  deduped
+[INFO] │ │   ├── require-main-filename@1.0.1  deduped
+[INFO] │ │   ├── set-blocking@2.0.0  deduped
+[INFO] │ │   ├─┬ string-width@1.0.2 
+[INFO] │ │   │ ├── code-point-at@1.1.0 
+[INFO] │ │   │ ├─┬ is-fullwidth-code-point@1.0.0 
+[INFO] │ │   │ │ └── number-is-nan@1.0.1 
+[INFO] │ │   │ └── strip-ansi@3.0.1  deduped
+[INFO] │ │   ├── which-module@1.0.0 
+[INFO] │ │   ├── y18n@3.2.1  deduped
+[INFO] │ │   └─┬ yargs-parser@4.2.1 
+[INFO] │ │     └── camelcase@3.0.0  deduped
+[INFO] │ ├─┬ webpack-merge@4.1.1 
+[INFO] │ │ └── lodash@4.17.4  deduped
+[INFO] │ └── zone.js@0.8.18  deduped
+[INFO] ├─┬ @angular/common@4.4.6 
+[INFO] │ └── tslib@1.8.0  deduped
+[INFO] ├─┬ @angular/compiler@4.4.6 
+[INFO] │ └── tslib@1.8.0  deduped
+[INFO] ├─┬ @angular/compiler-cli@4.4.6 
+[INFO] │ ├─┬ @angular/tsc-wrapped@4.4.6 
+[INFO] │ │ └─┬ tsickle@0.21.6 
+[INFO] │ │   ├── minimist@1.2.0 
+[INFO] │ │   ├── mkdirp@0.5.1  deduped
+[INFO] │ │   ├── source-map@0.5.7  deduped
+[INFO] │ │   └── source-map-support@0.4.18  deduped
+[INFO] │ ├── minimist@1.2.0 
+[INFO] │ └── reflect-metadata@0.1.10 
+[INFO] ├─┬ @angular/core@4.4.6 
+[INFO] │ └── tslib@1.8.0  deduped
+[INFO] ├─┬ @angular/forms@4.4.6 
+[INFO] │ └── tslib@1.8.0  deduped
+[INFO] ├─┬ @angular/http@4.4.6 
+[INFO] │ └── tslib@1.8.0  deduped
+[INFO] ├── @angular/language-service@4.4.6 
+[INFO] ├─┬ @angular/platform-browser@4.4.6 
+[INFO] │ └── tslib@1.8.0  deduped
+[INFO] ├─┬ @angular/platform-browser-dynamic@4.4.6 
+[INFO] │ └── tslib@1.8.0  deduped
+[INFO] ├─┬ @angular/router@4.4.6 
+[INFO] │ └── tslib@1.8.0  deduped
+[INFO] ├── @types/jasmine@2.5.54 
+[INFO] ├─┬ @types/jasminewd2@2.0.3 
+[INFO] │ └── @types/jasmine@2.5.54  deduped
+[INFO] ├── @types/node@6.0.92 
+[INFO] ├── bootstrap@3.3.7 
+[INFO] ├─┬ codelyzer@3.1.2 
+[INFO] │ ├── app-root-path@2.0.1 
+[INFO] │ ├─┬ css-selector-tokenizer@0.7.0 
+[INFO] │ │ ├── cssesc@0.1.0 
+[INFO] │ │ ├── fastparse@1.1.1 
+[INFO] │ │ └─┬ regexpu-core@1.0.0 
+[INFO] │ │   ├── regenerate@1.3.3 
+[INFO] │ │   ├── regjsgen@0.2.0 
+[INFO] │ │   └─┬ regjsparser@0.1.5 
+[INFO] │ │     └── jsesc@0.5.0 
+[INFO] │ ├─┬ cssauron@1.4.0 
+[INFO] │ │ └── through@2.3.8  deduped
+[INFO] │ ├─┬ semver-dsl@1.0.1 
+[INFO] │ │ └── semver@5.4.1  deduped
+[INFO] │ ├── source-map@0.5.7 
+[INFO] │ └── sprintf-js@1.0.3 
+[INFO] ├── core-js@2.5.1 
+[INFO] ├── jasmine-core@2.6.4 
+[INFO] ├─┬ jasmine-spec-reporter@4.1.1 
+[INFO] │ └── colors@1.1.2 
+[INFO] ├─┬ karma@1.7.1 
+[INFO] │ ├── bluebird@3.5.1 
+[INFO] │ ├─┬ body-parser@1.18.2 
+[INFO] │ │ ├── bytes@3.0.0 
+[INFO] │ │ ├── content-type@1.0.4 
+[INFO] │ │ ├── debug@2.6.9  deduped
+[INFO] │ │ ├── depd@1.1.1 
+[INFO] │ │ ├─┬ http-errors@1.6.2 
+[INFO] │ │ │ ├── depd@1.1.1  deduped
+[INFO] │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ ├── setprototypeof@1.0.3 
+[INFO] │ │ │ └── statuses@1.3.1  deduped
+[INFO] │ │ ├── iconv-lite@0.4.19 
+[INFO] │ │ ├─┬ on-finished@2.3.0 
+[INFO] │ │ │ └── ee-first@1.1.1 
+[INFO] │ │ ├── qs@6.5.1 
+[INFO] │ │ ├─┬ raw-body@2.3.2 
+[INFO] │ │ │ ├── bytes@3.0.0  deduped
+[INFO] │ │ │ ├── http-errors@1.6.2  deduped
+[INFO] │ │ │ ├── iconv-lite@0.4.19  deduped
+[INFO] │ │ │ └── unpipe@1.0.0 
+[INFO] │ │ └─┬ type-is@1.6.15 
+[INFO] │ │   ├── media-typer@0.3.0 
+[INFO] │ │   └── mime-types@2.1.17  deduped
+[INFO] │ ├─┬ chokidar@1.7.0 
+[INFO] │ │ ├─┬ anymatch@1.3.2 
+[INFO] │ │ │ ├── micromatch@2.3.11  deduped
+[INFO] │ │ │ └─┬ normalize-path@2.1.1 
+[INFO] │ │ │   └── remove-trailing-separator@1.1.0 
+[INFO] │ │ ├── async-each@1.0.1 
+[INFO] │ │ ├─┬ glob-parent@2.0.0 
+[INFO] │ │ │ └── is-glob@2.0.1  deduped
+[INFO] │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ ├─┬ is-binary-path@1.0.1 
+[INFO] │ │ │ └── binary-extensions@1.11.0 
+[INFO] │ │ ├─┬ is-glob@2.0.1 
+[INFO] │ │ │ └── is-extglob@1.0.0 
+[INFO] │ │ ├── path-is-absolute@1.0.1  deduped
+[INFO] │ │ └─┬ readdirp@2.1.0 
+[INFO] │ │   ├── graceful-fs@4.1.11  deduped
+[INFO] │ │   ├── minimatch@3.0.4  deduped
+[INFO] │ │   ├─┬ readable-stream@2.3.3 
+[INFO] │ │   │ ├── core-util-is@1.0.2  deduped
+[INFO] │ │   │ ├── inherits@2.0.3  deduped
+[INFO] │ │   │ ├── isarray@1.0.0 
+[INFO] │ │   │ ├── process-nextick-args@1.0.7  deduped
+[INFO] │ │   │ ├── safe-buffer@5.1.1  deduped
+[INFO] │ │   │ ├─┬ string_decoder@1.0.3 
+[INFO] │ │   │ │ └── safe-buffer@5.1.1  deduped
+[INFO] │ │   │ └── util-deprecate@1.0.2  deduped
+[INFO] │ │   └── set-immediate-shim@1.0.1 
+[INFO] │ ├── colors@1.1.2  deduped
+[INFO] │ ├─┬ combine-lists@1.0.1 
+[INFO] │ │ └── lodash@4.17.4  deduped
+[INFO] │ ├─┬ connect@3.6.5 
+[INFO] │ │ ├── debug@2.6.9  deduped
+[INFO] │ │ ├─┬ finalhandler@1.0.6 
+[INFO] │ │ │ ├── debug@2.6.9  deduped
+[INFO] │ │ │ ├── encodeurl@1.0.1  deduped
+[INFO] │ │ │ ├── escape-html@1.0.3  deduped
+[INFO] │ │ │ ├── on-finished@2.3.0  deduped
+[INFO] │ │ │ ├── parseurl@1.3.2  deduped
+[INFO] │ │ │ ├── statuses@1.3.1  deduped
+[INFO] │ │ │ └── unpipe@1.0.0  deduped
+[INFO] │ │ ├── parseurl@1.3.2 
+[INFO] │ │ └── utils-merge@1.0.1 
+[INFO] │ ├── core-js@2.5.1  deduped
+[INFO] │ ├── di@0.0.1 
+[INFO] │ ├─┬ dom-serialize@2.2.1 
+[INFO] │ │ ├── custom-event@1.0.1 
+[INFO] │ │ ├── ent@2.2.0 
+[INFO] │ │ ├── extend@3.0.1 
+[INFO] │ │ └── void-elements@2.0.1 
+[INFO] │ ├─┬ expand-braces@0.1.2 
+[INFO] │ │ ├── array-slice@0.2.3 
+[INFO] │ │ ├── array-unique@0.2.1 
+[INFO] │ │ └─┬ braces@0.1.5 
+[INFO] │ │   └─┬ expand-range@0.1.1 
+[INFO] │ │     ├── is-number@0.1.1 
+[INFO] │ │     └── repeat-string@0.2.2 
+[INFO] │ ├── glob@7.1.2  deduped
+[INFO] │ ├── graceful-fs@4.1.11 
+[INFO] │ ├─┬ http-proxy@1.16.2 
+[INFO] │ │ ├── eventemitter3@1.2.0 
+[INFO] │ │ └── requires-port@1.0.0 
+[INFO] │ ├── isbinaryfile@3.0.2  deduped
+[INFO] │ ├── lodash@3.10.1 
+[INFO] │ ├─┬ log4js@0.6.38 
+[INFO] │ │ ├─┬ readable-stream@1.0.34 
+[INFO] │ │ │ ├── core-util-is@1.0.2  deduped
+[INFO] │ │ │ ├── inherits@2.0.3  deduped
+[INFO] │ │ │ ├── isarray@0.0.1 
+[INFO] │ │ │ └── string_decoder@0.10.31 
+[INFO] │ │ └── semver@4.3.6 
+[INFO] │ ├── mime@1.4.1 
+[INFO] │ ├── minimatch@3.0.4  deduped
+[INFO] │ ├─┬ optimist@0.6.1 
+[INFO] │ │ ├── minimist@0.0.8 
+[INFO] │ │ └── wordwrap@0.0.3 
+[INFO] │ ├── qjobs@1.1.5 
+[INFO] │ ├── range-parser@1.2.0 
+[INFO] │ ├─┬ rimraf@2.6.2 
+[INFO] │ │ └── glob@7.1.2  deduped
+[INFO] │ ├── safe-buffer@5.1.1 
+[INFO] │ ├─┬ socket.io@1.7.3 
+[INFO] │ │ ├─┬ debug@2.3.3 
+[INFO] │ │ │ └── ms@0.7.2 
+[INFO] │ │ ├─┬ engine.io@1.8.3 
+[INFO] │ │ │ ├─┬ accepts@1.3.3 
+[INFO] │ │ │ │ ├── mime-types@2.1.17  deduped
+[INFO] │ │ │ │ └── negotiator@0.6.1  deduped
+[INFO] │ │ │ ├── base64id@1.0.0 
+[INFO] │ │ │ ├── cookie@0.3.1  deduped
+[INFO] │ │ │ ├─┬ debug@2.3.3 
+[INFO] │ │ │ │ └── ms@0.7.2 
+[INFO] │ │ │ ├─┬ engine.io-parser@1.3.2 
+[INFO] │ │ │ │ ├── after@0.8.2 
+[INFO] │ │ │ │ ├── arraybuffer.slice@0.0.6 
+[INFO] │ │ │ │ ├── base64-arraybuffer@0.1.5 
+[INFO] │ │ │ │ ├── blob@0.0.4 
+[INFO] │ │ │ │ ├── has-binary@0.1.7  deduped
+[INFO] │ │ │ │ └── wtf-8@1.0.0 
+[INFO] │ │ │ └─┬ ws@1.1.2 
+[INFO] │ │ │   ├── options@0.0.6 
+[INFO] │ │ │   └── ultron@1.0.2 
+[INFO] │ │ ├─┬ has-binary@0.1.7 
+[INFO] │ │ │ └── isarray@0.0.1  deduped
+[INFO] │ │ ├── object-assign@4.1.0 
+[INFO] │ │ ├─┬ socket.io-adapter@0.5.0 
+[INFO] │ │ │ ├─┬ debug@2.3.3 
+[INFO] │ │ │ │ └── ms@0.7.2 
+[INFO] │ │ │ └── socket.io-parser@2.3.1  deduped
+[INFO] │ │ ├─┬ socket.io-client@1.7.3 
+[INFO] │ │ │ ├── backo2@1.0.2 
+[INFO] │ │ │ ├── component-bind@1.0.0 
+[INFO] │ │ │ ├── component-emitter@1.2.1 
+[INFO] │ │ │ ├─┬ debug@2.3.3 
+[INFO] │ │ │ │ └── ms@0.7.2 
+[INFO] │ │ │ ├─┬ engine.io-client@1.8.3 
+[INFO] │ │ │ │ ├── component-emitter@1.2.1 
+[INFO] │ │ │ │ ├── component-inherit@0.0.3 
+[INFO] │ │ │ │ ├─┬ debug@2.3.3 
+[INFO] │ │ │ │ │ └── ms@0.7.2 
+[INFO] │ │ │ │ ├── engine.io-parser@1.3.2  deduped
+[INFO] │ │ │ │ ├── has-cors@1.1.0 
+[INFO] │ │ │ │ ├── indexof@0.0.1  deduped
+[INFO] │ │ │ │ ├─┬ parsejson@0.0.3 
+[INFO] │ │ │ │ │ └── better-assert@1.0.2  deduped
+[INFO] │ │ │ │ ├─┬ parseqs@0.0.5 
+[INFO] │ │ │ │ │ └── better-assert@1.0.2  deduped
+[INFO] │ │ │ │ ├── parseuri@0.0.5  deduped
+[INFO] │ │ │ │ ├── ws@1.1.2  deduped
+[INFO] │ │ │ │ ├── xmlhttprequest-ssl@1.5.3 
+[INFO] │ │ │ │ └── yeast@0.1.2 
+[INFO] │ │ │ ├── has-binary@0.1.7  deduped
+[INFO] │ │ │ ├── indexof@0.0.1 
+[INFO] │ │ │ ├── object-component@0.0.3 
+[INFO] │ │ │ ├─┬ parseuri@0.0.5 
+[INFO] │ │ │ │ └─┬ better-assert@1.0.2 
+[INFO] │ │ │ │   └── callsite@1.0.0 
+[INFO] │ │ │ ├── socket.io-parser@2.3.1  deduped
+[INFO] │ │ │ └── to-array@0.1.4 
+[INFO] │ │ └─┬ socket.io-parser@2.3.1 
+[INFO] │ │   ├── component-emitter@1.1.2 
+[INFO] │ │   ├─┬ debug@2.2.0 
+[INFO] │ │   │ └── ms@0.7.1 
+[INFO] │ │   ├── isarray@0.0.1  deduped
+[INFO] │ │   └── json3@3.3.2  deduped
+[INFO] │ ├── source-map@0.5.7  deduped
+[INFO] │ ├─┬ tmp@0.0.31 
+[INFO] │ │ └── os-tmpdir@1.0.2  deduped
+[INFO] │ └─┬ useragent@2.2.1 
+[INFO] │   ├── lru-cache@2.2.4 
+[INFO] │   └─┬ tmp@0.0.33 
+[INFO] │     └── os-tmpdir@1.0.2  deduped
+[INFO] ├─┬ karma-chrome-launcher@2.1.1 
+[INFO] │ ├─┬ fs-access@1.0.1 
+[INFO] │ │ └── null-check@1.0.0 
+[INFO] │ └─┬ which@1.3.0 
+[INFO] │   └── isexe@2.0.0 
+[INFO] ├─┬ karma-cli@1.0.1 
+[INFO] │ └── resolve@1.5.0  deduped
+[INFO] ├─┬ karma-coverage-istanbul-reporter@1.3.0 
+[INFO] │ ├─┬ istanbul-api@1.2.1 
+[INFO] │ │ ├── async@2.6.0  deduped
+[INFO] │ │ ├─┬ fileset@2.0.3 
+[INFO] │ │ │ ├── glob@7.1.2  deduped
+[INFO] │ │ │ └── minimatch@3.0.4  deduped
+[INFO] │ │ ├── istanbul-lib-coverage@1.1.1 
+[INFO] │ │ ├─┬ istanbul-lib-hook@1.1.0 
+[INFO] │ │ │ └─┬ append-transform@0.4.0 
+[INFO] │ │ │   └─┬ default-require-extensions@1.0.0 
+[INFO] │ │ │     └─┬ strip-bom@2.0.0 
+[INFO] │ │ │       └── is-utf8@0.2.1 
+[INFO] │ │ ├── istanbul-lib-instrument@1.9.1  deduped
+[INFO] │ │ ├─┬ istanbul-lib-report@1.1.2 
+[INFO] │ │ │ ├── istanbul-lib-coverage@1.1.1  deduped
+[INFO] │ │ │ ├── mkdirp@0.5.1  deduped
+[INFO] │ │ │ ├── path-parse@1.0.5  deduped
+[INFO] │ │ │ └── supports-color@3.2.3  deduped
+[INFO] │ │ ├─┬ istanbul-lib-source-maps@1.2.2 
+[INFO] │ │ │ ├─┬ debug@3.1.0 
+[INFO] │ │ │ │ └── ms@2.0.0  deduped
+[INFO] │ │ │ ├── istanbul-lib-coverage@1.1.1  deduped
+[INFO] │ │ │ ├── mkdirp@0.5.1  deduped
+[INFO] │ │ │ ├── rimraf@2.6.2  deduped
+[INFO] │ │ │ └── source-map@0.5.7  deduped
+[INFO] │ │ ├─┬ istanbul-reports@1.1.3 
+[INFO] │ │ │ └─┬ handlebars@4.0.11 
+[INFO] │ │ │   ├── async@1.5.2 
+[INFO] │ │ │   ├─┬ optimist@0.6.1 
+[INFO] │ │ │   │ ├── minimist@0.0.8  deduped
+[INFO] │ │ │   │ └── wordwrap@0.0.3  deduped
+[INFO] │ │ │   ├─┬ source-map@0.4.4 
+[INFO] │ │ │   │ └── amdefine@1.0.1  deduped
+[INFO] │ │ │   └─┬ uglify-js@2.8.29 
+[INFO] │ │ │     ├── source-map@0.5.7 
+[INFO] │ │ │     ├── uglify-to-browserify@1.0.2  deduped
+[INFO] │ │ │     └─┬ yargs@3.10.0 
+[INFO] │ │ │       ├── camelcase@1.2.1 
+[INFO] │ │ │       ├─┬ cliui@2.1.0 
+[INFO] │ │ │       │ ├── center-align@0.1.3  deduped
+[INFO] │ │ │       │ ├── right-align@0.1.3  deduped
+[INFO] │ │ │       │ └── wordwrap@0.0.2 
+[INFO] │ │ │       ├── decamelize@1.2.0  deduped
+[INFO] │ │ │       └── window-size@0.1.0  deduped
+[INFO] │ │ ├─┬ js-yaml@3.7.0 
+[INFO] │ │ │ ├─┬ argparse@1.0.9 
+[INFO] │ │ │ │ └── sprintf-js@1.0.3  deduped
+[INFO] │ │ │ └── esprima@2.7.3 
+[INFO] │ │ ├── mkdirp@0.5.1  deduped
+[INFO] │ │ └── once@1.4.0  deduped
+[INFO] │ └── minimatch@3.0.4  deduped
+[INFO] ├── karma-jasmine@1.1.0 
+[INFO] ├─┬ karma-jasmine-html-reporter@0.2.2 
+[INFO] │ └── karma-jasmine@1.1.0  deduped
+[INFO] ├─┬ protractor@5.1.2 
+[INFO] │ ├── @types/node@6.0.92  deduped
+[INFO] │ ├── @types/q@0.0.32 
+[INFO] │ ├── @types/selenium-webdriver@2.53.43 
+[INFO] │ ├─┬ blocking-proxy@0.0.5 
+[INFO] │ │ └── minimist@1.2.0 
+[INFO] │ ├─┬ chalk@1.1.3 
+[INFO] │ │ ├── ansi-styles@2.2.1 
+[INFO] │ │ ├── escape-string-regexp@1.0.5  deduped
+[INFO] │ │ ├─┬ has-ansi@2.0.0 
+[INFO] │ │ │ └── ansi-regex@2.1.1  deduped
+[INFO] │ │ ├── strip-ansi@3.0.1  deduped
+[INFO] │ │ └── supports-color@2.0.0 
+[INFO] │ ├── glob@7.1.2  deduped
+[INFO] │ ├─┬ jasmine@2.8.0 
+[INFO] │ │ ├── exit@0.1.2 
+[INFO] │ │ ├── glob@7.1.2  deduped
+[INFO] │ │ └── jasmine-core@2.8.0 
+[INFO] │ ├── jasminewd2@2.2.0 
+[INFO] │ ├─┬ optimist@0.6.1 
+[INFO] │ │ ├── minimist@0.0.8  deduped
+[INFO] │ │ └── wordwrap@0.0.3  deduped
+[INFO] │ ├── q@1.4.1 
+[INFO] │ ├─┬ saucelabs@1.3.0 
+[INFO] │ │ └─┬ https-proxy-agent@1.0.0 
+[INFO] │ │   ├─┬ agent-base@2.1.1 
+[INFO] │ │   │ ├── extend@3.0.1  deduped
+[INFO] │ │   │ └── semver@5.0.3 
+[INFO] │ │   ├── debug@2.6.9  deduped
+[INFO] │ │   └── extend@3.0.1  deduped
+[INFO] │ ├─┬ selenium-webdriver@3.0.1 
+[INFO] │ │ ├── adm-zip@0.4.7  deduped
+[INFO] │ │ ├── rimraf@2.6.2  deduped
+[INFO] │ │ ├─┬ tmp@0.0.30 
+[INFO] │ │ │ └── os-tmpdir@1.0.2  deduped
+[INFO] │ │ └── xml2js@0.4.19  deduped
+[INFO] │ ├── source-map-support@0.4.18  deduped
+[INFO] │ ├─┬ webdriver-js-extender@1.0.0 
+[INFO] │ │ ├── @types/selenium-webdriver@2.53.43  deduped
+[INFO] │ │ └─┬ selenium-webdriver@2.53.3 
+[INFO] │ │   ├── adm-zip@0.4.4 
+[INFO] │ │   ├── rimraf@2.6.2  deduped
+[INFO] │ │   ├── tmp@0.0.24 
+[INFO] │ │   ├── ws@1.1.2  deduped
+[INFO] │ │   └─┬ xml2js@0.4.4 
+[INFO] │ │     ├── sax@0.6.1 
+[INFO] │ │     └── xmlbuilder@9.0.4  deduped
+[INFO] │ └─┬ webdriver-manager@12.0.6 
+[INFO] │   ├── adm-zip@0.4.7 
+[INFO] │   ├── chalk@1.1.3  deduped
+[INFO] │   ├─┬ del@2.2.2 
+[INFO] │   │ ├─┬ globby@5.0.0 
+[INFO] │   │ │ ├── array-union@1.0.2  deduped
+[INFO] │   │ │ ├── arrify@1.0.1  deduped
+[INFO] │   │ │ ├── glob@7.1.2  deduped
+[INFO] │   │ │ ├── object-assign@4.1.1  deduped
+[INFO] │   │ │ ├── pify@2.3.0  deduped
+[INFO] │   │ │ └── pinkie-promise@2.0.1  deduped
+[INFO] │   │ ├── is-path-cwd@1.0.0  deduped
+[INFO] │   │ ├── is-path-in-cwd@1.0.0  deduped
+[INFO] │   │ ├── object-assign@4.1.1  deduped
+[INFO] │   │ ├── pify@2.3.0  deduped
+[INFO] │   │ ├── pinkie-promise@2.0.1  deduped
+[INFO] │   │ └── rimraf@2.6.2  deduped
+[INFO] │   ├── glob@7.1.2  deduped
+[INFO] │   ├── ini@1.3.4 
+[INFO] │   ├── minimist@1.2.0 
+[INFO] │   ├── q@1.4.1  deduped
+[INFO] │   ├── request@2.81.0  deduped
+[INFO] │   ├── rimraf@2.6.2  deduped
+[INFO] │   ├── semver@5.4.1  deduped
+[INFO] │   └─┬ xml2js@0.4.19 
+[INFO] │     ├── sax@1.2.4 
+[INFO] │     └── xmlbuilder@9.0.4 
+[INFO] ├─┬ rxjs@5.5.2 
+[INFO] │ └── symbol-observable@1.0.4 
+[INFO] ├─┬ ts-node@3.2.2 
+[INFO] │ ├── arrify@1.0.1 
+[INFO] │ ├── chalk@2.3.0  deduped
+[INFO] │ ├── diff@3.4.0  deduped
+[INFO] │ ├── make-error@1.3.0 
+[INFO] │ ├── minimist@1.2.0 
+[INFO] │ ├─┬ mkdirp@0.5.1 
+[INFO] │ │ └── minimist@0.0.8  deduped
+[INFO] │ ├── source-map-support@0.4.18  deduped
+[INFO] │ ├─┬ tsconfig@6.0.0 
+[INFO] │ │ ├── strip-bom@3.0.0 
+[INFO] │ │ └── strip-json-comments@2.0.1 
+[INFO] │ ├─┬ v8flags@3.0.1 
+[INFO] │ │ └─┬ homedir-polyfill@1.0.1 
+[INFO] │ │   └── parse-passwd@1.0.0 
+[INFO] │ └── yn@2.0.0 
+[INFO] ├─┬ tslint@5.3.2 
+[INFO] │ ├─┬ babel-code-frame@6.26.0 
+[INFO] │ │ ├─┬ chalk@1.1.3 
+[INFO] │ │ │ ├── ansi-styles@2.2.1  deduped
+[INFO] │ │ │ ├── escape-string-regexp@1.0.5  deduped
+[INFO] │ │ │ ├── has-ansi@2.0.0  deduped
+[INFO] │ │ │ ├── strip-ansi@3.0.1  deduped
+[INFO] │ │ │ └── supports-color@2.0.0 
+[INFO] │ │ ├── esutils@2.0.2 
+[INFO] │ │ └── js-tokens@3.0.2 
+[INFO] │ ├── colors@1.1.2  deduped
+[INFO] │ ├── diff@3.4.0  deduped
+[INFO] │ ├── glob@7.1.2  deduped
+[INFO] │ ├─┬ optimist@0.6.1 
+[INFO] │ │ ├── minimist@0.0.8  deduped
+[INFO] │ │ └── wordwrap@0.0.3  deduped
+[INFO] │ ├── resolve@1.5.0  deduped
+[INFO] │ ├── semver@5.4.1  deduped
+[INFO] │ ├── tslib@1.8.0  deduped
+[INFO] │ └─┬ tsutils@2.12.2 
+[INFO] │   └── tslib@1.8.0  deduped
+[INFO] ├── typescript@2.3.4 
+[INFO] └── zone.js@0.8.18 
+[INFO] 
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- frontend-maven-plugin:1.6:npm (prod) @ demoApp ---
+[INFO] Running 'npm run-script prod' in /var/lib/jenkins/workspace/Pipeline_v2
+[INFO] 
+[INFO] > demo-app@0.0.0 prod /var/lib/jenkins/workspace/Pipeline_v2
+[INFO] > ng build -bh ./
+[INFO] 
+[INFO] Date: 2017-11-20T16:29:42.058Z
+[INFO] Hash: af270f00bf9b07bb94a3
+[INFO] Time: 10780ms
+[INFO] chunk {inline} inline.bundle.js, inline.bundle.js.map (inline) 5.83 kB [entry] [rendered]
+[INFO] chunk {main} main.bundle.js, main.bundle.js.map (main) 28 kB {vendor} [initial] [rendered]
+[INFO] chunk {polyfills} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 217 kB {inline} [initial] [rendered]
+[INFO] chunk {styles} styles.bundle.js, styles.bundle.js.map (styles) 162 kB {inline} [initial] [rendered]
+[INFO] chunk {vendor} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.62 MB [initial] [rendered]
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- frontend-maven-plugin:1.6:npm (start) @ demoApp ---
+[INFO] Running 'npm run-script start' in /var/lib/jenkins/workspace/Pipeline_v2
+[INFO] 
+[INFO] > demo-app@0.0.0 start /var/lib/jenkins/workspace/Pipeline_v2
+[INFO] > ng serve
+[INFO] 
+[INFO] ** NG Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200 **
+[INFO] Date: 2017-11-20T16:29:56.999Z
+[INFO] Hash: a9b47f9788270b7f0b71
+[INFO] Time: 11457ms
+[INFO] chunk {inline} inline.bundle.js, inline.bundle.js.map (inline) 5.83 kB [entry] [rendered]
+[INFO] chunk {main} main.bundle.js, main.bundle.js.map (main) 28.1 kB {vendor} [initial] [rendered]
+[INFO] chunk {polyfills} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 217 kB {inline} [initial] [rendered]
+[INFO] chunk {styles} styles.bundle.js, styles.bundle.js.map (styles) 162 kB {inline} [initial] [rendered]
+[INFO] chunk {vendor} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.95 MB [initial] [rendered]
+[INFO] 
+[INFO] webpack: Compiled successfully.
+Aborted by [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+Sending interrupt signal to process
+sh: line 1: 12690 Terminated              JENKINS_SERVER_COOKIE=$jsc '/var/lib/jenkins/workspace/Pipeline_v2@tmp/durable-4f686986/script.sh' > '/var/lib/jenkins/workspace/Pipeline_v2@tmp/durable-4f686986/jenkins-log.txt' 2>&1
+After 10s process did not stop
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[withMaven] One or multiple Maven executions have been ignored by the Jenkins Pipeline Maven Plugin because they have been interrupted before completion (1). See [8mha:////4MoDh6IJZZiKjzXQ90rJpFGCDnpraYJUI199f4Aps9ssAAAA1x+LCAAAAAAAAP9djjFuwkAQRSeOwgHSBaWjRPF2KYKoIksYiIXECVZ4ZA/ezK52Z425BtdIGg7BcbgDEIsmv/lfr3j6v2d4Ch5e61gGy+nGcrAG09neoTfETWEF36c/x+nBnRJIchgY5ErqJTxGbwSel1vdamU0V2otnriadB6G/3Sffd9k0OchAejcdbwINLWICx9K7aihdIvcEIeUrCopOKP3ap4Vi7xYqxU5vJ7C8ZdukccrEyvi0Z3+wZ69fd921uEmClnOWdD76ATLC0rk/9rwAAAA[0mPipeline Maven Plugin FAQ for more details.
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withMaven
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: ABORTED

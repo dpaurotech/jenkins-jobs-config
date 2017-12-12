@@ -1,0 +1,30 @@
+Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+Building remotely on [8mha:////4It3PwI6yuX7WkYVwSZAAM7i9rrHNfe2Lv/eyFphjvBpAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeEMAxhAoCMYAAAA=[0mAgent_1 (linux) in workspace /var/lib/jenkins/workspace/SSH Testing
+[ssh-agent] Looking for ssh-agent implementation...
+[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)
+$ ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-wl8QY3NPYAJv/agent.10921
+SSH_AGENT_PID=10923
+[ssh-agent] Started.
+$ ssh-add "/var/lib/jenkins/workspace/SSH Testing@tmp/private_key_4030395640356390275.key"
+Identity added: /var/lib/jenkins/workspace/SSH Testing@tmp/private_key_4030395640356390275.key (/var/lib/jenkins/workspace/SSH Testing@tmp/private_key_4030395640356390275.key)
+[ssh-agent] Using credentials ec2-user (Jboss_server_SSH)
+[SSH] executing pre build script:
+
+ls -l /tmp
+$ ssh-agent -k
+unset SSH_AUTH_SOCK;
+unset SSH_AGENT_PID;
+echo Agent pid 10923 killed;
+[ssh-agent] Stopped.
+FATAL: null
+[8mha:////4EeeJrKwNBlJ6l6ilR80QxCShjvKs9Lhdp46J+izczcbAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mjava.lang.NullPointerException
+	at org.jvnet.hudson.plugins.SSHBuildWrapper.executePreBuildScript(SSHBuildWrapper.java:94)
+	at org.jvnet.hudson.plugins.SSHBuildWrapper.setUp(SSHBuildWrapper.java:77)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:157)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1724)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:421)
+Finished: FAILURE

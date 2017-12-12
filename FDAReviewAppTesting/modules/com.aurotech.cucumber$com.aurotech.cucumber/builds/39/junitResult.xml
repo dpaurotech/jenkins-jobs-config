@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.21">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/FDAReviewAppTesting/com.aurotech.cucumber/target/surefire-reports/TEST-com.aurotech.cucumber.TestRunner.xml</file>
+      <name>com.aurotech.cucumber.TestRunner</name>
+      <duration>0.004</duration>
+      <time>0.004</time>
+      <cases>
+        <case>
+          <duration>0.004</duration>
+          <className>Scenario: Title of your scenario</className>
+          <testName>Given Launch Firefox and start application</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>Scenario: Title of your scenario</className>
+          <testName>When I enter valid username and valid password</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>Scenario: Title of your scenario</className>
+          <testName>Then user should be able to login successfully</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>Scenario: Title of your scenario</className>
+          <testName>Then application should be closed</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>Scenario: Title of your scenario</className>
+          <testName>Scenario: Title of your scenario</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.004</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

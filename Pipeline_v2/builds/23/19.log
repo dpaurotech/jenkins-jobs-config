@@ -1,0 +1,5 @@
+[withMaven] Options: []
+[withMaven] Available options: 
+[withMaven] use JDK installation provided by the build agent
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.5.0/apache-maven-3.5.0-bin.zip to /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven305 on Agent_1
+[withMaven] use Maven installation 'Maven305'

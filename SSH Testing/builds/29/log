@@ -1,0 +1,38 @@
+Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+Building remotely on [8mha:////4It3PwI6yuX7WkYVwSZAAM7i9rrHNfe2Lv/eyFphjvBpAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeEMAxhAoCMYAAAA=[0mAgent_1 (linux) in workspace /var/lib/jenkins/workspace/SSH Testing
+[SSH] commands:
+
+ls -l /tmp
+mkdir -p /tmp/artifacts-source
+curl -o /tmp/artifacts-source/SimpleWebApp.war http://ec2-34-224-214-70.compute-1.amazonaws.com:8081/nexus/service/local/repositories/releases/content/SimpleWebApp/SimpleWebApp/65/SimpleWebApp-65.war
+ls -l /tmp/artifacts-source
+
+[SSH] executing...
+total 0
+drwxrwxr-x. 2 ec2-user ec2-user 30 Nov 20 15:55 artifacts-source
+drwxr-xr-x. 2 jboss    jboss    18 Nov  9 00:23 hsperfdata_jboss
+drwx------. 3 root     root     17 Oct 18 02:16 systemd-private-cf105105a51345aa9f578afb8791e9a2-chronyd.service-6HaeEt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 6999k  100 6999k    0     0  73.0M      0 --:--:-- --:--:-- --:--:-- 73.4M
+total 7000
+-rw-rw-r--. 1 ec2-user ec2-user 7167432 Nov 20 16:07 SimpleWebApp.war
+
+[SSH] completed
+[SSH] exit-status: 0
+
+SSH: Connecting from host [ip-172-31-28-108.ec2.internal]
+SSH: Connecting with configuration [jboss_webapp_server] ...
+SSH: Creating session: username [ec2-user], hostname [ec2-52-205-181-23.compute-1.amazonaws.com], port [22]
+SSH: Connecting session ...
+SSH: Connected
+SSH: Opening exec channel ...
+SSH: EXEC: channel open
+SSH: EXEC: STDOUT/STDERR from command [ls -l /tmp/artifacts] ...
+SSH: EXEC: connected
+ls: cannot access /tmp/artifacts: No such file or directory
+SSH: EXEC: completed after 200 ms
+SSH: Disconnecting configuration [jboss_webapp_server] ...
+ERROR: Exception when publishing, exception message [Exec exit status not zero. Status [2]]
+[8mha:////4EeeJrKwNBlJ6l6ilR80QxCShjvKs9Lhdp46J+izczcbAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mBuild step 'Send build artifacts over SSH' changed build result to UNSTABLE
+Finished: UNSTABLE

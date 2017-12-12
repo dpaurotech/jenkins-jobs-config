@@ -1,0 +1,11 @@
+Started on Dec 12, 2017 5:00:10 PM
+Started by event from 192.30.252.34 ⇒ http://ec2-34-224-214-70.compute-1.amazonaws.com:8080/github-webhook/ on Tue Dec 12 17:00:10 UTC 2017
+Using strategy: Default
+[poll] Last Built Revision: Revision e9f9c2044eb8f784b8554ecd68d62cd0d5a0c3f2 (refs/remotes/origin/Version2)
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials aurotech_repository
+ > git ls-remote -h https://github.com/aurotech/Aurotech_AMDS_JAVA_POC # timeout=10
+Found 2 remote heads on https://github.com/aurotech/Aurotech_AMDS_JAVA_POC
+[poll] Latest remote head revision on refs/heads/Version2 is: 900419618ad2f630d624f953fe51236c8061cebe
+Done. Took 0.74 sec
+Changes found

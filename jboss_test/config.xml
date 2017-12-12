@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>Simple web app</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>1</daysToKeep>
+        <numToKeep>2</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <jenkins.triggers.ReverseBuildTrigger>
+      <spec></spec>
+      <upstreamProjects>SimpleWebApp_cucumber</upstreamProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </jenkins.triggers.ReverseBuildTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <org.jvnet.hudson.plugins.SSHBuilder plugin="ssh@2.5">
+      <siteName>ec2-user@ec2-52-205-181-23.compute-1.amazonaws.com:22</siteName>
+      <command>echo &quot;=============================================================&quot;
+sudo cp /home/ec2-user/*.war /u01/jboss/stage-artifacts-jboss
+sudo chown -R jboss:jboss /u01/jboss/stage-artifacts-jboss
+sudo rm /usr/share/jboss-as/standalone/deployments/SimpleWebApp.war
+sudo cp /u01/jboss/stage-artifacts-jboss/*.war /usr/share/jboss-as/standalone/deployments/SimpleWebApp.war
+sudo /usr/share/jboss-as/bin/jboss-cli.sh -c --controller=localhost:9999 --user=admin --password=jboss123 --command=&quot;deploy /usr/share/jboss-as/standalone/deployments/SimpleWebApp.war --force&quot;
+sudo rm /u01/jboss/stage-artifacts-jboss/*.war
+sudo rm /home/ec2-user/*.war
+echo &quot;=&gt; End of Deployment &lt;=&quot;
+echo &quot;=============================================================&quot;</command>
+      <execEachLine>true</execEachLine>
+    </org.jvnet.hudson.plugins.SSHBuilder>
+  </builders>
+  <publishers/>
+  <buildWrappers>
+    <com.cloudbees.jenkins.plugins.sshagent.SSHAgentBuildWrapper plugin="ssh-agent@1.15">
+      <credentialIds>
+        <string>7fa781cd-4ea9-4cc5-9dfa-a1edd83f7a4d</string>
+      </credentialIds>
+      <ignoreMissing>false</ignoreMissing>
+    </com.cloudbees.jenkins.plugins.sshagent.SSHAgentBuildWrapper>
+  </buildWrappers>
+</project>

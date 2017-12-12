@@ -1,0 +1,11 @@
+commit e9f9c2044eb8f784b8554ecd68d62cd0d5a0c3f2
+tree cde466234082bb9d59b48b84b342ab89cf12383b
+parent e258d38f39f5a12d4235aa841df04f3d4bc8db91
+author Satish-Auro <naga.molleti@aurotechcorp.com> 2017-12-12 11:55:25 -0500
+committer Satish-Auro <naga.molleti@aurotechcorp.com> 2017-12-12 11:55:25 -0500
+
+    updated caseDetails
+
+
+
+:100755 100755 86ded31ac2fee9eeb3ebf4ddb3f90ea46bf5a0e1 d28ef2e11c013dd87d4f5ea0b561b5c8c26917da M	DEMO_WEB_APP/src/main/java/jbr/springmvc/model/CaseDetails.java

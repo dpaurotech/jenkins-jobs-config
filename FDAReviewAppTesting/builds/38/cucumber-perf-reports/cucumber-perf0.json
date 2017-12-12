@@ -1,0 +1,74 @@
+[
+  {
+    "source": "^application should be closed$",
+    "steps": [
+      {
+        "name": "application should be closed",
+        "aggregatedDurations": {
+          "average": 0.768853955,
+          "median": 0.768853955
+        },
+        "durations": [
+          {
+            "duration": 0.768853955,
+            "location": "SimpleWebApp.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter valid username and valid password$",
+    "steps": [
+      {
+        "name": "I enter valid username and valid password",
+        "aggregatedDurations": {
+          "average": 0.300789751,
+          "median": 0.300789751
+        },
+        "durations": [
+          {
+            "duration": 0.300789751,
+            "location": "SimpleWebApp.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Launch Firefox and start application$",
+    "steps": [
+      {
+        "name": "Launch Firefox and start application",
+        "aggregatedDurations": {
+          "average": 0.528233163,
+          "median": 0.528233163
+        },
+        "durations": [
+          {
+            "duration": 0.528233163,
+            "location": "SimpleWebApp.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should be able to login successfully$",
+    "steps": [
+      {
+        "name": "user should be able to login successfully",
+        "aggregatedDurations": {
+          "average": 0.367308258,
+          "median": 0.367308258
+        },
+        "durations": [
+          {
+            "duration": 0.367308258,
+            "location": "SimpleWebApp.feature:8"
+          }
+        ]
+      }
+    ]
+  }
+]

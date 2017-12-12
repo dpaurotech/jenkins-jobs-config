@@ -1,0 +1,81 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2870909877,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTest.setUpRemote()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "test-simplewebapp-smoke-scenario;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 626452027,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch Firefox and start application",
+            "match": {
+              "location": "LoginTest.launch_Firefox_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 258747741,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter valid username and valid password",
+            "match": {
+              "location": "LoginTest.i_enter_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 455412465,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "LoginTest.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 795728842,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "application should be closed",
+            "match": {
+              "location": "LoginTest.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test SimpleWebApp smoke scenario",
+    "description": "",
+    "id": "test-simplewebapp-smoke-scenario",
+    "keyword": "Feature",
+    "uri": "SimpleWebApp.feature"
+  }
+]

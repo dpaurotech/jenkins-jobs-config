@@ -1,0 +1,22 @@
+Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+[Mon Nov 13 17:20:33 UTC 2017] Starting branch indexing...
+ > git --version # timeout=10
+ > git ls-remote https://github.com/Devops-anudeep/jvm-cucumber-skeleton.git # timeout=10
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://github.com/Devops-anudeep/jvm-cucumber-skeleton.git
+ > git config remote.origin.url https://github.com/Devops-anudeep/jvm-cucumber-skeleton.git # timeout=10
+Fetching & pruning origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/* --prune
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git ls-remote -h https://github.com/Devops-anudeep/jvm-cucumber-skeleton.git # timeout=10
+Checking branches...
+  Checking branch master
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: master
+Processed 1 branches
+[Mon Nov 13 17:20:34 UTC 2017] Finished branch indexing. Indexing took 0.48 sec
+Finished: SUCCESS

@@ -1,0 +1,25 @@
+Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+Building remotely on [8mha:////4It3PwI6yuX7WkYVwSZAAM7i9rrHNfe2Lv/eyFphjvBpAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeEMAxhAoCMYAAAA=[0mAgent_1 (linux) in workspace /var/lib/jenkins/workspace/SSH Testing
+[ssh-agent] Looking for ssh-agent implementation...
+[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)
+$ ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-NWuP2pAWtMJ6/agent.10996
+SSH_AGENT_PID=10998
+[ssh-agent] Started.
+$ ssh-add "/var/lib/jenkins/workspace/SSH Testing@tmp/private_key_2284665421228126205.key"
+Identity added: /var/lib/jenkins/workspace/SSH Testing@tmp/private_key_2284665421228126205.key (/var/lib/jenkins/workspace/SSH Testing@tmp/private_key_2284665421228126205.key)
+[ssh-agent] Using credentials ec2-user (Jboss_server_SSH)
+[SSH] executing pre build script:
+
+ls -l /tmp/artifacts/
+ls: cannot access /tmp/artifacts/: No such file or directory
+
+[SSH] completed
+[SSH] exit-status: 2
+
+$ ssh-agent -k
+unset SSH_AUTH_SOCK;
+unset SSH_AGENT_PID;
+echo Agent pid 10998 killed;
+[ssh-agent] Stopped.
+Finished: FAILURE

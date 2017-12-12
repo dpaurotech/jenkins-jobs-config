@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.16">
+  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepAtomNode" plugin="workflow-cps@2.41">
+    <parentIds>
+      <string>38</string>
+    </parentIds>
+    <id>39</id>
+    <descriptorId>sp.sd.nexusartifactuploader.steps.NexusArtifactUploaderStep</descriptorId>
+  </node>
+  <actions>
+    <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
+      <charset>UTF-8</charset>
+    </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
+    <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.41">
+      <arguments class="linked-hash-map">
+        <entry>
+          <string>artifacts</string>
+          <list>
+            <linked-hash-map>
+              <entry>
+                <string>artifactId</string>
+                <string>sample-pipeline</string>
+              </entry>
+              <entry>
+                <string>classifier</string>
+                <string></string>
+              </entry>
+              <entry>
+                <string>file</string>
+                <string>/var/lib/jenkins/workspace/pipeline_demo/target/cucumber-java-skeleton-0.0.1.jar</string>
+              </entry>
+              <entry>
+                <string>type</string>
+                <string>jar</string>
+              </entry>
+            </linked-hash-map>
+          </list>
+        </entry>
+        <entry>
+          <string>credentialsId</string>
+          <string>cd036c60-5683-43b0-866b-ca282866d819</string>
+        </entry>
+        <entry>
+          <string>groupId</string>
+          <string>SimpleWebApp</string>
+        </entry>
+        <entry>
+          <string>nexusUrl</string>
+          <string>ec2-34-224-214-70.compute-1.amazonaws.com:8081/nexus</string>
+        </entry>
+        <entry>
+          <string>nexusVersion</string>
+          <string>nexus2</string>
+        </entry>
+        <entry>
+          <string>protocol</string>
+          <string>http</string>
+        </entry>
+        <entry>
+          <string>repository</string>
+          <string>pipeline-test</string>
+        </entry>
+        <entry>
+          <string>version</string>
+          <string>1.0</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
+    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.23.1">
+      <startTime>1510523299348</startTime>
+    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+    <org.jenkinsci.plugins.workflow.actions.ErrorAction plugin="workflow-api@2.23.1">
+      <error class="hudson.AbortException">
+        <detailMessage>Uploading file cucumber-java-skeleton-0.0.1.jar failed.</detailMessage>
+        <stackTrace>
+          <trace>sp.sd.nexusartifactuploader.steps.NexusArtifactUploaderStep$Execution.run(NexusArtifactUploaderStep.java:259)</trace>
+          <trace>sp.sd.nexusartifactuploader.steps.NexusArtifactUploaderStep$Execution.run(NexusArtifactUploaderStep.java:217)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)</trace>
+          <trace>hudson.security.ACL.impersonate(ACL.java:260)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)</trace>
+          <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+          <trace>java.lang.Thread.run(Thread.java:748)</trace>
+        </stackTrace>
+        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+          <c class="list"/>
+          <list reference="../c"/>
+        </suppressedExceptions>
+      </error>
+    </org.jenkinsci.plugins.workflow.actions.ErrorAction>
+  </actions>
+</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

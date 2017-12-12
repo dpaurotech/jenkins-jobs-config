@@ -1,0 +1,65 @@
+Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+Building remotely on [8mha:////4It3PwI6yuX7WkYVwSZAAM7i9rrHNfe2Lv/eyFphjvBpAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeEMAxhAoCMYAAAA=[0mAgent_1 (linux) in workspace /var/lib/jenkins/workspace/SSH Testing
+[ssh-agent] Looking for ssh-agent implementation...
+[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)
+$ ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-8eeb9h0zZL1z/agent.12071
+SSH_AGENT_PID=12073
+[ssh-agent] Started.
+$ ssh-add "/var/lib/jenkins/workspace/SSH Testing@tmp/private_key_8467935678341004039.key"
+Identity added: /var/lib/jenkins/workspace/SSH Testing@tmp/private_key_8467935678341004039.key (/var/lib/jenkins/workspace/SSH Testing@tmp/private_key_8467935678341004039.key)
+[ssh-agent] Using credentials ec2-user (Jboss_server_SSH)
+[SSH] executing pre build script:
+
+ls -l /tmp
+total 0
+drwxr-xr-x. 2 jboss jboss 18 Nov  9 00:23 hsperfdata_jboss
+drwx------. 3 root  root  17 Oct 18 02:16 systemd-private-cf105105a51345aa9f578afb8791e9a2-chronyd.service-6HaeEt
+
+[SSH] completed
+[SSH] exit-status: 0
+
+[SSH Testing] $ /bin/sh -xe /tmp/jenkins1438154663811634474.sh
++ ls -l /tmp
+total 12
+drwxr-xr-x. 2 jenkins jenkins 19 Nov 20 15:52 hsperfdata_jenkins
+-rw-rw-r--. 1 jenkins jenkins 40 Nov 20 15:36 http-wagon.2425136866902448495.tmp
+-rw-rw-r--. 1 jenkins jenkins 32 Nov 20 15:36 http-wagon.802164916032911546.tmp
+-rw-rw-r--. 1 jenkins jenkins 11 Nov 20 15:53 jenkins1438154663811634474.sh
+drwxrwxr-x. 2 jenkins jenkins  6 Nov 20 02:10 jna--1712433994
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-1020391592355426166
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-1345434548204244339
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-2257169585870428326
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-2794829478338564659
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-3099911535215510644
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-3269892213332702843
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-3825049717134188620
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-4432363435872757882
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-4544536490871600824
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-5324929197747419705
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-5857061753472892634
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-6042838143949145958
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-6431419561179623397
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-6610669766045302445
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-6707720369853820424
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-6872195978379337997
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-697251078988837443
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-7068745068761391477
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-7534013092355988123
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-8017484832791150277
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-8081442443287079504
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-8497288272256232927
+drwx------. 3 jenkins jenkins 22 Nov 20 00:26 resource-893901788690590895
+drwx------. 2 jenkins jenkins 25 Nov 20 15:53 ssh-8eeb9h0zZL1z
+drwx------. 2 jenkins jenkins 25 Nov 20 03:45 ssh-Gm4ne6w0lSPz
+drwx------. 2 jenkins jenkins 25 Nov 20 03:44 ssh-vxrvmIq3029U
+drwx------. 3 root    root    17 Oct 16 23:26 systemd-private-d9e2e34ff1014467957129fa279ea07b-chronyd.service-Vl7gk7
+[SSH] executing post build script:
+
+
+$ ssh-agent -k
+unset SSH_AUTH_SOCK;
+unset SSH_AGENT_PID;
+echo Agent pid 12073 killed;
+[ssh-agent] Stopped.
+Finished: SUCCESS

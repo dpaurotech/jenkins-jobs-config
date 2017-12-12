@@ -1,0 +1,14 @@
+Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+Building remotely on [8mha:////4It3PwI6yuX7WkYVwSZAAM7i9rrHNfe2Lv/eyFphjvBpAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeEMAxhAoCMYAAAA=[0mAgent_1 (linux) in workspace /var/lib/jenkins/workspace/SSH Testing
+[SSH] executing pre build script:
+
+
+[SSH] executing post build script:
+
+ls -l /tmp/artifacts/
+ls: cannot access /tmp/artifacts/: No such file or directory
+
+[SSH] completed
+[SSH] exit-status: 2
+
+Finished: FAILURE

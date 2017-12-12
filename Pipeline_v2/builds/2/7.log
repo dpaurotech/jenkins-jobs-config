@@ -1,0 +1,16 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Keshav885/demoApp.git # timeout=10
+Fetching upstream changes from https://github.com/Keshav885/demoApp.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Keshav885/demoApp.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6c721d3c0659226c4dd2f40a8b16e7729f3125cb (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6c721d3c0659226c4dd2f40a8b16e7729f3125cb
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 6c721d3c0659226c4dd2f40a8b16e7729f3125cb
+Commit message: "disabled before touched"
+ > git rev-list 6c721d3c0659226c4dd2f40a8b16e7729f3125cb # timeout=10

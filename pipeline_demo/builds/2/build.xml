@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.15">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>administrator</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>69</queueId>
+  <timestamp>1510273743595</timestamp>
+  <startTime>1510273743596</startTime>
+  <result>FAILURE</result>
+  <duration>82</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>git &apos;https://github.com/cucumber/cucumber-java-skeleton.git&apos;
+</script>
+    <loadedScripts class="map"/>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>7901595</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>6733710</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>46152869</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>26634277</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>1153013</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>4</iota>
+    <head>1:4</head>
+  </execution>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

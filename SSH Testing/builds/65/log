@@ -1,0 +1,45 @@
+Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+Building remotely on [8mha:////4It3PwI6yuX7WkYVwSZAAM7i9rrHNfe2Lv/eyFphjvBpAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeEMAxhAoCMYAAAA=[0mAgent_1 (linux) in workspace /var/lib/jenkins/workspace/SSH Testing
+[SSH] commands:
+USER="jenkins"
+BUILD_NUMBER="65"
+HOME="/var/lib/jenkins"
+
+export ARTIFACTS_SOURCE=/tmp/artifacts-source
+export ARTIFACT_NAME_TARGET=SimpleWebApp.war
+export ARTIFACT_DOWNLOAD_URL=http://ec2-34-224-214-70.compute-1.amazonaws.com:8081/nexus/service/local/repositories/releases/content/SimpleWebApp/SimpleWebApp/65/SimpleWebApp-65.war
+export JBOSS_SYSTEM_USER=jboss
+export JBOSS_SYSTEM_GROUP=jboss
+export JBOSS_HOME=/usr/share/jboss-as
+export JBOSS_BIN_HOME=/usr/share/jboss-as/bin
+export JBOSS_CONTROLLER_PORT=9999
+export JBOSS_CONSOLE_ADMIN_USER=admin
+export JBOSS_CONSOLE_ADMIN_PW=jboss123
+
+echo "============================================================="
+hostname
+echo $ARTIFACTS_SOURCE
+
+echo "============================================================="
+sudo mkdir -p $ARTIFACTS_SOURCE
+sudo chmod 755 $ARTIFACTS_SOURCE
+sudo curl -o $ARTIFACTS_SOURCE/$APP_FILE_NAME $NEXUS_URL/$NEXUS_URI/$APP_BUILD_NUMBER/SimpleWebApp-$APP_BUILD_NUMBER.war
+sudo ls -l $ARTIFACTS_SOURCE
+sudo chown $JBOSS_SYSTEM_USER:$JBOSS_SYSTEM_GROUP $ARTIFACTS_SOURCE/$APP_FILE_NAME
+sudo cp $ARTIFACTS_SOURCE/$APP_FILE_NAME $JBOSS_HOME/standalone/deployments/$APP_FILE_NAME
+sudo chown $JBOSS_SYSTEM_USER:$JBOSS_SYSTEM_GROUP $JBOSS_HOME/standalone/deployments/$APP_FILE_NAME
+sudo $JBOSS_HOME/bin/jboss-cli.sh -c --controller=localhost:$JBOSS_CONTROLLER_PORT --user=$JBOSS_ADMIN_CONSOLE_USER --password=$JBOSS_ADMIN_CONSOLE_PW --command="deploy $JBOSS_HOME/standalone/deployments/$APP_FILE_NAME --force"
+
+[SSH] executing...
+=============================================================
+ip-172-31-7-143.ec2.internal
+
+=============================================================
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

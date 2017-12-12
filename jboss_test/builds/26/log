@@ -1,0 +1,43 @@
+Started by upstream project "[8mha:////4EgVOhjDKI5yGOjpRwNWSrmr45VPRDLQEzxFP15J9+tmAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZp/az8JP3gzNyCnNTw1CTHgoL45NLk0tyk1CJ9AAdLjpzQAAAA[0mSimpleWebApp_cucumber" build number [8mha:////4AGmsEvhmzRGMYis/7kdw6NZc1cIVLxSJ4nzPPnXwZyLAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZZ/az8JP3gzNyCnNTw1CTHgoL45NLk0tyk1CJ9SwsA0Q5EGdIAAAA=[0m98
+originally caused by:
+ Started by upstream project "[8mha:////4H1WyrWD68vE/B5kM4eDgzm8hBsQXJMoJS2TWLqQQFD6AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+sGZuQU5qeGpSY4FBfoA9o08uccAAAA=[0mSimpleWebApp" build number [8mha:////4HOE6QdQlYZ7wFbdZHgpIbTvy87VcIiqm40U347ZZLiwAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZR/az8JP3gzNyCnNTw1CTHggJ9Q0MTALdhiKrKAAAA[0m114
+ originally caused by:
+  Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4It3PwI6yuX7WkYVwSZAAM7i9rrHNfe2Lv/eyFphjvBpAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeEMAxhAoCMYAAAA=[0mAgent_1 (linux) in workspace /var/lib/jenkins/workspace/jboss_test
+[ssh-agent] Looking for ssh-agent implementation...
+[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)
+$ ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-U9tdiJ0DXiQT/agent.9031
+SSH_AGENT_PID=9034
+[ssh-agent] Started.
+$ ssh-add /var/lib/jenkins/workspace/jboss_test@tmp/private_key_7223785886629426706.key
+Identity added: /var/lib/jenkins/workspace/jboss_test@tmp/private_key_7223785886629426706.key (/var/lib/jenkins/workspace/jboss_test@tmp/private_key_7223785886629426706.key)
+[ssh-agent] Using credentials ec2-user (Jboss_server_SSH)
+[SSH] commands:
+
+echo "============================================================="
+sudo cp /home/ec2-user/*.war /u01/jboss/stage-artifacts-jboss
+sudo chown -R jboss:jboss /u01/jboss/stage-artifacts-jboss
+sudo rm /usr/share/jboss-as/standalone/deployments/SimpleWebApp.war
+sudo cp /u01/jboss/stage-artifacts-jboss/*.war /usr/share/jboss-as/standalone/deployments/SimpleWebApp.war
+sudo /usr/share/jboss-as/bin/jboss-cli.sh -c --controller=localhost:9999 --user=admin --password=jboss123 --command="deploy /usr/share/jboss-as/standalone/deployments/SimpleWebApp.war --force"
+sudo rm /u01/jboss/stage-artifacts-jboss/*.war
+sudo rm /home/ec2-user/*.war
+echo "=> End of Deployment <="
+echo "============================================================="
+
+[SSH] executing...
+=============================================================
+=> End of Deployment <=
+=============================================================
+
+[SSH] completed
+[SSH] exit-status: 0
+
+$ ssh-agent -k
+unset SSH_AUTH_SOCK;
+unset SSH_AGENT_PID;
+echo Agent pid 9034 killed;
+[ssh-agent] Stopped.
+Finished: SUCCESS

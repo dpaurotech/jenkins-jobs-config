@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.16">
+  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepEndNode" plugin="workflow-cps@2.41">
+    <parentIds>
+      <string>39</string>
+    </parentIds>
+    <id>40</id>
+    <startId>38</startId>
+  </node>
+  <actions>
+    <org.jenkinsci.plugins.workflow.actions.BodyInvocationAction plugin="workflow-api@2.23.1"/>
+    <org.jenkinsci.plugins.workflow.actions.ErrorAction plugin="workflow-api@2.23.1">
+      <error class="java.io.IOException">
+        <detailMessage>Upload of /var/lib/jenkins/workspace/pipeline_demo/target failed</detailMessage>
+        <cause class="java.io.IOException">
+          <detailMessage>Failed to copy /var/lib/jenkins/workspace/pipeline_demo/target to /tmp/target1503049939121987685tmp</detailMessage>
+          <cause class="java.io.IOException">
+            <detailMessage>Is a directory</detailMessage>
+            <stackTrace>
+              <trace>sun.nio.ch.FileDispatcherImpl.read0(Native Method)</trace>
+              <trace>sun.nio.ch.FileDispatcherImpl.read(FileDispatcherImpl.java:46)</trace>
+              <trace>sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)</trace>
+              <trace>sun.nio.ch.IOUtil.read(IOUtil.java:197)</trace>
+              <trace>sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:159)</trace>
+              <trace>sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:65)</trace>
+              <trace>sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:109)</trace>
+              <trace>sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:103)</trace>
+              <trace>java.io.InputStream.read(InputStream.java:101)</trace>
+              <trace>org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1792)</trace>
+              <trace>org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1769)</trace>
+              <trace>org.apache.commons.io.IOUtils.copy(IOUtils.java:1744)</trace>
+              <trace>hudson.FilePath$41.invoke(FilePath.java:2027)</trace>
+              <trace>hudson.FilePath$41.invoke(FilePath.java:2023)</trace>
+              <trace>hudson.FilePath.act(FilePath.java:997)</trace>
+              <trace>hudson.FilePath.act(FilePath.java:975)</trace>
+              <trace>hudson.FilePath.copyTo(FilePath.java:2023)</trace>
+              <trace>hudson.FilePath.copyTo(FilePath.java:1999)</trace>
+              <trace>hudson.FilePath$copyTo$1.call(Unknown Source)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)</trace>
+              <trace>org.sonatype.nexus.ci.nxrm.ComponentUploader$_uploadComponents_closure2.doCall(ComponentUploader.groovy:84)</trace>
+              <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+              <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+              <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+              <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+              <trace>org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)</trace>
+              <trace>groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)</trace>
+              <trace>org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)</trace>
+              <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)</trace>
+              <trace>groovy.lang.Closure.call(Closure.java:414)</trace>
+              <trace>groovy.lang.Closure.call(Closure.java:430)</trace>
+              <trace>org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2040)</trace>
+              <trace>org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2025)</trace>
+              <trace>org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2066)</trace>
+              <trace>org.codehaus.groovy.runtime.dgm$162.invoke(Unknown Source)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:274)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)</trace>
+              <trace>org.sonatype.nexus.ci.nxrm.ComponentUploader.uploadComponents(ComponentUploader.groovy:77)</trace>
+              <trace>org.sonatype.nexus.ci.nxrm.ComponentUploader$uploadComponents.call(Unknown Source)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)</trace>
+              <trace>org.sonatype.nexus.ci.nxrm.PackagePublisherExecution.run(PackagePublisherExecution.groovy:43)</trace>
+              <trace>org.sonatype.nexus.ci.nxrm.PackagePublisherExecution.run(PackagePublisherExecution.groovy)</trace>
+              <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)</trace>
+              <trace>hudson.security.ACL.impersonate(ACL.java:260)</trace>
+              <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)</trace>
+              <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+              <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+              <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+              <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+              <trace>java.lang.Thread.run(Thread.java:748)</trace>
+            </stackTrace>
+            <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+              <c class="list"/>
+              <list reference="../c"/>
+            </suppressedExceptions>
+          </cause>
+          <stackTrace>
+            <trace>hudson.FilePath.copyTo(FilePath.java:2002)</trace>
+            <trace>hudson.FilePath$copyTo$1.call(Unknown Source)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)</trace>
+            <trace>org.sonatype.nexus.ci.nxrm.ComponentUploader$_uploadComponents_closure2.doCall(ComponentUploader.groovy:84)</trace>
+            <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+            <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+            <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+            <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+            <trace>org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)</trace>
+            <trace>groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)</trace>
+            <trace>org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)</trace>
+            <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)</trace>
+            <trace>groovy.lang.Closure.call(Closure.java:414)</trace>
+            <trace>groovy.lang.Closure.call(Closure.java:430)</trace>
+            <trace>org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2040)</trace>
+            <trace>org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2025)</trace>
+            <trace>org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2066)</trace>
+            <trace>org.codehaus.groovy.runtime.dgm$162.invoke(Unknown Source)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:274)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)</trace>
+            <trace>org.sonatype.nexus.ci.nxrm.ComponentUploader.uploadComponents(ComponentUploader.groovy:77)</trace>
+            <trace>org.sonatype.nexus.ci.nxrm.ComponentUploader$uploadComponents.call(Unknown Source)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)</trace>
+            <trace>org.sonatype.nexus.ci.nxrm.PackagePublisherExecution.run(PackagePublisherExecution.groovy:43)</trace>
+            <trace>org.sonatype.nexus.ci.nxrm.PackagePublisherExecution.run(PackagePublisherExecution.groovy)</trace>
+            <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)</trace>
+            <trace>hudson.security.ACL.impersonate(ACL.java:260)</trace>
+            <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)</trace>
+            <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+            <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+            <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+            <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+            <trace>java.lang.Thread.run(Thread.java:748)</trace>
+          </stackTrace>
+          <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" reference="../cause/suppressedExceptions"/>
+        </cause>
+        <stackTrace>
+          <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</trace>
+          <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)</trace>
+          <trace>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</trace>
+          <trace>java.lang.reflect.Constructor.newInstance(Constructor.java:423)</trace>
+          <trace>org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:255)</trace>
+          <trace>org.sonatype.nexus.ci.nxrm.ComponentUploader$_uploadComponents_closure2.doCall(ComponentUploader.groovy:108)</trace>
+          <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+          <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+          <trace>org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)</trace>
+          <trace>groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)</trace>
+          <trace>org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)</trace>
+          <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)</trace>
+          <trace>groovy.lang.Closure.call(Closure.java:414)</trace>
+          <trace>groovy.lang.Closure.call(Closure.java:430)</trace>
+          <trace>org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2040)</trace>
+          <trace>org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2025)</trace>
+          <trace>org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2066)</trace>
+          <trace>org.codehaus.groovy.runtime.dgm$162.invoke(Unknown Source)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:274)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)</trace>
+          <trace>org.sonatype.nexus.ci.nxrm.ComponentUploader.uploadComponents(ComponentUploader.groovy:77)</trace>
+          <trace>org.sonatype.nexus.ci.nxrm.ComponentUploader$uploadComponents.call(Unknown Source)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)</trace>
+          <trace>org.sonatype.nexus.ci.nxrm.PackagePublisherExecution.run(PackagePublisherExecution.groovy:43)</trace>
+          <trace>org.sonatype.nexus.ci.nxrm.PackagePublisherExecution.run(PackagePublisherExecution.groovy)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)</trace>
+          <trace>hudson.security.ACL.impersonate(ACL.java:260)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)</trace>
+          <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+          <trace>java.lang.Thread.run(Thread.java:748)</trace>
+        </stackTrace>
+        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" reference="../cause/cause/suppressedExceptions"/>
+      </error>
+    </org.jenkinsci.plugins.workflow.actions.ErrorAction>
+    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.23.1">
+      <startTime>1510524426660</startTime>
+    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+  </actions>
+</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

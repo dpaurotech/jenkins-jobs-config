@@ -1,0 +1,11 @@
+commit 89687e2510c9b0329d8d33bc78ddd72604d7c0ec
+tree ecdb803c71f0d4ecf8c74879d0282e5f1853c841
+parent 8a91823f029856cf49664647e34ad365af7c5323
+author Satish-Auro <naga.molleti@aurotechcorp.com> 2017-12-11 10:47:44 -0500
+committer Satish-Auro <naga.molleti@aurotechcorp.com> 2017-12-11 10:47:44 -0500
+
+    added the approve button - demo
+
+
+
+:100755 100755 217e7a0b07423514b550b53a495dfdb36e35a7d3 e9d762fa6bcec0c4566343370f109612a855d3ba M	DEMO_WEB_APP/src/main/webapp/WEB-INF/jsp/caseDetails.jsp

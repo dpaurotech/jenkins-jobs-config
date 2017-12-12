@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.16">
+  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepEndNode" plugin="workflow-cps@2.41">
+    <parentIds>
+      <string>13</string>
+    </parentIds>
+    <id>14</id>
+    <startId>11</startId>
+  </node>
+  <actions>
+    <org.jenkinsci.plugins.workflow.actions.BodyInvocationAction plugin="workflow-api@2.23.1"/>
+    <org.jenkinsci.plugins.workflow.actions.ErrorAction plugin="workflow-api@2.23.1">
+      <error class="java.lang.IllegalArgumentException">
+        <detailMessage>Could not instantiate {message=[{id=issuetype, name=Issue Type, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[issuetype, type], schema={type=issuetype, system=issuetype}}, {id=components, name=Component/s, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[component], schema={type=array, items=component, system=components}}, {id=issuekey, name=Key, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[id, issue, issuekey, key]}, {id=timespent, name=Time Spent, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[timespent], schema={type=number, system=timespent}}, {id=timeoriginalestimate, name=Original Estimate, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[originalEstimate, timeoriginalestimate], schema={type=number, system=timeoriginalestimate}}, {id=project, name=Project, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[project], schema={type=project, system=project}}, {id=description, name=Description, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[description], schema={type=string, system=description}}, {id=fixVersions, name=Fix Version/s, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[fixVersion], schema={type=array, items=version, system=fixVersions}}, {id=aggregatetimespent, name=Σ Time Spent, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[], schema={type=number, system=aggregatetimespent}}, {id=resolution, name=Resolution, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[resolution], schema={type=resolution, system=resolution}}, {id=timetracking, name=Time Tracking, custom=false, orderable=true, navigable=false, searchable=true, clauseNames=[], schema={type=timetracking, system=timetracking}}, {id=customfield_10005, name=Rank, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10005], Rank], schema={type=any, custom=com.pyxis.greenhopper.jira:gh-lexo-rank, customId=10005}}, {id=customfield_10006, name=Story Points, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10006], Story Points], schema={type=number, custom=com.atlassian.jira.plugin.system.customfieldtypes:float, customId=10006}}, {id=security, name=Security Level, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[level], schema={type=securitylevel, system=security}}, {id=attachment, name=Attachment, custom=false, orderable=true, navigable=false, searchable=true, clauseNames=[attachments], schema={type=array, items=attachment, system=attachment}}, {id=aggregatetimeestimate, name=Σ Remaining Estimate, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[], schema={type=number, system=aggregatetimeestimate}}, {id=resolutiondate, name=Resolved, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[resolutiondate, resolved], schema={type=datetime, system=resolutiondate}}, {id=workratio, name=Work Ratio, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[workratio], schema={type=number, system=workratio}}, {id=summary, name=Summary, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[summary], schema={type=string, system=summary}}, {id=lastViewed, name=Last Viewed, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[lastViewed], schema={type=datetime, system=lastViewed}}, {id=watches, name=Watchers, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[watchers], schema={type=watches, system=watches}}, {id=creator, name=Creator, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[creator], schema={type=user, system=creator}}, {id=thumbnail, name=Images, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[]}, {id=subtasks, name=Sub-Tasks, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[subtasks], schema={type=array, items=issuelinks, system=subtasks}}, {id=created, name=Created, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[created, createdDate], schema={type=datetime, system=created}}, {id=reporter, name=Reporter, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[reporter], schema={type=user, system=reporter}}, {id=aggregateprogress, name=Σ Progress, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[], schema={type=progress, system=aggregateprogress}}, {id=customfield_10000, name=Epic Link, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10000], Epic Link], schema={type=any, custom=com.pyxis.greenhopper.jira:gh-epic-link, customId=10000}}, {id=priority, name=Priority, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[priority], schema={type=priority, system=priority}}, {id=customfield_10001, name=Epic Status, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10001], Epic Status], schema={type=option, custom=com.pyxis.greenhopper.jira:gh-epic-status, customId=10001}}, {id=customfield_10002, name=Epic Name, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10002], Epic Name], schema={type=string, custom=com.pyxis.greenhopper.jira:gh-epic-label, customId=10002}}, {id=customfield_10003, name=Epic Colour, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10003], Epic Colour], schema={type=string, custom=com.pyxis.greenhopper.jira:gh-epic-color, customId=10003}}, {id=labels, name=Labels, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[labels], schema={type=array, items=string, system=labels}}, {id=customfield_10004, name=Sprint, custom=true, orderable=true, navigable=true, searchable=true, clauseNames=[cf[10004], Sprint], schema={type=array, items=string, custom=com.pyxis.greenhopper.jira:gh-sprint, customId=10004}}, {id=environment, name=Environment, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[environment], schema={type=string, system=environment}}, {id=timeestimate, name=Remaining Estimate, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[remainingEstimate, timeestimate], schema={type=number, system=timeestimate}}, {id=aggregatetimeoriginalestimate, name=Σ Original Estimate, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[], schema={type=number, system=aggregatetimeoriginalestimate}}, {id=versions, name=Affects Version/s, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[affectedVersion], schema={type=array, items=version, system=versions}}, {id=duedate, name=Due Date, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[due, duedate], schema={type=date, system=duedate}}, {id=progress, name=Progress, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[progress], schema={type=progress, system=progress}}, {id=comment, name=Comment, custom=false, orderable=true, navigable=false, searchable=true, clauseNames=[comment], schema={type=comments-page, system=comment}}, {id=votes, name=Votes, custom=false, orderable=false, navigable=true, searchable=false, clauseNames=[votes], schema={type=votes, system=votes}}, {id=issuelinks, name=Linked Issues, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[], schema={type=array, items=issuelinks, system=issuelinks}}, {id=worklog, name=Log Work, custom=false, orderable=true, navigable=false, searchable=true, clauseNames=[], schema={type=array, items=worklog, system=worklog}}, {id=assignee, name=Assignee, custom=false, orderable=true, navigable=true, searchable=true, clauseNames=[assignee], schema={type=user, system=assignee}}, {id=updated, name=Updated, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[updated, updatedDate], schema={type=datetime, system=updated}}, {id=status, name=Status, custom=false, orderable=false, navigable=true, searchable=true, clauseNames=[status], schema={type=status, system=status}}]} for EchoStep(message: String): java.lang.ClassCastException: org.jenkinsci.plugins.workflow.steps.EchoStep.message expects class java.lang.String but received class java.util.ArrayList</detailMessage>
+        <cause class="java.lang.ClassCastException">
+          <detailMessage>org.jenkinsci.plugins.workflow.steps.EchoStep.message expects class java.lang.String but received class java.util.ArrayList</detailMessage>
+          <stackTrace>
+            <trace>org.jenkinsci.plugins.structs.describable.DescribableModel.coerce(DescribableModel.java:394)</trace>
+            <trace>org.jenkinsci.plugins.structs.describable.DescribableModel.buildArguments(DescribableModel.java:318)</trace>
+            <trace>org.jenkinsci.plugins.structs.describable.DescribableModel.instantiate(DescribableModel.java:259)</trace>
+            <trace>org.jenkinsci.plugins.workflow.steps.StepDescriptor.newInstance(StepDescriptor.java:201)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:205)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:150)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:108)</trace>
+            <trace>sun.reflect.GeneratedMethodAccessor865.invoke(Unknown Source)</trace>
+            <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+            <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+            <trace>org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)</trace>
+            <trace>groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)</trace>
+            <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)</trace>
+            <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+            <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+            <trace>org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:155)</trace>
+            <trace>org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)</trace>
+            <trace>org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:133)</trace>
+            <trace>org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:153)</trace>
+            <trace>org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:157)</trace>
+            <trace>org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:127)</trace>
+            <trace>org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:127)</trace>
+            <trace>com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)</trace>
+            <trace>com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:57)</trace>
+            <trace>com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:109)</trace>
+            <trace>com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:82)</trace>
+            <trace>sun.reflect.GeneratedMethodAccessor859.invoke(Unknown Source)</trace>
+            <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+            <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+            <trace>com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)</trace>
+            <trace>com.cloudbees.groovy.cps.impl.PropertyishBlock$ContinuationImpl.get(PropertyishBlock.java:76)</trace>
+            <trace>com.cloudbees.groovy.cps.LValueBlock$GetAdapter.receive(LValueBlock.java:30)</trace>
+            <trace>com.cloudbees.groovy.cps.impl.PropertyishBlock$ContinuationImpl.fixName(PropertyishBlock.java:66)</trace>
+            <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+            <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+            <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+            <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+            <trace>com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)</trace>
+            <trace>com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)</trace>
+            <trace>com.cloudbees.groovy.cps.Next.step(Next.java:83)</trace>
+            <trace>com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)</trace>
+            <trace>com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)</trace>
+            <trace>org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:122)</trace>
+            <trace>org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:261)</trace>
+            <trace>com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:19)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable$1.call(SandboxContinuable.java:35)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable$1.call(SandboxContinuable.java:32)</trace>
+            <trace>org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox.runInSandbox(GroovySandbox.java:108)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:32)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:174)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:330)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$100(CpsThreadGroup.java:82)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:242)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:230)</trace>
+            <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:64)</trace>
+            <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+            <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:112)</trace>
+            <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+            <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+            <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+            <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+            <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+            <trace>java.lang.Thread.run(Thread.java:748)</trace>
+          </stackTrace>
+          <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+            <c class="list"/>
+            <list reference="../c"/>
+          </suppressedExceptions>
+        </cause>
+        <stackTrace>
+          <trace>org.jenkinsci.plugins.structs.describable.DescribableModel.instantiate(DescribableModel.java:264)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.StepDescriptor.newInstance(StepDescriptor.java:201)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:205)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:150)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:108)</trace>
+          <trace>sun.reflect.GeneratedMethodAccessor865.invoke(Unknown Source)</trace>
+          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+          <trace>org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)</trace>
+          <trace>groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)</trace>
+          <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)</trace>
+          <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+          <trace>org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:155)</trace>
+          <trace>org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)</trace>
+          <trace>org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:133)</trace>
+          <trace>org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:153)</trace>
+          <trace>org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:157)</trace>
+          <trace>org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:127)</trace>
+          <trace>org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:127)</trace>
+          <trace>com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)</trace>
+          <trace>WorkflowScript.run(WorkflowScript:12)</trace>
+          <trace>___cps.transform___(Native Method)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:57)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:109)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:82)</trace>
+          <trace>sun.reflect.GeneratedMethodAccessor859.invoke(Unknown Source)</trace>
+          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.PropertyishBlock$ContinuationImpl.get(PropertyishBlock.java:76)</trace>
+          <trace>com.cloudbees.groovy.cps.LValueBlock$GetAdapter.receive(LValueBlock.java:30)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.PropertyishBlock$ContinuationImpl.fixName(PropertyishBlock.java:66)</trace>
+          <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+          <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)</trace>
+          <trace>com.cloudbees.groovy.cps.Next.step(Next.java:83)</trace>
+          <trace>com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)</trace>
+          <trace>com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)</trace>
+          <trace>org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:122)</trace>
+          <trace>org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:261)</trace>
+          <trace>com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:19)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable$1.call(SandboxContinuable.java:35)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable$1.call(SandboxContinuable.java:32)</trace>
+          <trace>org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox.runInSandbox(GroovySandbox.java:108)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:32)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:174)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:330)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$100(CpsThreadGroup.java:82)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:242)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:230)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:64)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:112)</trace>
+          <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+          <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+          <trace>java.lang.Thread.run(Thread.java:748)</trace>
+        </stackTrace>
+        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" reference="../cause/suppressedExceptions"/>
+      </error>
+    </org.jenkinsci.plugins.workflow.actions.ErrorAction>
+    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.23.1">
+      <startTime>1511051380879</startTime>
+    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+  </actions>
+</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

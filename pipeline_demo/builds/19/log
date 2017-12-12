@@ -1,0 +1,129 @@
+Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4Be68TTfntEvfDb5Aq7dy10WRFeQ/0nXB0Jx0kS5ewIZAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/pipeline_demo
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Pull code from repository)
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/cucumber/cucumber-java-skeleton.git # timeout=10
+Fetching upstream changes from https://github.com/cucumber/cucumber-java-skeleton.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/cucumber/cucumber-java-skeleton.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2d8298a80000babe62967a1977b71491ce1449cd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2d8298a80000babe62967a1977b71491ce1449cd
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 2d8298a80000babe62967a1977b71491ce1449cd
+Commit message: "Fix build status link"
+ > git rev-list 2d8298a80000babe62967a1977b71491ce1449cd # timeout=10
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build and test code)
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[pipeline_demo] Running shell script
++ cd /var/lib/jenkins/workspace/pipeline_demo/
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withMaven
+[withMaven] Options: []
+[withMaven] Available options: 
+[withMaven] use JDK installation provided by the build agent
+[withMaven] use Maven installation 'Maven305'
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[pipeline_demo] Running shell script
++ mvn test
+----- withMaven Wrapper script -----
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/pipeline_demo@tmp/withMaven7186a1f7/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/pipeline_demo@tmp/withMaven7186a1f7" 
+Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 13:51:28+0000)
+Maven home: /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven305
+Java version: 1.8.0_151, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.8.0_151/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.10.0-693.el7.x86_64", arch: "amd64", family: "unix"
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Cucumber-Java Skeleton 0.0.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ cucumber-java-skeleton ---
+[debug] execute contextualize
+[8mha:////4EbiXRBdvr0u4F5OPyROGuRR34qoicpZL1ysKTwLsM/GAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/pipeline_demo/src/main/resources
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ cucumber-java-skeleton ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ cucumber-java-skeleton ---
+[debug] execute contextualize
+[8mha:////4EbiXRBdvr0u4F5OPyROGuRR34qoicpZL1ysKTwLsM/GAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ cucumber-java-skeleton ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ cucumber-java-skeleton ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/pipeline_demo/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/pipeline_demo@tmp/withMaven7186a1f7/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/pipeline_demo@tmp/withMaven7186a1f7" 
+Running skeleton.RunCukesTest
+Feature: Belly
+
+  Scenario: a few cukes               [90m# skeleton/belly.feature:3[0m
+    [32mGiven [0m[32mI have [0m[32m[1m42[0m[32m cukes in my belly[0m [90m# Stepdefs.I_have_cukes_in_my_belly(int)[0m
+    [33mWhen [0m[33mI wait 1 hour[0m                [90m# null[0m
+    [33mThen [0m[33mmy belly should growl[0m        [90m# null[0m
+
+1 Scenarios ([33m1 undefined[0m)
+3 Steps ([33m2 undefined[0m, [32m1 passed[0m)
+0m0.103s
+
+
+You can implement missing steps with the snippets below:
+
+@When("^I wait (\\d+) hour$")
+public void i_wait_hour(int arg1) throws Exception {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^my belly should growl$")
+public void my_belly_should_growl() throws Exception {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.337 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 2
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.508s
+[INFO] Finished at: Fri Nov 10 17:04:22 UTC 2017
+[INFO] Final Memory: 9M/240M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withMaven
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Update JIRA)
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] jiraComment
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4OV+Vd8n0YbXq2cJjxvXZ7iSxbV6YxkvbjNh7fy5URVwAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

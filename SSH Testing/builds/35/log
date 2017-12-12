@@ -1,0 +1,28 @@
+Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+Building remotely on [8mha:////4It3PwI6yuX7WkYVwSZAAM7i9rrHNfe2Lv/eyFphjvBpAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeEMAxhAoCMYAAAA=[0mAgent_1 (linux) in workspace /var/lib/jenkins/workspace/SSH Testing
+[SSH] commands:
+
+ls -l /tmp
+mkdir -p /tmp/artifacts-source
+curl -o /tmp/artifacts-source/SimpleWebApp.war http://ec2-34-224-214-70.compute-1.amazonaws.com:8081/nexus/service/local/repositories/releases/content/SimpleWebApp/SimpleWebApp/65/SimpleWebApp-65.war
+ls -l /tmp/artifacts-source
+sudo chown jboss:jboss /tmp/artifacts-source/SimpleWebApp.war
+/usr/share/jboss-as/bin/jboss-cli.sh -c --controller=localhost:9999 --user=admin --password=jboss123 --command="deploy /tmp/artifacts-source/SimpleWebApp.war --force"
+
+[SSH] executing...
+total 0
+drwxrwxr-x. 2 jboss jboss 78 Nov 20 20:05 artifacts-source
+drwxr-xr-x. 2 jboss jboss 18 Nov 20 20:15 hsperfdata_jboss
+drwx------. 3 root  root  17 Oct 18 02:16 systemd-private-cf105105a51345aa9f578afb8791e9a2-chronyd.service-6HaeEt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Warning: Failed to create the file /tmp/artifacts-source/SimpleWebApp.war: 
+Warning: Permission denied
+  0 6999k    0 15962    0     0   800k      0  0:00:08 --:--:--  0:00:08  820k
+curl: (23) Failed writing body (0 != 15962)
+
+[SSH] completed
+[SSH] exit-status: 23
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

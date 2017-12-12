@@ -1,0 +1,10 @@
+Started on Nov 27, 2017 5:10:13 PM
+Started by event from 192.30.252.42 ⇒ http://ec2-34-224-214-70.compute-1.amazonaws.com:8080/github-webhook/ on Mon Nov 27 17:10:13 UTC 2017
+Using strategy: Default
+[poll] Last Built Revision: Revision d1bbb7fdc0c1784efefebedbb761c6f5d40100f4 (refs/remotes/origin/master)
+ > git --version # timeout=10
+ > git ls-remote -h git@github.com:dpkodali/SimpleWebApp.git # timeout=10
+Found 1 remote heads on git@github.com:dpkodali/SimpleWebApp.git
+[poll] Latest remote head revision on refs/heads/master is: 848b8f8d181031040ea1d19d5585b6fe15fa8af2
+Done. Took 0.12 sec
+Changes found

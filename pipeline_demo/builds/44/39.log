@@ -1,0 +1,11 @@
+Uploading artifact cucumber-java-skeleton-0.0.1.jar started....
+GroupId: pipeline-test
+ArtifactId: 1.0
+Classifier: 
+Type: hosted
+Version: 1.0
+File: cucumber-java-skeleton-0.0.1.jar
+Repository:SimpleWebApp
+Uploading: http://ec2-34-224-214-70.compute-1.amazonaws.com:8081/nexus/content/repositories/SimpleWebApp/pipeline-test/1.0/1.0/1.0-1.0.hosted
+100 % completed (2.2 kB / 2.2 kB).
+Failed to deploy artifacts: Could not transfer artifact pipeline-test:1.0:hosted:1.0 from/to SimpleWebApp (http://ec2-34-224-214-70.compute-1.amazonaws.com:8081/nexus/content/repositories/SimpleWebApp): Failed to transfer file: http://ec2-34-224-214-70.compute-1.amazonaws.com:8081/nexus/content/repositories/SimpleWebApp/pipeline-test/1.0/1.0/1.0-1.0.hosted. Return code is: 401, ReasonPhrase:Unauthorized.

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>Jboss_App_Deploy_Testing</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <org.jvnet.hudson.plugins.SSHBuilder plugin="ssh@2.5">
+      <siteName>ec2-user@ec2-52-205-181-23.compute-1.amazonaws.com:22</siteName>
+      <command>echo &quot;=============================================================&quot;
+hostname
+echo &quot;=============================================================&quot;
+
+echo &quot;=============================================================&quot;
+export ARTIFACTS_SOURCE=/tmp/artifacts-source
+echo $ARTIFACTS_SOURCE
+export ARTIFACT_NAME_TARGET=SimpleWebApp.war
+export ARTIFACT_DOWNLOAD_URL=http://ec2-34-224-214-70.compute-1.amazonaws.com:8081/nexus/service/local/repositories/releases/content/SimpleWebApp/SimpleWebApp/65/SimpleWebApp-65.war
+export JBOSS_SYSTEM_USER=jboss
+export JBOSS_SYSTEM_GROUP=jboss
+export JBOSS_HOME=/usr/share/jboss-as
+export JBOSS_BIN_HOME=/usr/share/jboss-as/bin
+export JBOSS_CONTROLLER_PORT=9999
+export JBOSS_CONSOLE_ADMIN_USER=admin
+export JBOSS_CONSOLE_ADMIN_PW=jboss123
+echo &quot;=============================================================&quot;
+
+echo &quot;=============================================================&quot;
+sudo mkdir -p $ARTIFACTS_SOURCE
+sudo chmod 755 $ARTIFACTS_SOURCE
+sudo curl -o $ARTIFACTS_SOURCE/$APP_FILE_NAME $NEXUS_URL/$NEXUS_URI/$APP_BUILD_NUMBER/SimpleWebApp-$APP_BUILD_NUMBER.war
+sudo ls -l $ARTIFACTS_SOURCE
+sudo chown $JBOSS_SYSTEM_USER:$JBOSS_SYSTEM_GROUP $ARTIFACTS_SOURCE/$APP_FILE_NAME
+sudo cp $ARTIFACTS_SOURCE/$APP_FILE_NAME $JBOSS_HOME/standalone/deployments/$APP_FILE_NAME
+sudo chown $JBOSS_SYSTEM_USER:$JBOSS_SYSTEM_GROUP $JBOSS_HOME/standalone/deployments/$APP_FILE_NAME
+sudo $JBOSS_HOME/bin/jboss-cli.sh -c --controller=localhost:$JBOSS_CONTROLLER_PORT --user=$JBOSS_ADMIN_CONSOLE_USER --password=$JBOSS_ADMIN_CONSOLE_PW --command=&quot;deploy $JBOSS_HOME/standalone/deployments/$APP_FILE_NAME --force&quot;
+echo &quot;=&gt; End of Build &lt;=&quot;</command>
+      <execEachLine>true</execEachLine>
+    </org.jvnet.hudson.plugins.SSHBuilder>
+  </builders>
+  <publishers/>
+  <buildWrappers>
+    <com.cloudbees.jenkins.plugins.sshagent.SSHAgentBuildWrapper plugin="ssh-agent@1.15">
+      <credentialIds>
+        <string>7fa781cd-4ea9-4cc5-9dfa-a1edd83f7a4d</string>
+      </credentialIds>
+      <ignoreMissing>false</ignoreMissing>
+    </com.cloudbees.jenkins.plugins.sshagent.SSHAgentBuildWrapper>
+  </buildWrappers>
+</project>

@@ -1,0 +1,11 @@
+commit 30c804029974c3c679eab1f122e79d1d71b83c3b
+tree 974f90368c4d0c25e6791f8d553f376f7a99ccb6
+parent 89687e2510c9b0329d8d33bc78ddd72604d7c0ec
+author Satish-Auro <naga.molleti@aurotechcorp.com> 2017-12-11 13:33:36 -0500
+committer Satish-Auro <naga.molleti@aurotechcorp.com> 2017-12-11 13:33:36 -0500
+
+    == to === sonarcube
+
+
+
+:100644 100644 206da02c9d68b76545ecb548aa22532b7d12b0a7 c61efff04a9929d75e472b420842622634c13397 M	DEMO_WEB_APP/src/main/webapp/resources/js/modal2.js

@@ -1,0 +1,3 @@
+Uploading Maven asset with groupId: cucumber-java-skeleton artifactId: cucumber-java-skeleton.jar version: 1.0 To repository: Pipeline-test
+Upload of /var/lib/jenkins/workspace/pipeline_demo/target failed
+Failing build due to failure to upload file to Nexus Repository Manager Publisher

@@ -1,0 +1,5 @@
+[pipeline_demo] Running shell script
+++ WORKSPACE
+/var/lib/jenkins/workspace/pipeline_demo@tmp/durable-5a9b059b/script.sh: line 2: WORKSPACE: command not found
++ cd /cucumber-java-skeleton
+/var/lib/jenkins/workspace/pipeline_demo@tmp/durable-5a9b059b/script.sh: line 2: cd: /cucumber-java-skeleton: No such file or directory

@@ -1,0 +1,17 @@
+commit e258d38f39f5a12d4235aa841df04f3d4bc8db91
+tree 58e5f850b70caebcd02529a1c9e38e5d62d5521d
+parent 30c804029974c3c679eab1f122e79d1d71b83c3b
+author Satish-Auro <naga.molleti@aurotechcorp.com> 2017-12-12 11:37:49 -0500
+committer Satish-Auro <naga.molleti@aurotechcorp.com> 2017-12-12 11:37:49 -0500
+
+    assign case to user from unassigned
+
+
+
+:100755 100755 f76dce8dff46927a513a0e74935918c678b52ebb 27030e1f2fcce4d3bafa3c9563cd4d11fe525b13 M	DEMO_WEB_APP/src/main/java/jbr/springmvc/controller/LoginController.java
+:100755 100755 a5fc855054a9aa28aaaaee746e154f0150e1f8bc 7a3099134f8cca16fb3e63820f15a7fb76ab8785 M	DEMO_WEB_APP/src/main/java/jbr/springmvc/dao/UserDaoImpl.java
+:100755 100755 1cfb6c79ff7dfd28b461dfe9ebac5493ac089ab7 86ded31ac2fee9eeb3ebf4ddb3f90ea46bf5a0e1 M	DEMO_WEB_APP/src/main/java/jbr/springmvc/model/CaseDetails.java
+:100644 100644 2eea159b36e3ee53360aa5a0e566414d59cae925 4534c8e5d5c95ecfa4da06e0298a1de86e6c50b7 M	DEMO_WEB_APP/src/main/java/jbr/springmvc/model/UnAssignedCasesObject.java
+:100755 100755 f9b0bf0164f09e8449ff622afa869e297e22a38d 02d9a1c3d41d0304f768c66229b27ecd04fb11f7 M	DEMO_WEB_APP/src/main/java/jbr/springmvc/model/User.java
+:100755 100755 97bcf5262da33d86d438297cd266e76791e4d61a 2603e22444d23a6ca5a814e9eea69403f7771b9c M	DEMO_WEB_APP/src/main/webapp/WEB-INF/jsp/unassigned.jsp
+:100644 100644 79e7325f8c4f6cd3c230ad5d8ec075ec374f788e 51e0a7352d855095a7a2f025fe6c0522a70f9cc3 M	DEMO_WEB_APP/src/main/webapp/resources/js/modal.js

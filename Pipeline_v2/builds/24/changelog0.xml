@@ -1,0 +1,11 @@
+commit 18b3f37c0507c94245a1e7f4d9ba620800ba62c6
+tree 2b48885d0406f2264a92b4891bb81534d13a6447
+parent eeca7312036fa1a2adbee800328bd52b20a89023
+author Devops-anudeep <anudeep.belaganti@aurotechcorp.com> 2017-11-20 11:31:31 -0500
+committer Devops-anudeep <anudeep.belaganti@aurotechcorp.com> 2017-11-20 11:31:31 -0500
+
+    front-end plugin version updated to 1.6
+
+
+
+:100644 100644 f154350fde0af565b8ab58ea153718b7d65bf167 41313ddaa0fdde9e46fbaf0b385c2b68ae93e2ce M	pom.xml

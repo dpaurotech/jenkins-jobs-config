@@ -1,0 +1,12 @@
+commit 900419618ad2f630d624f953fe51236c8061cebe
+tree 33556385dcaba28637b070183cc5d00492493b50
+parent e9f9c2044eb8f784b8554ecd68d62cd0d5a0c3f2
+author Satish-Auro <naga.molleti@aurotechcorp.com> 2017-12-12 12:00:05 -0500
+committer Satish-Auro <naga.molleti@aurotechcorp.com> 2017-12-12 12:00:05 -0500
+
+    code cleanup - caseDetails
+
+
+
+:100755 100755 27030e1f2fcce4d3bafa3c9563cd4d11fe525b13 9f57b7a96171606c4e723e6d3b6521775fcd3f1e M	DEMO_WEB_APP/src/main/java/jbr/springmvc/controller/LoginController.java
+:100755 100755 7a3099134f8cca16fb3e63820f15a7fb76ab8785 5a64d9369805674874cbaa40dd3e53dbc07498b4 M	DEMO_WEB_APP/src/main/java/jbr/springmvc/dao/UserDaoImpl.java

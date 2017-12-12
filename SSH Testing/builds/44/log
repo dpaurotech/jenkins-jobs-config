@@ -1,0 +1,87 @@
+Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+Building remotely on [8mha:////4It3PwI6yuX7WkYVwSZAAM7i9rrHNfe2Lv/eyFphjvBpAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeEMAxhAoCMYAAAA=[0mAgent_1 (linux) in workspace /var/lib/jenkins/workspace/SSH Testing
+[SSH Testing] $ /bin/sh -xe /tmp/jenkins680703187111505441.sh
++ env
+BUILD_URL=http://ec2-34-224-214-70.compute-1.amazonaws.com:8080/job/SSH%20Testing/44/
+XDG_SESSION_ID=6102
+HUDSON_SERVER_COOKIE=44e56278e2e0a4bd
+SHELL=/bin/bash
+SSH_CLIENT=172.31.30.145 37070 22
+BUILD_TAG=jenkins-SSH Testing-44
+JBOSS_HOME=/usr/share/jboss-as
+WORKSPACE=/var/lib/jenkins/workspace/SSH Testing
+JOB_URL=http://ec2-34-224-214-70.compute-1.amazonaws.com:8080/job/SSH%20Testing/
+JBOSS_SYSTEM_USER=jboss
+RUN_CHANGES_DISPLAY_URL=http://ec2-34-224-214-70.compute-1.amazonaws.com:8080/job/SSH%20Testing/44/display/redirect?page=changes
+USER=jenkins
+NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+JENKINS_HOME=/var/lib/jenkins
+MAIL=/var/mail/jenkins
+PATH=/usr/java/jdk1.8.0_151/bin:/usr/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/bin
+RUN_DISPLAY_URL=http://ec2-34-224-214-70.compute-1.amazonaws.com:8080/job/SSH%20Testing/44/display/redirect
+_=/usr/bin/env
+PWD=/var/lib/jenkins/workspace/SSH Testing
+JAVA_HOME=/usr/java/jdk1.8.0_151
+HUDSON_URL=http://ec2-34-224-214-70.compute-1.amazonaws.com:8080/
+APP_FILE_NAME=SimpleWebApp.war
+LANG=en_US.UTF-8
+JOB_NAME=SSH Testing
+XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+BUILD_DISPLAY_NAME=#44
+BUILD_ID=44
+JENKINS_URL=http://ec2-34-224-214-70.compute-1.amazonaws.com:8080/
+JOB_BASE_NAME=SSH Testing
+APP_BUILD_NUMBER=65
+HOME=/var/lib/jenkins
+SHLVL=2
+EXECUTOR_NUMBER=0
+JENKINS_SERVER_COOKIE=44e56278e2e0a4bd
+NODE_LABELS=Agent_1 linux
+JBOSS_CONTROLLER_PORT=9999
+LOGNAME=jenkins
+SSH_CONNECTION=172.31.30.145 37070 172.31.28.108 22
+HUDSON_HOME=/var/lib/jenkins
+NODE_NAME=Agent_1
+NEXUS_URI=http://ec2-34-224-214-70.compute-1.amazonaws.com:8081/nexus/service/local/repositories/releases/content/SimpleWebApp/SimpleWebApp
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BUILD_NUMBER=44
+JOB_DISPLAY_URL=http://ec2-34-224-214-70.compute-1.amazonaws.com:8080/job/SSH%20Testing/display/redirect
+JBOSS_ADMIN_CONSOLE_PW=jboss123
+XDG_RUNTIME_DIR=/run/user/54322
+HUDSON_COOKIE=92119469-4709-470d-84ec-07cc48f2de92
+ARTIFACTS_SOURCE=/tmp/artifacts-source
+JBOSS_SYSTEM_GROUP=jboss
+JBOSS_ADMIN_CONSOLE_USER=jboss
+[SSH] commands:
+JBOSS_SYSTEM_USER="jboss"
+ARTIFACTS_SOURCE="/tmp/artifacts-source"
+JBOSS_ADMIN_CONSOLE_PW=**********
+NEXUS_URI="http://ec2-34-224-214-70.compute-1.amazonaws.com:8081/nexus/service/local/repositories/releases/content/SimpleWebApp/SimpleWebApp"
+JBOSS_CONTROLLER_PORT="9999"
+APP_FILE_NAME="SimpleWebApp.war"
+JBOSS_ADMIN_CONSOLE_USER="jboss"
+JBOSS_HOME="/usr/share/jboss-as"
+APP_BUILD_NUMBER="65"
+USER="jenkins"
+BUILD_NUMBER="44"
+JBOSS_SYSTEM_GROUP="jboss"
+HOME="/var/lib/jenkins"
+
+sudo mkdir -p $ARTIFACTS_SOURCE
+sudo chmod 755 $ARTIFACTS_SOURCE
+sudo curl -o $ARTIFACTS_SOURCE/$APP_FILE_NAME $NEXUS_URI/$APP_BUILD_NUMBER/SimpleWebApp-$APP_BUILD_NUMBER.war
+sudo ls -l $ARTIFACTS_SOURCE
+sudo chown $JBOSS_SYSTEM_USER:$JBOSS_SYSTEM_GROUP $ARTIFACTS_SOURCE/$APP_FILE_NAME
+sudo cp $ARTIFACTS_SOURCE/$APP_FILE_NAME $JBOSS_HOME/standalone/deployments/$APP_FILE_NAME
+sudo chown $JBOSS_SYSTEM_USER:$JBOSS_SYSTEM_GROUP $JBOSS_HOME/standalone/deployments/$APP_FILE_NAME
+sudo $JBOSS_HOME/bin/jboss-cli.sh -c --controller=localhost:$JBOSS_CONTROLLER_PORT --user=$JBOSS_ADMIN_CONSOLE_USER --password=$JBOSS_ADMIN_CONSOLE_PW --command="deploy $JBOSS_HOME/standalone/deployments/$APP_FILE_NAME --force"
+
+[SSH] executing...
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

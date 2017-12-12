@@ -1,0 +1,62 @@
+Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+Building remotely on [8mha:////4It3PwI6yuX7WkYVwSZAAM7i9rrHNfe2Lv/eyFphjvBpAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeEMAxhAoCMYAAAA=[0mAgent_1 (linux) in workspace /var/lib/jenkins/workspace/SSH Testing
+[SSH] commands:
+
+env
+
+[SSH] executing...
+XDG_SESSION_ID=977
+SELINUX_ROLE_REQUESTED=
+SHELL=/bin/bash
+SSH_CLIENT=172.31.30.145 54750 22
+SELINUX_USE_CURRENT_RANGE=
+USER=ec2-user
+MAIL=/var/mail/ec2-user
+PATH=/usr/local/bin:/usr/bin
+PWD=/home/ec2-user
+LANG=en_US.UTF-8
+SELINUX_LEVEL_REQUESTED=
+SHLVL=1
+HOME=/home/ec2-user
+LOGNAME=ec2-user
+SSH_CONNECTION=172.31.30.145 54750 172.31.7.143 22
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+XDG_RUNTIME_DIR=/run/user/1000
+_=/usr/bin/env
+
+[SSH] completed
+[SSH] exit-status: 0
+
+[SSH] commands:
+JBOSS_SYSTEM_USER="jboss"
+ARTIFACTS_SOURCE="/tmp/artifacts-source"
+JBOSS_ADMIN_CONSOLE_PW=**********
+NEXUS_URI="http://ec2-34-224-214-70.compute-1.amazonaws.com:8081/nexus/service/local/repositories/releases/content/SimpleWebApp/SimpleWebApp"
+JBOSS_CONTROLLER_PORT="9999"
+APP_FILE_NAME="SimpleWebApp.war"
+JBOSS_ADMIN_CONSOLE_USER="jboss"
+JBOSS_HOME="/usr/share/jboss-as"
+APP_BUILD_NUMBER="65"
+USER="jenkins"
+BUILD_NUMBER="46"
+JBOSS_SYSTEM_GROUP="jboss"
+HOME="/var/lib/jenkins"
+
+sudo mkdir -p ARTIFACTS_SOURCE
+sudo chmod 755 $ARTIFACTS_SOURCE
+sudo curl -o $ARTIFACTS_SOURCE/$APP_FILE_NAME $NEXUS_URI/$APP_BUILD_NUMBER/SimpleWebApp-$APP_BUILD_NUMBER.war
+sudo ls -l $ARTIFACTS_SOURCE
+sudo chown $JBOSS_SYSTEM_USER:$JBOSS_SYSTEM_GROUP $ARTIFACTS_SOURCE/$APP_FILE_NAME
+sudo cp $ARTIFACTS_SOURCE/$APP_FILE_NAME $JBOSS_HOME/standalone/deployments/$APP_FILE_NAME
+sudo chown $JBOSS_SYSTEM_USER:$JBOSS_SYSTEM_GROUP $JBOSS_HOME/standalone/deployments/$APP_FILE_NAME
+sudo $JBOSS_HOME/bin/jboss-cli.sh -c --controller=localhost:$JBOSS_CONTROLLER_PORT --user=$JBOSS_ADMIN_CONSOLE_USER --password=$JBOSS_ADMIN_CONSOLE_PW --command="deploy $JBOSS_HOME/standalone/deployments/$APP_FILE_NAME --force"
+
+[SSH] executing...
+chmod: missing operand after ‘755’
+Try 'chmod --help' for more information.
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

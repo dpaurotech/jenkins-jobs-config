@@ -1,0 +1,20 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/Keshav885/demoApp.git
+ > git init /var/lib/jenkins/workspace/Pipeline_v2 # timeout=10
+Fetching upstream changes from https://github.com/Keshav885/demoApp.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Keshav885/demoApp.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Keshav885/demoApp.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Keshav885/demoApp.git # timeout=10
+Fetching upstream changes from https://github.com/Keshav885/demoApp.git
+ > git fetch --tags --progress https://github.com/Keshav885/demoApp.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6c721d3c0659226c4dd2f40a8b16e7729f3125cb (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6c721d3c0659226c4dd2f40a8b16e7729f3125cb
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 6c721d3c0659226c4dd2f40a8b16e7729f3125cb
+Commit message: "disabled before touched"
+First time build. Skipping changelog.

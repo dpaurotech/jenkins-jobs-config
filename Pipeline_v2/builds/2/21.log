@@ -1,0 +1,3 @@
+[Pipeline_v2] Running shell script
++ ng build -bh ./
+/var/lib/jenkins/workspace/Pipeline_v2@tmp/durable-d83f15a6/script.sh: line 2: ng: command not found

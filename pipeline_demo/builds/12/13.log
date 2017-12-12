@@ -1,0 +1,3 @@
+[pipeline_demo] Running shell script
++ mvn test
+/var/lib/jenkins/workspace/pipeline_demo@tmp/durable-4e56ccbe/script.sh: line 2: mvn: command not found

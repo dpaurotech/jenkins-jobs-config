@@ -1,0 +1,39 @@
+Started by upstream project "[8mha:////4DNS5vGKENnjUz5UXGRfKqq5l1pXRvehlyVPJunrO0wWAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2AzIJUoI2p8WVG+gBJheBrxgAAAA==[0mPipeline_v2" build number [8mha:////4Po5kPXHXvLVqgUNOFYx5qe/1rPCaATH8EMvH+NCAS8RAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JP2AzIJUoI2p8WVG+oYWAK6a60LIAAAA[0m18
+originally caused by:
+ Started by user [8mha:////4DMiJ/sxX9niFSA9EoOwRsD6ydMlhdx4oKk6D7Mq9RrXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZh/dLi1CL9xJTczLzM4pKixJL8IgDhw042yAAAAA==[0mAurotech inc
+Building remotely on [8mha:////4It3PwI6yuX7WkYVwSZAAM7i9rrHNfe2Lv/eyFphjvBpAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeEMAxhAoCMYAAAA=[0mAgent_1 (linux) in workspace /var/lib/jenkins/workspace/Deploy_Jar
+Deploying /var/lib/jenkins/workspace/Deploy_Jar/target/cucumber-java-skeleton-0.0.1.jar to container Tomcat 7.x Remote with context cucumber-java-skeleton
+ERROR: Build step failed with exception
+[8mha:////4EeeJrKwNBlJ6l6ilR80QxCShjvKs9Lhdp46J+izczcbAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mAlso:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to Agent_1
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1655)
+		at hudson.remoting.UserResponse.retrieve(UserRequest.java:308)
+		at hudson.remoting.Channel.call(Channel.java:904)
+		at hudson.FilePath.act(FilePath.java:986)
+		at hudson.FilePath.act(FilePath.java:975)
+		at hudson.plugins.deploy.CargoContainerAdapter.redeploy(CargoContainerAdapter.java:114)
+		at hudson.plugins.deploy.PasswordProtectedAdapterCargo.redeploy(PasswordProtectedAdapterCargo.java:93)
+		at hudson.plugins.deploy.DeployPublisher.perform(DeployPublisher.java:64)
+		at hudson.tasks.BuildStepMonitor$3.perform(BuildStepMonitor.java:45)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+		at hudson.model.Build$BuildExecution.post2(Build.java:186)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+		at hudson.model.Run.execute(Run.java:1749)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+		at hudson.model.ResourceController.execute(ResourceController.java:97)
+		at hudson.model.Executor.run(Executor.java:421)
+java.lang.RuntimeException: Extension File Error.
+	at hudson.plugins.deploy.CargoContainerAdapter.deploy(CargoContainerAdapter.java:82)
+	at hudson.plugins.deploy.CargoContainerAdapter$DeployCallable.invoke(CargoContainerAdapter.java:147)
+	at hudson.plugins.deploy.CargoContainerAdapter$DeployCallable.invoke(CargoContainerAdapter.java:117)
+	at hudson.FilePath$FileCallableWrapper.call(FilePath.java:2760)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:205)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:52)
+	at hudson.remoting.Request$2.run(Request.java:356)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Build step 'Deploy war/ear to a container' marked build as failure
+Finished: FAILURE

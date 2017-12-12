@@ -1,0 +1,20 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/cucumber/cucumber-java-skeleton.git
+ > git init /var/lib/jenkins/workspace/Pipeline_v2 # timeout=10
+Fetching upstream changes from https://github.com/cucumber/cucumber-java-skeleton.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/cucumber/cucumber-java-skeleton.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/cucumber/cucumber-java-skeleton.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/cucumber/cucumber-java-skeleton.git # timeout=10
+Fetching upstream changes from https://github.com/cucumber/cucumber-java-skeleton.git
+ > git fetch --tags --progress https://github.com/cucumber/cucumber-java-skeleton.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2d8298a80000babe62967a1977b71491ce1449cd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2d8298a80000babe62967a1977b71491ce1449cd
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 2d8298a80000babe62967a1977b71491ce1449cd
+Commit message: "Fix build status link"
+ > git rev-list 2d8298a80000babe62967a1977b71491ce1449cd # timeout=10

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.15">
+  <actions>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.3.2">
+      <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
+        <mappedUrl>blue/organizations/jenkins/Pipeline_v2</mappedUrl>
+        <modelObject class="flow-definition" reference="../../../.."/>
+      </blueOceanUrlObject>
+    </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers/>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.41">
+    <script>node
+{
+    stage (&apos;Pull code from repository&apos;) {
+    
+        git &apos;https://github.com/Devops-anudeep/demoApp_ang_mvn.git&apos;
+    
+    }
+
+    stage(&apos;JIRA&apos;) {
+        
+         def issue = jiraGetFields idOrKey: &apos;AV-13&apos;, site: &apos;LOCAL&apos;, failOnError: false
+         echo issue.toString();
+
+    }
+
+
+    stage (&apos;Build code&apos;) {
+    
+        sh &apos;cd ${WORKSPACE}/&apos;
+        
+         withMaven( maven: &apos;Maven305&apos;) {
+        
+                sh &apos;mvn package&apos;
+
+            }
+     
+		jiraComment body: &apos;Building Code Compelte&apos;, issueKey: &apos;AV-13&apos;
+	
+    }
+    
+    stage(&apos;Test Code&apos;) {
+        
+
+        sh &apos;cd ${WORKSPACE}/&apos;
+        
+         withMaven( maven: &apos;Maven305&apos;) {
+        
+                sh &apos;mvn test&apos;
+
+            }
+        
+        junit allowEmptyResults: true, testResults: &apos;${WORKSPACE}/target/surefire-reports/*.xml&apos;
+ 
+		jiraComment body: &apos;Testing Code Compelte&apos;, issueKey: &apos;AV-13&apos;
+
+    }
+    
+    stage(&apos;Deploy Code&apos;) {
+
+        sh &apos;cp -R ${WORKSPACE}/target /var/lib/jenkins/workspace/Deploy_Jar&apos;
+		
+		jiraComment body: &apos;Deployed Code Compelte&apos;, issueKey: &apos;AV-13&apos;
+
+
+    }
+    
+
+    stage(&apos;Upload artifact to Nexus&apos;) {
+       
+        
+    }    
+    
+    
+    stage(&apos;Update JIRA&apos;){
+     
+     jiraComment body: &apos;Application Deployed Successful&apos;, issueKey: &apos;AV-13&apos;
+   
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

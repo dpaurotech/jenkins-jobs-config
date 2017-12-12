@@ -1,0 +1,49 @@
+Started by upstream project "[8mha:////4ImLUq/iCRcszvYNX3B/fuFIXqWYjHk76oIGrpa3IybDAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH03F8eg1LLM1HLHgoKQ1OISoFH6AArFQHDOAAAA[0mFDAReviewAppTesting" build number [8mha:////4FCgIlf2bnwTrrcx2FAFQ8FEorg7LpD7N1NVvQ6XFYw6AAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JH03F8eg1LLM1HLHgoKQ1OISoFH6xhYAX/6jb9AAAAA=[0m38
+originally caused by:
+ Started by upstream project "[8mha:////4BoSzong4swSH4aahDbX1n9ADnedAf0PMw0tND5P7BtJAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/az8JH03F0dVI4Oi1LLM1HIgI7GgQB8AjMrXoc0AAAA=[0mFDA review app" build number [8mha:////4EEu9xkwugxxERiomeqe2/9KfgLWPFqHxqGbBOUQkOI7AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYp/az8JH03F0dVI4Oi1LLM1HIgI7GgQN/MAAC7SnYWzwAAAA==[0m60
+ originally caused by:
+  Started by GitHub push by Satish-Auro
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4It3PwI6yuX7WkYVwSZAAM7i9rrHNfe2Lv/eyFphjvBpAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifcf01LySeEMAxhAoCMYAAAA=[0mAgent_1 (linux) in workspace /var/lib/jenkins/workspace/Weblogic_Deploy
+[ssh-agent] Looking for ssh-agent implementation...
+[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)
+$ ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-bNa3KEBhZOTL/agent.6847
+SSH_AGENT_PID=6849
+[ssh-agent] Started.
+$ ssh-add /var/lib/jenkins/workspace/Weblogic_Deploy@tmp/private_key_2385545309313522287.key
+Identity added: /var/lib/jenkins/workspace/Weblogic_Deploy@tmp/private_key_2385545309313522287.key (/var/lib/jenkins/workspace/Weblogic_Deploy@tmp/private_key_2385545309313522287.key)
+[ssh-agent] Using credentials ec2-user (Weblogic_server_SSH)
+[SSH] commands:
+
+sudo rm -rf /home/orawls/*.war
+sudo cp /home/ec2-user/DemoFDAWebApp-*.war /home/orawls/DemoFDAWebApp.war
+sudo chown orawls:oinstall /home/orawls/DemoFDAWebApp.war
+sudo rm -rf /home/ec2-user/*.war
+./weblogic_redeploy_FDAREV.sh
+
+
+[SSH] executing...
+weblogic.Deployer invoked with options:  -adminurl t3://ec2-34-238-171-246.compute-1.amazonaws.com:9001 -user weblogic -name DemoFDAWebApp -undeploy
+<Dec 11, 2017 1:34:32 PM EST> <Info> <J2EE Deployment SPI> <BEA-260121> <Initiating undeploy operation for application, DemoFDAWebApp [archive: null], to configured targets.> 
+Task 147 initiated: [Deployer:149026]remove application DemoFDAWebApp on dss_wls_admin.
+Task 147 completed: [Deployer:149026]remove application DemoFDAWebApp on dss_wls_admin.
+Target state: undeploy completed on Server dss_wls_admin
+
+weblogic.Deployer invoked with options:  -adminurl t3://ec2-34-238-171-246.compute-1.amazonaws.com:9001 -user weblogic -deploy /home/orawls/DemoFDAWebApp.war -upload
+<Dec 11, 2017 1:34:37 PM EST> <Info> <J2EE Deployment SPI> <BEA-260121> <Initiating deploy operation for application, DemoFDAWebApp [archive: /home/orawls/DemoFDAWebApp.war], to configured targets.> 
+Task 148 initiated: [Deployer:149026]deploy application DemoFDAWebApp on dss_wls_admin.
+Task 148 completed: [Deployer:149026]deploy application DemoFDAWebApp on dss_wls_admin.
+Target state: deploy completed on Server dss_wls_admin
+
+Last login: Mon Dec 11 11:12:29 EST 2017
+
+[SSH] completed
+[SSH] exit-status: 0
+
+$ ssh-agent -k
+unset SSH_AUTH_SOCK;
+unset SSH_AGENT_PID;
+echo Agent pid 6849 killed;
+[ssh-agent] Stopped.
+Finished: SUCCESS

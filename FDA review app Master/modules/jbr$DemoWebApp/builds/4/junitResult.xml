@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.21">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/FDA review app Master/DEMO_WEB_APP/target/surefire-reports/TEST-LoginValidationTest.xml</file>
+      <name>LoginValidationTest</name>
+      <duration>0.102</duration>
+      <time>0.102</time>
+      <cases>
+        <case>
+          <duration>0.102</duration>
+          <className>LoginValidationTest</className>
+          <testName>testValidationWithValidLogin</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>LoginValidationTest</className>
+          <testName>testValidationWithEmptyUserNameLogin</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.102</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

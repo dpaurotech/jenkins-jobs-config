@@ -1,0 +1,16 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Devops-anudeep/demoApp_ang_mvn.git # timeout=10
+Fetching upstream changes from https://github.com/Devops-anudeep/demoApp_ang_mvn.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Devops-anudeep/demoApp_ang_mvn.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ee8697e4aaba3797a6098fcc2b756cc05b997e49 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ee8697e4aaba3797a6098fcc2b756cc05b997e49
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master ee8697e4aaba3797a6098fcc2b756cc05b997e49
+Commit message: "Initial commit"
+ > git rev-list ee8697e4aaba3797a6098fcc2b756cc05b997e49 # timeout=10

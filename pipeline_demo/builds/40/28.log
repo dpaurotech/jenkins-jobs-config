@@ -1,0 +1,2 @@
+[pipeline_demo@2] Running shell script
++ cd /var/lib/jenkins/workspace/pipeline_demo@2/

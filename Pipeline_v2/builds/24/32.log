@@ -1,0 +1,77 @@
+[Pipeline_v2] Running shell script
++ mvn test
+----- withMaven Wrapper script -----
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/Pipeline_v2@tmp/withMaven5c13ab2f/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/Pipeline_v2@tmp/withMaven5c13ab2f" 
+Apache Maven 3.5.0 (ff8f5e7444045639af65f6095c62210b5713f426; 2017-04-03T19:39:06Z)
+Maven home: /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven305
+Java version: 1.8.0_151, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.8.0_151/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.10.0-693.el7.x86_64", arch: "amd64", family: "unix"
+[jenkins-maven-event-spy] INFO generate /var/lib/jenkins/workspace/Pipeline_v2@tmp/withMaven5c13ab2f/maven-spy-20171120-163313-3376937839726826312108.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demoApp 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- frontend-maven-plugin:1.6:install-node-and-npm (install node and npm) @ demoApp ---
+[INFO] Node v6.10.3 is already installed.
+[INFO] NPM 4.5.0 is already installed.
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- frontend-maven-plugin:1.6:npm (npm install) @ demoApp ---
+[INFO] Running 'npm install' in /var/lib/jenkins/workspace/Pipeline_v2
+[8mha:////4EbiXRBdvr0u4F5OPyROGuRR34qoicpZL1ysKTwLsM/GAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.0.0 (node_modules/chokidar/node_modules/fsevents):
+[8mha:////4EbiXRBdvr0u4F5OPyROGuRR34qoicpZL1ysKTwLsM/GAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- frontend-maven-plugin:1.6:npm (prod) @ demoApp ---
+[INFO] Running 'npm run-script prod' in /var/lib/jenkins/workspace/Pipeline_v2
+[INFO] 
+[INFO] > demo-app@0.0.0 prod /var/lib/jenkins/workspace/Pipeline_v2
+[INFO] > ng build -bh ./
+[INFO] 
+[INFO] Date: 2017-11-20T16:33:45.474Z
+[INFO] Hash: af270f00bf9b07bb94a3
+[INFO] Time: 10699ms
+[INFO] chunk {inline} inline.bundle.js, inline.bundle.js.map (inline) 5.83 kB [entry] [rendered]
+[INFO] chunk {main} main.bundle.js, main.bundle.js.map (main) 28 kB {vendor} [initial] [rendered]
+[INFO] chunk {polyfills} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 217 kB {inline} [initial] [rendered]
+[INFO] chunk {styles} styles.bundle.js, styles.bundle.js.map (styles) 162 kB {inline} [initial] [rendered]
+[INFO] chunk {vendor} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.62 MB [initial] [rendered]
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ demoApp ---
+[8mha:////4EbiXRBdvr0u4F5OPyROGuRR34qoicpZL1ysKTwLsM/GAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Pipeline_v2/src/main/resources
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ demoApp ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ demoApp ---
+[8mha:////4EbiXRBdvr0u4F5OPyROGuRR34qoicpZL1ysKTwLsM/GAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Pipeline_v2/src/test/resources
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ demoApp ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4F6EvwIC1ZQJpCTVjFqC860ceMOC5o/wJQ7LQNgRZmS7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ demoApp ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/Pipeline_v2/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/Pipeline_v2@tmp/withMaven5c13ab2f/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/Pipeline_v2@tmp/withMaven5c13ab2f" 
+Running skeleton.RunCukesTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 32.927 s
+[INFO] Finished at: 2017-11-20T16:33:46Z
+[INFO] Final Memory: 14M/299M
+[INFO] ------------------------------------------------------------------------
+[jenkins-maven-event-spy] INFO generated /var/lib/jenkins/workspace/Pipeline_v2@tmp/withMaven5c13ab2f/maven-spy-20171120-163313-3376937839726826312108.log

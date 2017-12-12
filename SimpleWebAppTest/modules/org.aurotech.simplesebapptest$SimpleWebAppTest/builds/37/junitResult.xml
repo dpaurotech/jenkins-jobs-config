@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.21">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/SimpleWebAppTest/target/surefire-reports/TEST-TestSuite.xml</file>
+      <name>TestSuite</name>
+      <duration>59.36</duration>
+      <time>59.36</time>
+      <cases>
+        <case>
+          <duration>1.368</duration>
+          <className>WebAppTest.HeadlessBrowserTest</className>
+          <testName>verifySimplWebAppTitle</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.112</duration>
+          <className>WebAppTest.HeadlessBrowserTest</className>
+          <testName>verifySimplWebAppTitleFail</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected [true] but found [false]
+	at WebAppTest.HeadlessBrowserTest.verifySimplWebAppTitleFail(HeadlessBrowserTest.java:36)
+</errorStackTrace>
+          <errorDetails>expected [true] but found [false]</errorDetails>
+          <stdout>Opened Page: Product List
+</stdout>
+          <failedSince>4</failedSince>
+        </case>
+        <case>
+          <duration>49.052</duration>
+          <className>WebAppTest.TestFFonGrid</className>
+          <testName>test1</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>org.openqa.selenium.WebDriverException: 
+Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ring file entry whose name is not a valid add-on ID: C:\Users\Administrator\AppData\Local\Temp\2\anonymous5935505192404699865webdriver-profile\extensions\webdriver-staging
+1510973723492	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1510973723492	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1510973723492	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1510973723492	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1510973723492	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1510973723492	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1510973723492	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1510973723492	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1510973723493	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1510973723493	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1510973723493	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1510973723493	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1510973723493	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1510973723494	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1510973723494	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1510973723494	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1510973723495	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1510973723495	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1510973723496	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1510973723496	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1510973723496	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1510973723497	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1510973723497	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1510973723498	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1510973728107	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1510973728109	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+1510973745322	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/57.0/20171112125346/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0%20(x64)/default/default/update.xml
+1510973745645	addons.productaddons	INFO	Completed downloading document
+1510973745872	addons.productaddons	INFO	downloadXHR File download. status=200
+1510973745875	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\ADMINI~1\AppData\Local\Temp\2\tmpaddon
+1510973746179	addons.productaddons	INFO	downloadXHR File download. status=200
+1510973746181	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\ADMINI~1\AppData\Local\Temp\2\tmpaddon-61c355
+
+Command duration or timeout: 48.82 seconds
+	at WebAppTest.TestFFonGrid.test1(TestFFonGrid.java:18)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: 
+Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ring file entry whose name is not a valid add-on ID: C:\Users\Administrator\AppData\Local\Temp\2\anonymous5935505192404699865webdriver-profile\extensions\webdriver-staging
+1510973723492	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1510973723492	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1510973723492	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1510973723492	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1510973723492	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1510973723492	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1510973723492	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1510973723492	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1510973723493	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1510973723493	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1510973723493	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1510973723493	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1510973723493	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1510973723494	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1510973723494	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1510973723494	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1510973723495	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1510973723495	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1510973723496	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1510973723496	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1510973723496	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1510973723497	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1510973723497	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1510973723498	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1510973728107	DeferredSave.webext.sc.lz4	DEBUG	Starting write
+1510973728109	DeferredSave.webext.sc.lz4	DEBUG	Write succeeded
+1510973745322	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/57.0/20171112125346/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0%20(x64)/default/default/update.xml
+1510973745645	addons.productaddons	INFO	Completed downloading document
+1510973745872	addons.productaddons	INFO	downloadXHR File download. status=200
+1510973745875	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\ADMINI~1\AppData\Local\Temp\2\tmpaddon
+1510973746179	addons.productaddons	INFO	downloadXHR File download. status=200
+1510973746181	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\ADMINI~1\AppData\Local\Temp\2\tmpaddon-61c355
+
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;ip-172-31-30-145.ec2.internal&apos;, ip: &apos;172.31.30.145&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.10.0-693.el7.x86_64&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: FirefoxDriver
+</errorStackTrace>
+          <errorDetails>Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ring file entry whose name is not a valid add-on ID: C:\Users\Administrator\AppData\Local\Temp\2\anonymous5935505192404699865webdriver-profile\extensions\webdriver-staging
+1510973723492 addons.xpi DEBUG Existing add-on fxdriver@googlecode.com in app-profile
+1510973723492 addons.xpi INFO Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1510973723492 addons.xpi INFO Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1510973723492 addons.xpi INFO Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1510973723492 addons.xpi INFO Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1510973723492 addons.xpi INFO Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1510973723492 addons.xpi INFO Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1510973723492 addons.xpi INFO Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1510973723493 addons.xpi INFO Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1510973723493 addons.xpi INFO Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1510973723493 addons.xpi INFO Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1510973723493 addons.xpi DEBUG Existing add-on activity-stream@mozilla.org in app-system-defaults
+1510973723493 addons.xpi DEBUG Existing add-on aushelper@mozilla.org in app-system-defaults
+1510973723494 addons.xpi DEBUG Existing add-on e10srollout@mozilla.org in app-system-defaults
+1510973723494 addons.xpi DEBUG Existing add-on firefox@getpocket.com in app-system-defaults
+1510973723494 addons.xpi DEBUG Existing add-on followonsearch@mozilla.com in app-system-defaults
+1510973723495 addons.xpi DEBUG Existing add-on formautofill@mozilla.org in app-system-defaults
+1510973723495 addons.xpi DEBUG Existing add-on onboarding@mozilla.org in app-system-defaults
+1510973723496 addons.xpi DEBUG Existing add-on screenshots@mozilla.org in app-system-defaults
+1510973723496 addons.xpi DEBUG Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1510973723496 addons.xpi DEBUG Existing add-on webcompat@mozilla.org in app-system-defaults
+1510973723497 addons.xpi INFO Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1510973723497 addons.xpi DEBUG Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1510973723498 addons.xpi DEBUG getInstallState changed: false, state: {}
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1510973728107 DeferredSave.webext.sc.lz4 DEBUG Starting write
+1510973728109 DeferredSave.webext.sc.lz4 DEBUG Write succeeded
+1510973745322 addons.productaddons INFO sending request to: https://aus5.mozilla.org/update/3/GMP/57.0/20171112125346/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0%20(x64)/default/default/update.xml
+1510973745645 addons.productaddons INFO Completed downloading document
+1510973745872 addons.productaddons INFO downloadXHR File download. status=200
+1510973745875 addons.productaddons INFO Downloaded file will be saved to C:\Users\ADMINI~1\AppData\Local\Temp\2\tmpaddon
+1510973746179 addons.productaddons INFO downloadXHR File download. status=200
+1510973746181 addons.productaddons INFO Downloaded file will be saved to C:\Users\ADMINI~1\AppData\Local\Temp\2\tmpaddon-61c355
+
+Command duration or timeout: 48.82 seconds</errorDetails>
+          <failedSince>37</failedSince>
+        </case>
+        <case>
+          <duration>8.501</duration>
+          <className>WebAppTest.TestChromeOnGrid</className>
+          <testName>test1</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>59.36</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>
